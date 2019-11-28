@@ -101,7 +101,9 @@ fields:
 - type: list
   name: plugins
   label: Plugins
-  hidden: true
+  hidden: false
+  config:
+    use_select: false
 - type: list
   name: exclude
   label: Exclude
