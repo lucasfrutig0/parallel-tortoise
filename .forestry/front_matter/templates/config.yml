@@ -60,7 +60,7 @@ fields:
 - type: field_group
   name: palettes
   label: Palettes
-  hidden: true
+  hidden: false
   fields:
   - type: field_group
     name: default
