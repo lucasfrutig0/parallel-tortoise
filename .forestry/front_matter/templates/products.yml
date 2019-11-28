@@ -71,12 +71,13 @@ fields:
   label: Category
   config:
     source:
-      type: custom
+      type: simple
     options:
     - summer
     - europe
     - bigplants
     - cactuses
+    - smartphones
 - type: boolean
   name: featured
   label: Featured
