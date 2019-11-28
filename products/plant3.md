@@ -6,8 +6,8 @@ price: '150.00'
 images:
   default:
     thumbnail:
-      optimized: "/images/plant3.webp"
-      fallback: "/images/plant3.jpg"
+      optimized: "/images/iphone11pro256gb-thumb.webp"
+      fallback: "/images/iphone11pro256gb-thumb.jpg"
     original:
       optimized: "/images/plant3-lg.webp"
       fallback: "/images/plant3-lg.jpg"
