@@ -26,6 +26,7 @@ fields:
   config:
     required: true
 pages:
+- category/smartphones.md
 - category/summer.md
 - category/europe.md
 - category/cactuses.md
