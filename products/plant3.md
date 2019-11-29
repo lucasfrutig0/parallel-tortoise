@@ -22,7 +22,10 @@ category: smartphones
 featured: false
 section: Store
 layout: product
-gallery: []
+gallery:
+- "/images/iphone 11 pro silver _amp.png"
+- "/images/iphone 11 pro preto _amp.png"
+- "/images/iphone 11 pro gold _amp.png"
 
 ---
 # iPhone 11 Pro 256GB
