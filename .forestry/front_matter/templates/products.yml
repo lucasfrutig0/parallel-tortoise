@@ -98,6 +98,11 @@ fields:
   default: product
   config:
     required: true
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: gallery
+  description: gallery images for product
 pages:
 - products/plant6.md
 - products/plant3.md
