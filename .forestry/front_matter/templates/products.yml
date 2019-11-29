@@ -103,6 +103,23 @@ fields:
   config: {}
   label: gallery
   description: gallery images for product
+- name: colors
+  type: select
+  default: VERDE
+  config:
+    required: false
+    options:
+    - GOLD
+    - PRATA
+    - PRETO
+    - VERDE
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Colors
+  description: Product Colors
 pages:
 - products/plant3.md
 - products/plant6.md
