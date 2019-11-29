@@ -104,8 +104,8 @@ fields:
   label: gallery
   description: gallery images for product
 pages:
-- products/plant6.md
 - products/plant3.md
+- products/plant6.md
 - products/plant9.md
 - products/plant8.md
 - products/plant7.md
