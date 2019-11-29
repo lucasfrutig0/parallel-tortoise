@@ -14,6 +14,12 @@ fields:
 - type: text
   name: price
   label: Price
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: SEO-Image
+  description: an image to use in SEO
 - type: field_group
   name: images
   label: Images
@@ -107,12 +113,6 @@ fields:
   type: tag_list
   default: []
   label: Colortags
-- name: seo-image
-  type: file
-  config:
-    maxSize: 250
-  label: SEO-Image
-  description: an image to use in SEO
 pages:
 - products/plant3.md
 - products/plant6.md
