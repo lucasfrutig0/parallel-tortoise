@@ -36,6 +36,7 @@ colortags:
 - green
 - gold
 - silver
+seo-image: "/images/iphone-11-pro-midnight-green-select-2019_amp.png"
 
 ---
 # iPhone 11 Pro 256GB
