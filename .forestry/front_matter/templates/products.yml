@@ -108,11 +108,7 @@ fields:
   default: VERDE
   config:
     required: false
-    options:
-    - GOLD
-    - PRATA
-    - PRETO
-    - VERDE
+    options: []
     source:
       type: simple
       section: 
