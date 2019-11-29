@@ -2,8 +2,6 @@
 title: Home
 isHome: true
 layout: index
+
 ---
-
-# Real, beautiful plants right to your door
-
- 
+# Rápido, moderno, elegante.Adquira agora o seu!
