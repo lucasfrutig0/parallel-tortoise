@@ -104,8 +104,13 @@ fields:
   label: gallery
   description: gallery images for product
 - name: colors
-  type: tag_list
-  default: []
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+    source:
+      type: simple
   label: Colors
 pages:
 - products/plant3.md
