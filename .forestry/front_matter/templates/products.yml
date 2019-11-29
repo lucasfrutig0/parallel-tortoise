@@ -103,15 +103,10 @@ fields:
   config: {}
   label: gallery
   description: gallery images for product
-- name: colors
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-    source:
-      type: simple
-  label: Colors
+- name: colortags
+  type: tag_list
+  default: []
+  label: Colortags
 pages:
 - products/plant3.md
 - products/plant6.md
