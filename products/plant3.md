@@ -31,6 +31,11 @@ colors:
 - green
 - gold
 - silver
+colortags:
+- black
+- green
+- gold
+- silver
 
 ---
 # iPhone 11 Pro 256GB
