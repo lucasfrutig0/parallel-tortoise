@@ -104,18 +104,9 @@ fields:
   label: gallery
   description: gallery images for product
 - name: colors
-  type: select
-  default: VERDE
-  config:
-    required: false
-    options: []
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
+  type: tag_list
+  default: []
   label: Colors
-  description: Product Colors
 pages:
 - products/plant3.md
 - products/plant6.md
