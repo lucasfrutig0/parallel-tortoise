@@ -107,6 +107,12 @@ fields:
   type: tag_list
   default: []
   label: Colortags
+- name: seo-image
+  type: file
+  config:
+    maxSize: 250
+  label: SEO-Image
+  description: an image to use in SEO
 pages:
 - products/plant3.md
 - products/plant6.md
