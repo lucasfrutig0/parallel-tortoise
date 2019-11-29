@@ -18,12 +18,14 @@ images:
     original:
       optimized: "/images/plant4-featured-lg.webp"
       fallback: "/images/plant4-featured-lg.jpg"
-category: cactuses
-featured: false
+category: smartphones
+featured: true
 section: Store
 layout: product
 image: "/images/iphone-11-pro-midnight-green-select-2019_amp.png"
-gallery: []
+gallery:
+- "/images/iphone11pro64gb-thumb.webp"
+- "/images/iphone-11-pro-midnight-green-select-2019_amp.png"
 colortags: []
 
 ---
