@@ -1,29 +1,32 @@
 ---
-id: '8'
-title: Fusce sed
-description: In cursus sagittis eros non congue.
+id: "8"
+title: iPhone 11 Pro Max 64GB
+description: GARANTIA 1 ANO ACOMPANHA TODOS OS ACESSORIOS
 price: '50.00'
 images:
   default:
     thumbnail:
-      optimized: /images/plant8.webp
-      fallback: /images/plant8.jpg
+      optimized: "/images/iphone11pro256gb-thumb.webp"
+      fallback: "/images/iphone11pro256gb-thumb.jpg"
     original:
-      optimized: /images/plant8-lg.webp
-      fallback: /images/plant8-lg.jpg
+      optimized: "/images/plant8-lg.webp"
+      fallback: "/images/plant8-lg.jpg"
   featured:
     thumbnail:
-      optimized: /images/plant8-featured.webp
-      fallback: /images/plant8-featured.jpg
+      optimized: "/images/plant8-featured.webp"
+      fallback: "/images/plant8-featured.jpg"
     original:
-      optimized: /images/plant8-featured-lg.webp
-      fallback: /images/plant8-featured-lg.jpg
+      optimized: "/images/plant8-featured-lg.webp"
+      fallback: "/images/plant8-featured-lg.jpg"
 category: summer
 featured: false
 section: Store
 layout: product
+image: "/images/iphone11pro256gb-thumbf.webp"
+gallery: []
+colortags: []
+
 ---
+# iPhone 11 Pro Max 64GB
 
-# Fusce sed
-
-Sed consectetur eleifend neque. Morbi fringilla velit neque, quis aliquet diam rutrum eget. Praesent dui leo, iaculis non auctor sed, accumsan at felis. Suspendisse eu pretium justo. Curabitur et velit quis justo elementum iaculis. Fusce sed tortor id diam rhoncus accumsan. In cursus sagittis eros non congue.
+Disponibilidade: 10 dias úteis
