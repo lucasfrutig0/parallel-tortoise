@@ -23,7 +23,10 @@ featured: true
 section: Store
 layout: product
 image: "/images/iphone11-colors-original.png"
-gallery: []
+gallery:
+- "/images/iphone11-colors-original.png"
+- "/images/iphone11amarelo-thumb.webp"
+- "/images/iphone 11 vermelho-thumb.webp"
 colortags: []
 
 ---
