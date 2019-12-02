@@ -9,12 +9,12 @@ images:
       optimized: "/images/iphone11promax512gb-featured-thumb.webp"
       fallback: "/images/iphone11promax512gb-featured-thumb-1.webp"
     original:
-      optimized: "/images/plant6-lg.webp"
-      fallback: "/images/plant6-lg.jpg"
+      optimized: "/images/iphone11pro256gb-thumbf.webp"
+      fallback: "/images/iphone11pro256gb-thumbf.jpg"
   featured:
     thumbnail:
-      optimized: "/images/plant6-featured.webp"
-      fallback: "/images/plant6-featured.jpg"
+      optimized: "/images/iphone11promax512gb-featured-thumb-2.webp"
+      fallback: "/images/iphone11promax512gb-featured-thumb-1.webp"
     original:
       optimized: "/images/plant6-featured-lg.webp"
       fallback: "/images/plant6-featured-lg.jpg"
