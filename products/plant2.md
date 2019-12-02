@@ -9,8 +9,8 @@ images:
       optimized: "/images/iphone 11 vermelho-thumb.webp"
       fallback: "/images/iphone-11-vermelho-thumb.png"
     original:
-      optimized: "/images/plant2-lg.webp"
-      fallback: "/images/plant2-lg.jpg"
+      optimized: "/images/iphone 11 vermelho-original.webp"
+      fallback: "/images/iphone-11-vermelho-original.png"
   featured:
     thumbnail:
       optimized: "/images/plant2-featured.webp"
