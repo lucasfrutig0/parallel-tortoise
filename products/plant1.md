@@ -18,13 +18,22 @@ images:
     original:
       optimized: "/images/iphone11amarelo-thumb.webp"
       fallback: "/images/iphone11amarelo-thumb.png"
-category: bigplants
+category: smartphones
 featured: true
 section: Store
 layout: product
 image: "/images/iphone11amarelo-thumb.webp"
-gallery: []
-colortags: []
+gallery:
+- "/images/iphone11-colors-original.png"
+- "/images/iphone11amarelo-thumb.webp"
+- "/images/iphone 11 vermelho-thumb.webp"
+colortags:
+- purple
+- black
+- red
+- yellow
+- green
+- white
 
 ---
 # iPhone 11 128GB
