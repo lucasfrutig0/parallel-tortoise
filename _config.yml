@@ -7,8 +7,8 @@ snipcart_css: https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.css
 snipcart_api_key: YTc4NjE5OTYtM2M3MC00MDc4LWE2MTktZWIxNDBhMDNlYTIyNjM3MTA0ODkyNTYxOTg1NTY5
 logos:
   light:
-    optimized: images/logo-white.svg
-    fallback: images/logo-white.svg
+    optimized: "/images/LOGO-LIGHT.png"
+    fallback: "/images/LOGO-LIGHT.png"
   dark:
     optimized: images/logo.svg
     fallback: images/logo.svg
