@@ -9,8 +9,8 @@ images:
       optimized: "/images/iphone11promax256gb-thumb.webp"
       fallback: "/images/iphone11promax256gb-thumb.jpg"
     original:
-      optimized: "/images/iphone11promax256gb-original-1.webp"
-      fallback: "/images/iphone11promax256gb-original-1.webp"
+      optimized: "/images/iphone11promax256gb-original.webp"
+      fallback: "/images/iphone11promax256gb-original.webp"
   featured:
     thumbnail:
       optimized: "/images/plant9-featured.webp"
