@@ -2,7 +2,7 @@
 id: "8"
 title: iPhone 11 Pro Max 64GB
 description: GARANTIA 1 ANO ACOMPANHA TODOS OS ACESSORIOS
-price: '50.00'
+price: '7200.00'
 images:
   default:
     thumbnail:
@@ -18,12 +18,15 @@ images:
     original:
       optimized: "/images/plant8-featured-lg.webp"
       fallback: "/images/plant8-featured-lg.jpg"
-category: summer
+category: smartphones
 featured: false
 section: Store
 layout: product
 image: "/images/iphone11pro256gb-thumbf.webp"
-gallery: []
+gallery:
+- "/images/iphone11pro64gb-thumb.webp"
+- "/images/iphone11pro256gb-thumbf.webp"
+- "/images/iphone11promax512gb-featured-thumb.webp"
 colortags: []
 
 ---
