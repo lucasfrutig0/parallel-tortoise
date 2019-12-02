@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/iphone11-colors-original.png"
       fallback: "/images/iphone 11 vermelho-original.webp"
-category: cactuses
+category: smartphones
 featured: true
 section: Store
 layout: product
@@ -27,7 +27,13 @@ gallery:
 - "/images/iphone11-colors-original.png"
 - "/images/iphone11amarelo-thumb.webp"
 - "/images/iphone 11 vermelho-thumb.webp"
-colortags: []
+colortags:
+- purple
+- green
+- white
+- yellow
+- red
+- black
 
 ---
 # iPhone 11 64GB
