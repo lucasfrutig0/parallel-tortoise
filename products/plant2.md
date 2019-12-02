@@ -16,8 +16,8 @@ images:
       optimized: "/images/iphone 11 vermelho-thumb-1.webp"
       fallback: "/images/iphone-11-vermelho-thumb.png"
     original:
-      optimized: "/images/plant2-featured-lg.webp"
-      fallback: "/images/plant2-featured-lg.jpg"
+      optimized: "/images/iphone11-colors-original.png"
+      fallback: "/images/iphone 11 vermelho-original.webp"
 category: cactuses
 featured: true
 section: Store
