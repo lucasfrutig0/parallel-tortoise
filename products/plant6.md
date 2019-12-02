@@ -19,11 +19,14 @@ images:
       optimized: "/images/plant6-featured-lg.webp"
       fallback: "/images/plant6-featured-lg.jpg"
 category: smartphones
-featured: false
+featured: true
 section: Store
 layout: product
 image: "/images/iphone11pro64gb-thumb.png"
-gallery: []
+gallery:
+- "/images/iphone11pro256gb-thumb.webp"
+- "/images/iphone11pro64gb.webp"
+- "/images/iphone11pro256gb-thumbf.webp"
 colortags: []
 
 ---
