@@ -27,7 +27,11 @@ gallery:
 - "/images/iphone11pro256gb-thumb.webp"
 - "/images/iphone11pro64gb.webp"
 - "/images/iphone11pro256gb-thumbf.webp"
-colortags: []
+colortags:
+- black
+- gold
+- green
+- silver
 
 ---
 # iPhone 11 Pro Max 512GB
