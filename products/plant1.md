@@ -16,8 +16,8 @@ images:
       optimized: "/images/iphone11amarelo-thumb.webp"
       fallback: "/images/iphone11amarelo-thumb.png"
     original:
-      optimized: "/images/plant1-featured-lg.webp"
-      fallback: "/images/plant1-featured-lg.jpg"
+      optimized: "/images/iphone11amarelo-thumb.webp"
+      fallback: "/images/iphone11amarelo-thumb.png"
 category: bigplants
 featured: true
 section: Store
