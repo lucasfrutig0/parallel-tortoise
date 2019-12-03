@@ -28,3 +28,4 @@ gallery:
 - "/images/iphonexr-thumb.png"
 
 ---
+# iPhone Xr 64GB
