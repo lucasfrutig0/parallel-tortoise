@@ -79,11 +79,8 @@ fields:
     source:
       type: simple
     options:
-    - summer
-    - europe
-    - bigplants
-    - cactuses
     - smartphones
+    - airpods
 - type: boolean
   name: featured
   label: Featured
