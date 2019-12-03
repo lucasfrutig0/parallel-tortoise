@@ -21,11 +21,10 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ''
+category: airpods
 featured: false
-section: ''
+section: Store
 gallery: []
-published: false
 
 ---
 # Apple AirPods Fone de Ouvido Sem Fio Wireless
