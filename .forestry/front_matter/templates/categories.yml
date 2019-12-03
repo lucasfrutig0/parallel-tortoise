@@ -26,6 +26,7 @@ fields:
   config:
     required: true
 pages:
+- category/apple-watch.md
 - category/airpods.md
 - category/smartphones.md
 - category/summer.md
