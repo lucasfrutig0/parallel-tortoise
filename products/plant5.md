@@ -10,8 +10,8 @@ images:
       optimized: "/images/iphonex-thumb.webp"
       fallback: "/images/iphonex-thumb.png"
     original:
-      optimized: "/images/plant5-lg.webp"
-      fallback: "/images/plant5-lg.jpg"
+      optimized: "/images/iphonex-original.webp"
+      fallback: "/images/iphonex-original.png"
   featured:
     thumbnail:
       optimized: "/images/plant5-featured.webp"
