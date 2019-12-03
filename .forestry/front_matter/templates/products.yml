@@ -113,6 +113,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/apple-watch-serie-3-38m-gps.md
 - products/apple-airpods-fone-de-ouvido-sem-fio-wireless.md
 - products/iphone-8-256-plus.md
 - products/iphone-8-64gb-plus.md
