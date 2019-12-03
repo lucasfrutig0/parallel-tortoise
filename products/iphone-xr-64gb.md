@@ -12,8 +12,8 @@ images:
       optimized: "/images/iphonexr-thumb.webp"
       fallback: "/images/iphonexr-thumb.png"
     original:
-      optimized: ''
-      fallback: ''
+      optimized: "/images/iphonexr-original.webp"
+      fallback: "/images/iphonexr-original.png"
   featured:
     thumbnail:
       optimized: ''
