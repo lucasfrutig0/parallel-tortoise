@@ -1,6 +1,9 @@
 ---
 layout: product
-colortags: []
+colortags:
+- Black
+- Silver
+- Gold
 id: "16"
 title: iPhone XS MAX 64GB
 description: GARANTIA 1 ANO APPLE
@@ -24,7 +27,9 @@ images:
 category: smartphones
 featured: false
 section: Store
-gallery: []
+gallery:
+- "/images/iphone-xs-max-dourado.png"
+- "/images/iphone-xs-max-thumb-1.png"
 
 ---
 # iPhone XS MAX 64GB
