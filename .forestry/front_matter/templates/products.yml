@@ -114,6 +114,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/iphone-x-256gb.md
 - products/plant5.md
 - products/plant7.md
 - products/plant1.md
