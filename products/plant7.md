@@ -18,12 +18,14 @@ images:
     original:
       optimized: "/images/iphone11-black-original.webp"
       fallback: "/images/iphone11-black-original.png"
-category: bigplants
+category: smartphones
 featured: false
 section: Store
 layout: product
 image: "/images/iphone11-colors-original.png"
-gallery: []
+gallery:
+- "/images/iphone11amarelo-thumb.png"
+- "/images/iphone-11-vermelho-thumb.png"
 colortags: []
 
 ---
