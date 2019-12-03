@@ -21,9 +21,10 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ''
+category: smartphones
 featured: false
-section: ''
-gallery: []
+section: Store
+gallery:
+- "/images/iphonexr-thumb.png"
 
 ---
