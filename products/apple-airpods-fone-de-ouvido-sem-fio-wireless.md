@@ -1,6 +1,7 @@
 ---
 layout: product
-colortags: []
+colortags:
+- White
 id: "28"
 title: Apple AirPods Fone de Ouvido Sem Fio Wireless
 description: Garantia 12 meses direto fabricante
