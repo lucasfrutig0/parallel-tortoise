@@ -1,6 +1,9 @@
 ---
 layout: product
-colortags: []
+colortags:
+- Black
+- Silver
+- Gold
 id: "14"
 title: iPhone XS 64GB
 description: GARANTIA 12 MESES DO FABRICANTE
@@ -24,7 +27,9 @@ images:
 category: smartphones
 featured: false
 section: Store
-gallery: []
+gallery:
+- "/images/iphonexs-dourado-g.png"
+- "/images/iphoneXs-thumb-1.png"
 
 ---
 # iPhone XS 64GB
