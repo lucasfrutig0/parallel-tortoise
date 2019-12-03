@@ -12,8 +12,8 @@ images:
       optimized: "/images/iphoneXs-thumb.webp"
       fallback: "/images/iphoneXs-thumb-1.png"
     original:
-      optimized: ''
-      fallback: ''
+      optimized: "/images/iphoneXs-original.webp"
+      fallback: "/images/iphoneXs-original.png"
   featured:
     thumbnail:
       optimized: ''
