@@ -114,6 +114,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/plant5.md
 - products/plant7.md
 - products/plant1.md
 - products/plant2.md
@@ -122,4 +123,3 @@ pages:
 - products/plant6.md
 - products/plant4.md
 - products/plant3.md
-- products/plant5.md
