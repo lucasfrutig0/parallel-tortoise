@@ -13,8 +13,8 @@ images:
       fallback: "/images/iphone11-black-original.png"
   featured:
     thumbnail:
-      optimized: "/images/plant7-featured.webp"
-      fallback: "/images/plant7-featured.jpg"
+      optimized: "/images/iphone11-black-thumb.webp"
+      fallback: "/images/iphone11-black-thumb.png"
     original:
       optimized: "/images/plant7-featured-lg.webp"
       fallback: "/images/plant7-featured-lg.jpg"
