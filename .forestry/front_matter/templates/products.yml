@@ -82,7 +82,6 @@ fields:
     - smartphones
     - airpods
     - apple watch
-    - apple watch celular
 - type: boolean
   name: featured
   label: Featured
