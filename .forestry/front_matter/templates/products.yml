@@ -81,7 +81,6 @@ fields:
     options:
     - smartphones
     - airpods
-    - apple watch
 - type: boolean
   name: featured
   label: Featured
