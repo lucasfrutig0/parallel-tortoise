@@ -11,8 +11,8 @@ image: "/images/apple-watch-thumb.png"
 images:
   default:
     thumbnail:
-      optimized: "/images/bh8id-43dlg-0.webp"
-      fallback: "/images/apple-watch-thumb.png"
+      optimized: "/images/apple-watch-thumb-1.png"
+      fallback: "/images/apple-watch-thumb-1.png"
     original:
       optimized: "/images/bco4u-3cg07-0.webp"
       fallback: "/images/apple-watch-original.png"
