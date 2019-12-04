@@ -112,6 +112,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/iphone-xs-max-64gb.md
 - products/plant8.md
 - products/plant5.md
 - products/plant9.md
@@ -129,7 +130,6 @@ pages:
 - products/iphone-7-256gb-plus-4g-desbloqueado.md
 - products/iphone-xs-max-512.md
 - products/iphone-8-64gb-plus.md
-- products/iphone-xs-max-64gb.md
 - products/iphone-x-256gb.md
 - products/iphone-xs-256gb.md
 - products/iphone-xr-256gb.md
