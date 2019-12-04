@@ -13,8 +13,8 @@ image: "/images/b7yhl-f1xoy-0.webp"
 images:
   default:
     thumbnail:
-      optimized: "/images/b7yhl-f1xoy-0.webp"
-      fallback: "/images/iphone6s-thumb.png"
+      optimized: "/images/iphone6s-thumb-1.png"
+      fallback: "/images/iphone6s-thumb-1.png"
     original:
       optimized: "/images/bb2xu-jrunp-0.webp"
       fallback: "/images/iphone6s-original.png"
