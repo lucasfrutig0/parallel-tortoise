@@ -6,11 +6,11 @@ price: 7.800,00
 images:
   default:
     thumbnail:
-      optimized: "/images/iphone11promax256gb-thumb.webp"
-      fallback: "/images/iphone11promax256gb-thumb.jpg"
+      optimized: "/images/iphone-11-pro-midnight-green-select-2019_amp-1.png"
+      fallback: "/images/iphone-11-pro-midnight-green-select-2019_amp-1.png"
     original:
-      optimized: "/images/iphone11promax256gb-original.webp"
-      fallback: "/images/iphone11promax256gb-original.png"
+      optimized: "/images/iphone11promax512gb-g-gold.png"
+      fallback: "/images/iphone11promax512gb-g-gold.png"
   featured:
     thumbnail:
       optimized: "/images/plant9-featured.webp"
