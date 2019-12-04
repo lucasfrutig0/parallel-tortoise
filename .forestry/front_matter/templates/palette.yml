@@ -64,6 +64,12 @@ fields:
     name: bg_image_cart_optimized
     label: Cart Optimized Backround Image
     description: Cart Optimized Backround Image (WEBP or similar)
+  - name: category_image_bg
+    type: text
+    config:
+      required: false
+    label: Category Image BG
+    description: a image for category pages
   - type: text
     name: bg_image_cart_fallback
     label: Cart Fallback Backround Image
