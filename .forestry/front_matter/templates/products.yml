@@ -113,6 +113,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/plant6.md
 - products/plant9.md
 - products/apple-watch-sport-serie-3-42mm-gps.md
 - products/apple-watch-serie-3-38m-gps.md
@@ -140,6 +141,5 @@ pages:
 - products/plant1.md
 - products/plant2.md
 - products/plant8.md
-- products/plant6.md
 - products/plant4.md
 - products/plant3.md
