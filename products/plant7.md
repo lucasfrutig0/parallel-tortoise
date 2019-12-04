@@ -6,8 +6,8 @@ price: '5299.00'
 images:
   default:
     thumbnail:
-      optimized: "/images/iphone11-black-thumb.webp"
-      fallback: "/images/iphone11-black-thumb.png"
+      optimized: "/images/iphone11-black-thumb-1.png"
+      fallback: "/images/iphone11-black-thumb-1.png"
     original:
       optimized: "/images/iphone11-black-original.webp"
       fallback: "/images/iphone11-black-original.png"
