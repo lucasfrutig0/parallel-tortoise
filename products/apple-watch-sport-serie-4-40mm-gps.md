@@ -8,12 +8,12 @@ id: "31"
 title: Apple Watch Sport Serie 4 40mm GPS
 description: Garantia de 1 ano do fabricante
 price: '2490,00'
-image: "/images/biy24-4j5fx-0.webp"
+image: "/images/apple-wathserie444m-thumb-1.png"
 images:
   default:
     thumbnail:
-      optimized: "/images/biy24-4j5fx-0.webp"
-      fallback: "/images/apple-wathserie444m-thumb.png"
+      optimized: "/images/apple-wathserie444m-thumb-1.png"
+      fallback: "/images/apple-wathserie444m-thumb-1.png"
     original:
       optimized: "/images/b6os8-ugx9b-0.webp"
       fallback: "/images/apple-wathserie444m.png"
