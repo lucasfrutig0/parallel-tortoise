@@ -112,6 +112,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/iphone-x-256gb.md
 - products/iphone-8-64gb.md
 - products/iphone-8-64gb-plus.md
 - products/iphone-8-256gb.md
@@ -135,7 +136,6 @@ pages:
 - products/apple-watch-serie-3-38m-gps.md
 - products/iphone-7-256gb-4g-desbloqueado.md
 - products/iphone-7-256gb-plus-4g-desbloqueado.md
-- products/iphone-x-256gb.md
 - products/iphone-xr-256gb.md
 - products/apple-airpods-fone-de-ouvido-sem-fio-wireless.md
 - products/iphone-7-128gb-plus-4g-desbloqueado.md
