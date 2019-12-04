@@ -6,8 +6,8 @@ price: '7499.00'
 images:
   default:
     thumbnail:
-      optimized: "/images/iphone11pro256gb-thumb.webp"
-      fallback: "/images/iphone11pro256gb-thumb.jpg"
+      optimized: "/images/iphone-11-pro-midnight-green-select-2019_amp-1.png"
+      fallback: "/images/iphone-11-pro-midnight-green-select-2019_amp-1.png"
     original:
       optimized: "/images/iphone-11-pro-midnight-green-select-2019_amp.webp"
       fallback: "/images/iphone-11-pro-midnight-green-select-2019_amp.png"
@@ -37,6 +37,7 @@ colortags:
 - gold
 - silver
 seo-image: "/images/iphone-11-pro-midnight-green-select-2019_amp.png"
+image: ''
 
 ---
 # iPhone 11 Pro 256GB
