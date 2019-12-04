@@ -11,7 +11,7 @@ image: "/images/4.png"
 images:
   default:
     thumbnail:
-      optimized: "/images/bhuoz-9a2ak-0.webp"
+      optimized: "/images/iphone7-thumb-1.png"
       fallback: "/images/iphone7-thumb.png"
     original:
       optimized: "/images/b6wm8-okyqz-0.webp"
