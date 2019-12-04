@@ -12,8 +12,8 @@ image: "/images/bnoo0-599dp-0.webp"
 images:
   default:
     thumbnail:
-      optimized: "/images/bnoo0-599dp-0.webp"
-      fallback: "/images/applewatchserie44m-thumb.png"
+      optimized: "/images/applewatchserie44m-thumb-1.png"
+      fallback: "/images/applewatchserie44m-thumb-1.png"
     original:
       optimized: "/images/bw9jo-0zn76-0.webp"
       fallback: "/images/applewatchserie44m-original.png"
