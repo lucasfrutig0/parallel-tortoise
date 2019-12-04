@@ -112,6 +112,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/plant1.md
 - products/apple-watch-sport-serie-4-40mm-gps.md
 - products/apple-watch-sport-serie-3-42mm-gps.md
 - products/apple-watch-series-4-44-mm-a2008-mtvu2bz-a-gps-celular.md
@@ -139,7 +140,6 @@ pages:
 - products/plant9.md
 - products/plant5.md
 - products/plant7.md
-- products/plant1.md
 - products/plant2.md
 - products/plant8.md
 - products/plant4.md

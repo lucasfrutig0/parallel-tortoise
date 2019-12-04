@@ -6,8 +6,8 @@ price: '4823,00'
 images:
   default:
     thumbnail:
-      optimized: "/images/iphone11amarelo-thumb.webp"
-      fallback: "/images/iphone11amarelo-thumb.png"
+      optimized: "/images/iphone11amarelo-thumb-1.png"
+      fallback: "/images/iphone11amarelo-thumb-1.png"
     original:
       optimized: "/images/iphone11amarelo-thumb-1.webp"
       fallback: "/images/iphone11amarelo-thumb.png"
