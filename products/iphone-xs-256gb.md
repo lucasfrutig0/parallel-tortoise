@@ -12,8 +12,8 @@ image: "/images/iphonexs-dourado-g.png"
 images:
   default:
     thumbnail:
-      optimized: "/images/iphoneXs-thumb.webp"
-      fallback: "/images/iphoneXs-thumb-1.png"
+      optimized: "/images/tuhmb.png"
+      fallback: "/images/tuhmb.png"
     original:
       optimized: "/images/iphoneXs-original.webp"
       fallback: "/images/iphoneXs-original.png"
