@@ -23,7 +23,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: apple watch
+category: apple-watch
 featured: false
 section: Store
 gallery:
