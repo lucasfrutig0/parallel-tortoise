@@ -12,8 +12,8 @@ image: "/images/iphone8-orihinal.png"
 images:
   default:
     thumbnail:
-      optimized: "/images/bsi49-d6jbp-0.webp"
-      fallback: "/images/iphone8-thumb.png"
+      optimized: "/images/Untitled-1.png"
+      fallback: "/images/Untitled-1.png"
     original:
       optimized: "/images/blri1-yc0x4-0.webp"
       fallback: "/images/iphone8-orihinal.png"
