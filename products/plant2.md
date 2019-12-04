@@ -6,8 +6,8 @@ price: "4.599"
 images:
   default:
     thumbnail:
-      optimized: "/images/iphone 11 vermelho-thumb.webp"
-      fallback: "/images/iphone-11-vermelho-thumb.png"
+      optimized: "/images/iphone-11-vermelho-thumb-1.png"
+      fallback: "/images/iphone-11-vermelho-thumb-1.png"
     original:
       optimized: "/images/iphone 11 vermelho-original.webp"
       fallback: "/images/iphone-11-vermelho-original.png"

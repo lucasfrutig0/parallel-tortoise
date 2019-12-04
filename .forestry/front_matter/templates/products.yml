@@ -112,6 +112,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/plant2.md
 - products/plant7.md
 - products/plant1.md
 - products/apple-watch-sport-serie-4-40mm-gps.md
@@ -140,7 +141,6 @@ pages:
 - products/plant6.md
 - products/plant9.md
 - products/plant5.md
-- products/plant2.md
 - products/plant8.md
 - products/plant4.md
 - products/plant3.md
