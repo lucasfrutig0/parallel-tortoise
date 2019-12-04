@@ -112,10 +112,10 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/apple-watch-sport-serie-3-42mm-gps.md
 - products/apple-watch-serie-3-38m-gps.md
 - products/iphone-6s-64gb.md
 - products/iphone-7-256gb-4g-desbloqueado.md
-- products/apple-watch-sport-serie-3-42mm-gps.md
 - products/iphone-7-256gb-plus-4g-desbloqueado.md
 - products/iphone-xs-max-512.md
 - products/iphone-8-64gb-plus.md
