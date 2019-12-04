@@ -34,7 +34,7 @@ palettes:
       bg_image_product_fallback: "/images/leaf.svg"
       bg_image_cart_optimized: "/images/cart-bg.webp"
       bg_image_cart_fallback: "/images/header.jpg"
-      category_image_bg: "/images/apple-wathserie444m.png"
+      category_image_bg: "/images/pattern-category.png"
 sass:
   style: nested
   precision: 10
