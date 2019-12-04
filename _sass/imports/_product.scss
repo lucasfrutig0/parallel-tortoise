@@ -20,10 +20,10 @@
         grid-column: 1 / 3;
         grid-row: 1 / 4;
         .no-webp & {
-            background-image: $background_images_primary;
+            background-image: $background_images_product_page;
         }
         .webp & {
-            background-image: $background_images_primary_opt;
+            background-image: $background_images_product_page;
         }
         background-size: cover;
         @include smaller-than-tablet { 
