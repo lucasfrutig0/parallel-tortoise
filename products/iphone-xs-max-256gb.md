@@ -12,8 +12,8 @@ image: "/images/iphone-xs-max-dourado.png"
 images:
   default:
     thumbnail:
-      optimized: "/images/iphone-xs-max-thumb.png"
-      fallback: "/images/iphone-xs-max-thumb-1.png"
+      optimized: "/images/tuhmb.png"
+      fallback: "/images/tuhmb.png"
     original:
       optimized: "/images/iphone-xs-max-original.webp"
       fallback: "/images/iphone-xs-max-original.png"
