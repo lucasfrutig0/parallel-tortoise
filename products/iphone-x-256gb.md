@@ -10,7 +10,7 @@ images:
   default:
     thumbnail:
       optimized: "/images/iphonex-thumb-1.png"
-      fallback: "/images/iphonex-thumb.png"
+      fallback: "/images/iphonex-thumb-1.png"
     original:
       optimized: "/images/iphonex-original.webp"
       fallback: "/images/iphonex-original.png"
