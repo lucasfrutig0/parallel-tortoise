@@ -24,7 +24,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ipad
+category: ipadpro
 featured: false
 section: Store
 gallery: []
