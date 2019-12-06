@@ -1,8 +1,7 @@
 ---
 layout: category
-slug: macbookpro-tela-retina
-title: MacbookPro Tela Retina
+slug: macbook-pro-tela-retina
+title: Macbook Pro Tela Retina
 section: Store
-published: false
 
 ---
