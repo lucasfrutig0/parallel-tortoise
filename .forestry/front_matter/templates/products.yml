@@ -112,6 +112,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/apple-watch-sport-serie-4-gps-celular-40mm.md
 - products/plant3.md
 - products/plant4.md
 - products/iphone-xs-max-512.md
