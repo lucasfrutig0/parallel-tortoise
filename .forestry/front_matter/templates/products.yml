@@ -82,7 +82,7 @@ fields:
     - smartphones
     - airpods
     - apple-watch
-    - iMac
+    - imac
 - type: boolean
   name: featured
   label: Featured
@@ -116,9 +116,9 @@ pages:
 - products/apple-imac-mk472-27-retina-5k-intel-core-i5-quad-3-2ghz-8gb-1tb.md
 - products/apple-watch-sport-serie-4-gps-celular-40mm.md
 - products/apple-imac-mk482-4core-i5-qc-3-3ghz.md
-- products/imac-apple-mmqa2ll-a.md
 - products/apple-imac-mne92ll.md
 - products/desktop-apple-imac-pro-xeon-mq2y2ll-a.md
+- products/imac-apple-mmqa2ll-a.md
 - products/plant3.md
 - products/plant4.md
 - products/iphone-xs-max-512.md
