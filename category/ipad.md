@@ -1,7 +1,7 @@
 ---
 layout: category
 slug: ipad
-title: ipad
+title: iPad
 section: Store
 menu:
   categories:
