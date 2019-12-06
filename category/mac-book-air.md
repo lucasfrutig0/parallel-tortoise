@@ -1,7 +1,7 @@
 ---
 layout: category
 slug: macbookair
-title: MacBook Air
+title: Mac Book Air
 section: Store
 menu:
   categories:
