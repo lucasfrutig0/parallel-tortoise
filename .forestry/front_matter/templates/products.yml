@@ -84,6 +84,7 @@ fields:
     - apple-watch
     - imac
     - ipad
+    - ipadpro
 - type: boolean
   name: featured
   label: Featured
