@@ -1,11 +1,10 @@
 ---
 layout: category
-slug: ipadpro
-title: ipadpro
+slug: ipad-pro
+title: iPad Pro
 section: Store
 menu:
   categories:
     weight: 6
-    title: iPad Pro
 
 ---
