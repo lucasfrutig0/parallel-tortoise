@@ -26,6 +26,7 @@ fields:
   config:
     required: true
 pages:
+- category/imac.md
 - category/bigplants.md
 - category/europe.md
 - category/summer.md
