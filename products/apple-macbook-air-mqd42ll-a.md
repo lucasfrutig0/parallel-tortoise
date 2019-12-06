@@ -1,6 +1,7 @@
 ---
 layout: product
-colortags: []
+colortags:
+- Silver
 id: "54"
 title: Apple MacBook Air MQD42LL/A
 description: A1466 de 13.3 com Intel Core i5 8GB RAM 256GB SSD
@@ -21,10 +22,12 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ''
+category: macbook-air
 featured: false
-section: ''
+section: Store
 gallery: []
-published: false
 
 ---
+# Apple MacBook Air MQD42LL/A A1466 de 13.3 com Intel Core i5 8GB RAM 256GB SSD
+
+Disponibilidade: 10 dias úteis
