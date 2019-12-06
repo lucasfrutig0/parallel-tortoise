@@ -26,10 +26,10 @@ fields:
   config:
     required: true
 pages:
-- category/apple-watch.md
-- category/airpods.md
-- category/smartphones.md
-- category/summer.md
-- category/europe.md
-- category/cactuses.md
 - category/bigplants.md
+- category/europe.md
+- category/summer.md
+- category/cactuses.md
+- category/smartphones.md
+- category/airpods.md
+- category/apple-watch.md
