@@ -1,7 +1,7 @@
 ---
 layout: category
 slug: imac
-title: imac
+title: iMac
 section: Store
 menu:
   categories:
