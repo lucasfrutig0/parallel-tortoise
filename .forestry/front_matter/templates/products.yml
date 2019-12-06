@@ -113,8 +113,8 @@ fields:
   default: []
   label: Colortags
 pages:
-- products/apple-watch-sport-serie-4-gps-celular-40mm.md
 - products/apple-imac-mk472-27-retina-5k-intel-core-i5-quad-3-2ghz-8gb-1tb.md
+- products/apple-watch-sport-serie-4-gps-celular-40mm.md
 - products/plant3.md
 - products/plant4.md
 - products/iphone-xs-max-512.md

@@ -21,11 +21,10 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ''
+category: iMac
 featured: false
-section: ''
+section: Store
 gallery: []
-published: false
 
 ---
 # Apple iMac MK472 27 
