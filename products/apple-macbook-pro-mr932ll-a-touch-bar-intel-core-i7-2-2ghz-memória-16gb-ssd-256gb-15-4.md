@@ -1,6 +1,7 @@
 ---
 layout: product
-colortags: []
+colortags:
+- Silver
 id: "60"
 title: Apple Macbook Pro MR932LL/A Touch Bar Intel Core i7 2.2GHz Memória 16GB SSD
   256GB 15.4
@@ -22,11 +23,10 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ''
+category: macbook-pro-touch-bar
 featured: true
-section: ''
+section: Store
 gallery: []
-published: false
 
 ---
 # Apple Macbook Pro MR932LL/A Touch Bar Intel Core i7 2.2GHz Memória 16GB SSD 256GB 15.4
