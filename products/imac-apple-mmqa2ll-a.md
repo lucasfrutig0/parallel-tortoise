@@ -21,7 +21,7 @@ images:
     original:
       optimized: "/images/bah7d-s4wh9-0.webp"
       fallback: "/images/imac2-original.png"
-category: iMac
+category: imac
 featured: true
 section: Store
 gallery: []
