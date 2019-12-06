@@ -21,7 +21,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: iMac
+category: imac
 featured: false
 section: Store
 gallery: []
