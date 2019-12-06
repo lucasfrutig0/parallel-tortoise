@@ -6,6 +6,6 @@ section: Store
 menu:
   categories:
     weight: 6
-    title: ipad-pro
+    title: iPad Pro
 
 ---
