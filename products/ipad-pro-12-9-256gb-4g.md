@@ -7,7 +7,7 @@ colortags:
 id: "49"
 title: iPad Pro 12.9 256GB 4G
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: '6230.00'
+price: '6231.00'
 image: "/images/bdhce-e8mta-0.webp"
 images:
   default:
