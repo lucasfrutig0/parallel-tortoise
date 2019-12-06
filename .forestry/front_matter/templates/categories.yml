@@ -27,6 +27,7 @@ fields:
     required: true
 pages:
 - category/imac.md
+- category/ipad.md
 - category/bigplants.md
 - category/europe.md
 - category/summer.md
