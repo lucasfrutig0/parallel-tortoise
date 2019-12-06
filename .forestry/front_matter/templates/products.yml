@@ -86,6 +86,7 @@ fields:
     - ipad
     - ipadpro
     - macbook-air
+    - macbook-pro-tela-retina
 - type: boolean
   name: featured
   label: Featured
