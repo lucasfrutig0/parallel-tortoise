@@ -8,6 +8,16 @@ fields:
 - type: text
   name: title
   label: Title
+- name: price
+  type: number
+  label: Price
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - type: text
   name: description
   label: Description
@@ -134,16 +144,6 @@ fields:
   type: tag_list
   default: []
   label: Colortags
-- name: price
-  type: number
-  label: Price
-  description: ''
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
 pages:
 - products/imac-apple-mndy2ll-a.md
 - products/gopro-hero-5-session.md
