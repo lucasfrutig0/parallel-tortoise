@@ -1,5 +1,5 @@
 ---
-sub-category: sub-categories/adaptadores.md
+sub-category: Adaptadores
 layout: product
 colortags:
 - White
