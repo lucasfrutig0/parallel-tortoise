@@ -29,3 +29,4 @@ fields:
   description: Escolha a categoria pai
 pages:
 - sub-categories/adaptadores.md
+- sub-categories/adaptadores.md
