@@ -24,7 +24,7 @@ images:
       fallback: ''
 category: gopro
 featured: false
-section: ''
+section: Store
 gallery: []
 
 ---
