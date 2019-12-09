@@ -19,7 +19,7 @@ images:
       optimized: "/images/iphone11-colors-original.png"
       fallback: "/images/iphone 11 vermelho-original.webp"
 category: smartphones
-featured: true
+featured: false
 section: Store
 layout: product
 image: "/images/iphone11-colors-original.png"
@@ -34,6 +34,7 @@ colortags:
 - yellow
 - red
 - black
+sub-category: ''
 
 ---
 # iPhone 11 64GB

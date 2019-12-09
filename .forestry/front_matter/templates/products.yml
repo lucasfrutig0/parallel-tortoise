@@ -138,6 +138,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/plant2.md
 - products/plant1.md
 - products/ipad-pro-12-9-256gb-wi-fi.md
 - products/gopro-hero-5-black.md
@@ -198,7 +199,6 @@ pages:
 - products/plant9.md
 - products/iphone-7-128gb-desbloqueado.md
 - products/plant3.md
-- products/plant2.md
 - products/plant7.md
 - products/apple-watch-sport-serie-4-40mm-gps.md
 - products/apple-watch-sport-serie-3-42mm-gps.md
