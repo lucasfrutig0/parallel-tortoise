@@ -22,7 +22,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ''
+category: gopro
 featured: false
 section: ''
 gallery: []
