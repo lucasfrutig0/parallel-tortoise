@@ -21,7 +21,7 @@ fields:
     required: false
     options: []
     source:
-      type: documents
+      type: pages
       section: categories
       file: category/cabos.md
       path: 
