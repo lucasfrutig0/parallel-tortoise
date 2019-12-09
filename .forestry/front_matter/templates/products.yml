@@ -138,6 +138,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/apple-ipad-pro-10-5-256gb-wi-fi.md
 - products/plant5.md
 - products/plant4.md
 - products/plant2.md
@@ -158,7 +159,6 @@ pages:
 - products/adaptador-usb-c-para-digital-av-multiporta-apple.md
 - products/ipad-pro-12-9-64gb-wi-fi.md
 - products/ipad-pro-12-9-512gb-wi-fi.md
-- products/apple-ipad-pro-10-5-256gb-wi-fi.md
 - products/apple-imac-mk472-27-retina-5k-intel-core-i5-quad-3-2ghz-8gb-1tb.md
 - products/ipad-apple-new-128gb-4g.md
 - products/desktop-apple-imac-pro-xeon-mq2y2ll-a.md
