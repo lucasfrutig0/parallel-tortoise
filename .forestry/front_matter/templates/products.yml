@@ -8,19 +8,14 @@ fields:
 - type: text
   name: title
   label: Title
-- name: price
-  type: number
-  label: Price
-  description: ''
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
 - type: text
   name: description
   label: Description
+- name: price
+  type: text
+  config:
+    required: false
+  label: Price
 - name: image
   type: file
   config:
