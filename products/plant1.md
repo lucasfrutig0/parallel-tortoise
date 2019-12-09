@@ -19,7 +19,7 @@ images:
       optimized: "/images/iphone11amarelo-thumb.webp"
       fallback: "/images/iphone11amarelo-thumb.png"
 category: smartphones
-featured: true
+featured: false
 section: Store
 layout: product
 image: "/images/iphone11amarelo-thumb.webp"
@@ -34,6 +34,7 @@ colortags:
 - yellow
 - green
 - white
+sub-category: ''
 
 ---
 # iPhone 11 128GB
