@@ -145,6 +145,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/apple-airpods-fone-de-ouvido-sem-fio-wireless.md
 - products/imac-apple-mndy2ll-a.md
 - products/gopro-hero-5-session.md
 - products/apple-carregador-fonte-5w-md810ea-padrao-americano.md
@@ -215,7 +216,6 @@ pages:
 - products/iphone-7-256gb-4g-desbloqueado.md
 - products/iphone-7-256gb-plus-4g-desbloqueado.md
 - products/iphone-xr-256gb.md
-- products/apple-airpods-fone-de-ouvido-sem-fio-wireless.md
 - products/iphone-7-128gb-plus-4g-desbloqueado.md
 - products/iphone-xr-128gb.md
 - products/iphone-xr-64gb.md

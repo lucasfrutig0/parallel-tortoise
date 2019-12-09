@@ -26,6 +26,7 @@ category: airpods
 featured: false
 section: Store
 gallery: []
+sub-category: ''
 
 ---
 # Apple AirPods Fone de Ouvido Sem Fio Wireless
