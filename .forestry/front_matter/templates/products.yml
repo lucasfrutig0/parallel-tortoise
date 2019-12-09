@@ -138,6 +138,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/filmadora-gopro-hero-6-preto.md
 - products/cabo-usb-c-apple-2-mts-mll82am.md
 - products/cabo-usb-c.md
 - products/cabo-lightning-usb-com-2-metros-para-iphone-ipod-ipad-branco.md
