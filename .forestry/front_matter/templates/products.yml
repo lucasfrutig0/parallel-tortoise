@@ -117,6 +117,19 @@ fields:
   type: tag_list
   default: []
   label: Colortags
+- name: sub-category
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: categories
+      file: 
+      path: 
+  label: Sub-Category
+  description: choose a sub-category
 pages:
 - products/ipad-pro-12-9-64gb-wi-fi.md
 - products/ipad-pro-12-9-512gb-wi-fi.md
