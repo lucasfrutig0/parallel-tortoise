@@ -88,6 +88,7 @@ fields:
     - macbook-pro-tela-retina
     - macbook-pro-touch-bar
     - cabos
+    - ipad-pro
 - name: sub-category
   type: select
   default: []
