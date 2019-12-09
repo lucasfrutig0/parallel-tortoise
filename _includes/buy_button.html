@@ -8,11 +8,11 @@
         margin: 20px;
         padding: 10px;
         border-radius: 8px;
-        background: #88b3dd;
+        border-bottom: 3px solid #88b3dd;
     }
 </style>
 
-<p>Cores Disponíves: </p>
+<p>{%if all_tags.size > 0 %}Cores Disponíves: {% endif %}</p>
 <ul class="text-list-color">
     {% for item in all_tags %}
         <li>{{ item }}</li>

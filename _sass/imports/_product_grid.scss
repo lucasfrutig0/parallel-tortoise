@@ -35,6 +35,13 @@
     color: $color_dark_grey;
   }
 
+  &__sub-category {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: $font_size_small;
+    color: $color_light_grey;
+  }
+
   &__item-image {
     width: 100%;
     height: auto;
