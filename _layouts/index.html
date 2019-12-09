@@ -17,16 +17,17 @@ layout: body
     </section>
 
     <section class="content__row">
-        {% assign category_pages = '/category' | get_pages | sort: 'name' %}
+        {% assign category_pages = '/category' | get_pages | sort: 'title' | reverse %}
         {% assign categoryIndex = 0 %}
         {% for category_page in category_pages %}
             {% assign categoryIndex = categoryIndex | plus: 1 %}
-            {% if categoryIndex < 3 %}
+            {% if categoryIndex < 5 %}
                 {% assign category_product_pages = '/products' | get_pages | where_exp: "item", "item.category == category_page.slug" | sort: 'title' %}
                 {% assign count = category_product_pages | size %}
                 {% if count > 0 %}
-                    <h2 class="content__row-title">{{ category_page.title }}</h2>
-                    
+                    <a href="http://127.0.0.1:4000/{{ category_page.url }}">
+                        <h2 class="content__row-title">{{ category_page.title }}</h2>
+                    </a>
                     {% include product_grid.html product_pages=category_product_pages cssClass='product-grid--draggable' %}
                 {% endif %}
             {% endif %}
