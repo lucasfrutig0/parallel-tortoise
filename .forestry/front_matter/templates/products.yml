@@ -137,6 +137,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/cabo-apple-lightning-para-iphone-ipad-e-ipod.md
 - products/apple-carregador-fonte-5w-md810ea-padrao-americano.md
 - products/carregador-apple-megasefe-2-85w.md
 - products/carregador-apple-megasefe-1-85w.md
