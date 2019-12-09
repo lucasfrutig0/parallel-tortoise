@@ -1,7 +1,8 @@
 ---
-sub-category: []
+sub-category: sub-categories/adaptadores.md
 layout: product
-colortags: []
+colortags:
+- White
 id: "65"
 title: Adaptador USB C para Digital AV Multiporta Apple
 description: GARANTIA 12 MESES DIRETO FABRICANTE
@@ -22,11 +23,12 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ''
+category: cabos
 featured: false
-section: ''
+section: Store
 gallery: []
-published: false
 
 ---
 # Adaptador USB C para Digital AV Multiporta Apple
+
+Disponibilidade: 10 dias úteis
