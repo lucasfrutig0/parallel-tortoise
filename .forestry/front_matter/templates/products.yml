@@ -89,6 +89,7 @@ fields:
     - macbook-pro-touch-bar
     - cabos
     - ipad-pro
+    - gopro
 - name: sub-category
   type: select
   default: []
