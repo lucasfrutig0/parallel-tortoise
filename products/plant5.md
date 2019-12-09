@@ -19,7 +19,7 @@ images:
       optimized: "/images/plant5-featured-lg.webp"
       fallback: "/images/plant5-featured-lg.jpg"
 category: smartphones
-featured: true
+featured: false
 section: Store
 layout: product
 image: "/images/iphonex1.png"
@@ -28,6 +28,7 @@ gallery:
 colortags:
 - black
 - silver
+sub-category: ''
 
 ---
 # iPhone X 64GB
