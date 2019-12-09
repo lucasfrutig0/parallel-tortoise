@@ -26,6 +26,7 @@ fields:
   config:
     required: true
 pages:
+- category/gopro.md
 - category/cabos.md
 - category/macbook-pro-touch-bar.md
 - category/macbookpro-tela-retina.md
