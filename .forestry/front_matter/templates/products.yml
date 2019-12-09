@@ -94,9 +94,14 @@ fields:
   default: []
   config:
     required: false
-    options: []
+    options:
+    - Adaptadores
+    - Carregador
+    - Fonte
+    - Lightning
+    - USB-C
     source:
-      type: pages
+      type: simple
       section: sub-categories
       file: 
       path: 
