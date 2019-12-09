@@ -131,6 +131,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/adaptador-usb-c-para-digital-av-multiporta-apple.md
 - products/ipad-pro-12-9-64gb-wi-fi.md
 - products/ipad-pro-12-9-512gb-wi-fi.md
 - products/apple-ipad-pro-10-5-256gb-wi-fi.md
