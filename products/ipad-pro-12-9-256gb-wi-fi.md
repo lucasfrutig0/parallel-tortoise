@@ -24,10 +24,11 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ipadpro
-featured: true
+category: ''
+featured: false
 section: Store
 gallery: []
+sub-category: ''
 
 ---
 # iPad Pro 12.9 256GB WI-FI
