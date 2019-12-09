@@ -1,4 +1,29 @@
 ---
 label: sub-category
 hide_body: true
-fields: []
+fields:
+- name: slug
+  type: text
+  config:
+    required: false
+  label: slug
+  description: slug of subcategory
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: a title for sub-category
+- name: category_father
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: categories
+      file: category/cabos.md
+      path: 
+  label: Category Father
+  description: Escolha a categoria pai
