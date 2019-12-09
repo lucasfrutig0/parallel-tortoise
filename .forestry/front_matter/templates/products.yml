@@ -118,6 +118,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/apple-macbook-pro-touch-bar-mr9q2ll-a-a1989-13-3-de-2-3ghz-8gb-ram-256gb-ssd-cinza-espacial.md
 - products/apple-macbook-pro-touch-bar-mr942ll-a-a1990-15-4-intel-core-i7-16gb-ram-512gb-ssd-cinza-espacial.md
 - products/apple-macbook-pro-touch-bar-mr9r2ll-a-a1989-13-3-de-2-3ghz-8gb-ram-512gb-ssd.md
 - products/apple-macbook-pro-touch-bar-mptw2ll-a-a1707-15-4-de-3-1ghz-16gb-ram-1tb-ssd.md
