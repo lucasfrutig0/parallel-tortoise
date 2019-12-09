@@ -24,10 +24,11 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ipadpro
+category: ipad-pro
 featured: false
 section: Store
 gallery: []
+sub-category: ''
 
 ---
 # Apple iPad Pro 10.5 256gb Wi FI
