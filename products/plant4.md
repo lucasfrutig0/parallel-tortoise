@@ -19,7 +19,7 @@ images:
       optimized: "/images/iphone11pro64gb.webp"
       fallback: "/images/iphone11pro64gb.png"
 category: smartphones
-featured: true
+featured: false
 section: Store
 layout: product
 image: "/images/iphone-11-pro-midnight-green-select-2019_amp.png"
@@ -31,6 +31,7 @@ colortags:
 - black
 - green
 - silver
+sub-category: ''
 
 ---
 # iPhone 11 Pro 64GB

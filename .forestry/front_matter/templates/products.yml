@@ -138,6 +138,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/plant4.md
 - products/plant2.md
 - products/plant1.md
 - products/ipad-pro-12-9-256gb-wi-fi.md
@@ -213,4 +214,3 @@ pages:
 - products/iphone-xr-64gb.md
 - products/iphone-xs-64gb.md
 - products/plant6.md
-- products/plant4.md
