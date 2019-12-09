@@ -4,7 +4,7 @@ colortags: []
 id: "34"
 title: Apple iMac MK472 27 Retina 5K Intel Core i5 (quad 3,2GHz) 8GB/1TB
 description: Retina 5K Intel Core i5 (quad 3,2GHz) 8GB/1TB
-price: '9999.00'
+price: 
 image: "/images/imacmk742-thumb.png"
 images:
   default:
@@ -25,6 +25,7 @@ category: imac
 featured: false
 section: Store
 gallery: []
+sub-category: ''
 
 ---
-# Apple iMac MK472 27 
+# Apple iMac MK472 27
