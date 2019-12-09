@@ -27,3 +27,5 @@ fields:
       path: 
   label: Category Father
   description: Escolha a categoria pai
+pages:
+- sub-categories/adaptadores.md
