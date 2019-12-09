@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: admin
 webhook_url: https://api.stackbit.com/project/5de04f140323e6001af9058e/webhook/forestry
 sections:
+- type: directory
+  path: sub-categories
+  label: Sub-Categories
+  create: all
+  match: "**/*"
+  templates:
+  - sub-category
 - type: document
   path: _config.yml
   label: Global site config
