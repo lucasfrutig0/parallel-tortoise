@@ -28,7 +28,7 @@ section: Store
 gallery: []
 
 ---
-# APPLE CARREGADOR FONTE 5W MD810EA PADRAO AMERICANO
+# APPLE CARREGADOR FONTE 5W MD810EA PADRÃO AMERICANO
 
 Disponibilidade: 10 dias úteis
 
