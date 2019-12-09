@@ -138,6 +138,12 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/imac-apple-mndy2ll-a.md
+- products/gopro-hero-5-session.md
+- products/apple-carregador-fonte-5w-md810ea-padrao-americano.md
+- products/gopro-hero-5-black.md
+- products/carregador-apple-megasefe-2-85w.md
+- products/carregador-apple-megasefe-1-85w.md
 - products/apple-ipad-pro-10-5-64gb-wi-fi.md
 - products/apple-ipad-pro-10-5-512gb-wi-fi-4g.md
 - products/apple-ipad-pro-10-5-512gb-wi-fi.md
@@ -147,17 +153,12 @@ pages:
 - products/plant2.md
 - products/plant1.md
 - products/ipad-pro-12-9-256gb-wi-fi.md
-- products/gopro-hero-5-black.md
-- products/gopro-hero-5-session.md
 - products/filmadora-gopro-hero7-black.md
 - products/filmadora-gopro-hero-6-preto.md
 - products/cabo-usb-c-apple-2-mts-mll82am.md
 - products/cabo-usb-c.md
 - products/cabo-lightning-usb-com-2-metros-para-iphone-ipod-ipad-branco.md
 - products/cabo-apple-lightning-para-iphone-ipad-e-ipod.md
-- products/apple-carregador-fonte-5w-md810ea-padrao-americano.md
-- products/carregador-apple-megasefe-2-85w.md
-- products/carregador-apple-megasefe-1-85w.md
 - products/apple-ipad-pro-10-5-256gb-wi-fi-4g.md
 - products/adaptador-usb-c-para-digital-av-multiporta-apple.md
 - products/ipad-pro-12-9-64gb-wi-fi.md
@@ -185,7 +186,6 @@ pages:
 - products/ipad-pro-12-9-64gb-4g.md
 - products/apple-macbook-pro-mpxr2ll-a-a1708.md
 - products/apple-macbook-air-mref2ll-a.md
-- products/imac-apple-mndy2ll-a.md
 - products/iphone-x-256gb.md
 - products/iphone-8-64gb.md
 - products/iphone-8-64gb-plus.md
