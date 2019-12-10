@@ -5,7 +5,7 @@ colortags:
 id: "58"
 title: Apple MacBook Pro MPXR2LL/A A1708
 description: A1708 Tela 13.3 2.3GHz 8GB de RAM 128GB SSD
-price: '7499.00'
+price: 7.499,00
 image: "/images/macbookpro-tr2-thumb.png"
 images:
   default:
@@ -26,6 +26,8 @@ category: macbook-pro-tela-retina
 featured: false
 section: Store
 gallery: []
+price_snipcart: "7499"
+sub-category: ''
 
 ---
 # Apple MacBook Pro MPXR2LL/A A1708 Tela 13.3 2.3GHz 8GB de RAM 128GB SSD
