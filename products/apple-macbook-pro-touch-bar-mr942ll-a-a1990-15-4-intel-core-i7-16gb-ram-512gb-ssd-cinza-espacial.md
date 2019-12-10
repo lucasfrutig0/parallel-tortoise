@@ -6,7 +6,7 @@ id: "63"
 title: Apple MacBook Pro TOUCH BAR MR942LL/A A1990 15.4 Intel Core i7 16GB RAM/512GB
   SSD - Cinza Espacial
 description: Garantia 1 ano Apple
-price: '14999.00'
+price: 14.999,00
 image: "/images/m1-thumb.png"
 images:
   default:
@@ -27,5 +27,7 @@ category: macbook-pro-touch-bar
 featured: false
 section: Store
 gallery: []
+price_snipcart: "14999"
+sub-category: ''
 
 ---
