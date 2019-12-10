@@ -2,8 +2,8 @@
   "title": "O Natal de quem você ama",
   "subtitle": "merece estar completo!",
   "image": {
-    "optimized": "images/promo.webp",
-    "fallback": "images/promo.jpg"
+    "optimized": "/images/bdr7g-07e54-0.webp",
+    "fallback": "/images/macbookair3-original.png"
   },
   "cta": {
     "text": "Comprar Presentes",
