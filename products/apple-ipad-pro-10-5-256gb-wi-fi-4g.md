@@ -5,9 +5,9 @@ colortags:
 - Silver
 - Gold
 id: "45"
-title: Apple Ipad Pro 10.5 256GB WI-FI 4G
+title: Apple iPad Pro 10.5 256GB WI-FI 4G
 description: GARANTIA 12 MESES DIRETO FABRICANTE APPLE
-price: '4790.00'
+price: 4.790,00
 image: "/images/ipadpro256gb4g-thumb.png"
 images:
   default:
@@ -29,8 +29,9 @@ featured: false
 section: Store
 gallery: []
 sub-category: ''
+price_snipcart: "4790"
 
 ---
-# Apple Ipad Pro 10.5 256GB WI-FI 4G
+# Apple iPad Pro 10.5 256GB WI-FI 4G
 
 Disponibilidade: 10 dias úteis
