@@ -7,7 +7,7 @@ colortags:
 id: "46"
 title: Apple iPad Pro 10.5 512gb WI-FI
 description: GARANTIA 12 MESES DIRETO FABRICANTE APPLE
-price: '4800.00'
+price: 4.800,00
 image: "/images/ipadpro256gb-thumb.png"
 images:
   default:
@@ -29,6 +29,7 @@ featured: false
 section: Store
 gallery: []
 sub-category: ''
+price_snipcart: "4800"
 
 ---
 # Apple iPad Pro 10.5 512gb WI-FI
