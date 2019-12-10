@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/apple-ipad-pro-10-5-256gb-wi-fi.md
 - products/apple-imac-mne92ll.md
 - products/apple-imac-mk482-4core-i5-qc-3-3ghz.md
 - products/apple-imac-mk472-27-retina-5k-intel-core-i5-quad-3-2ghz-8gb-1tb.md
@@ -160,7 +161,6 @@ pages:
 - products/apple-ipad-pro-10-5-64gb-wi-fi.md
 - products/apple-ipad-pro-10-5-512gb-wi-fi-4g.md
 - products/apple-ipad-pro-10-5-512gb-wi-fi.md
-- products/apple-ipad-pro-10-5-256gb-wi-fi.md
 - products/plant5.md
 - products/plant4.md
 - products/plant2.md
