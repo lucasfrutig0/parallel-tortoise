@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/ipad-apple-new-128gb-4g.md
 - products/imac-apple-mndy2ll-a.md
 - products/imac-apple-mmqa2ll-a.md
 - products/gopro-hero-5-session.md
@@ -193,7 +194,6 @@ pages:
 - products/ipad-pro-12-9-256gb-wi-fi.md
 - products/ipad-pro-12-9-64gb-wi-fi.md
 - products/ipad-pro-12-9-512gb-wi-fi.md
-- products/ipad-apple-new-128gb-4g.md
 - products/ipad-new-32gb-4g.md
 - products/pad-apple-new-32gb-wi-fi.md
 - products/ipad-pro-12-9-256gb-4g.md

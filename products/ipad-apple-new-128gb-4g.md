@@ -8,7 +8,7 @@ colortags:
 id: "40"
 title: iPad Apple New 128gb 4G
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: '3100.00'
+price: 3.100,00
 image: "/images/ipad128gb-thumb.png"
 images:
   default:
@@ -29,6 +29,8 @@ category: ipad
 featured: false
 section: Store
 gallery: []
+price_snipcart: "3100"
+sub-category: ''
 
 ---
 # iPad Apple New 128gb 4G
