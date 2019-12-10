@@ -58,6 +58,11 @@ figure {
     padding: 0;
 }
 
+.change-style {
+    border: 1px solid whitesmoke !important;
+    color: white !important;
+}
+
 // Global styles
 @import "imports/reset";
 @import "imports/mixins";

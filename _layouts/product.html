@@ -15,7 +15,7 @@ layout: body
                     <svg width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M2.73859 4.30914H19.75V5.59286H2.63961L6.06986 8.98864L5.17449 9.875L0.25 5L5.17449 0.125L6.06986 1.01136L2.73859 4.30914Z" fill="#88DD9B"/>
                     </svg>                        
-                    see all products
+                    Ver todos produtos
                 </a>
             </div>
             <figure class="product__figure">
@@ -50,7 +50,7 @@ layout: body
             </div>
         </section>
         <section class="content__row">
-            <h2 class="content__row-title">Related</h2>
+            <h2 class="content__row-title">Relacionados</h2>
             {% assign product_pages = '/products' | get_pages | where_exp: "item", "item.category == category_page.slug" | sort: 'title' | where_exp: "item", "item.id != page.id" %}
             
             {% include product_grid.html product_pages=product_pages cssClass='product-grid--draggable' %}
@@ -59,6 +59,6 @@ layout: body
             <svg width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M2.73859 4.30914H19.75V5.59286H2.63961L6.06986 8.98864L5.17449 9.875L0.25 5L5.17449 0.125L6.06986 1.01136L2.73859 4.30914Z" fill="white"/>
             </svg>                        
-            see all products
+            Ver todos produtos
         </a>
     </main>
