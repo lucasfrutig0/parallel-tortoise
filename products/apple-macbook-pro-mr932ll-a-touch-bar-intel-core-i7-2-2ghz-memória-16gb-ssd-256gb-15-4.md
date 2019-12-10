@@ -6,7 +6,7 @@ id: "60"
 title: Apple Macbook Pro MR932LL/A Touch Bar Intel Core i7 2.2GHz Memória 16GB SSD
   256GB 15.4
 description: GARANTIA 1 ANO APPLE
-price: '12400.00'
+price: 12.400,00
 image: "/images/m1-thumb.png"
 images:
   default:
@@ -27,6 +27,8 @@ category: macbook-pro-touch-bar
 featured: true
 section: Store
 gallery: []
+price_snipcart: "12400"
+sub-category: ''
 
 ---
 # Apple Macbook Pro MR932LL/A Touch Bar Intel Core i7 2.2GHz Memória 16GB SSD 256GB 15.4
