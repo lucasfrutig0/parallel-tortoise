@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/apple-macbook-air-mqd42ll-a.md
 - products/apple-ipad-pro-10-5-64gb-wi-fi.md
 - products/apple-ipad-pro-10-5-512gb-wi-fi-4g.md
 - products/apple-ipad-pro-10-5-512gb-wi-fi.md
@@ -177,7 +178,6 @@ pages:
 - products/ipad-pro-12-9-512gb-wi-fi.md
 - products/ipad-apple-new-128gb-4g.md
 - products/desktop-apple-imac-pro-xeon-mq2y2ll-a.md
-- products/apple-macbook-air-mqd42ll-a.md
 - products/apple-macbook-pro-mpxu2ll-a1708.md
 - products/apple-macbook-pro-touch-bar-mptw2ll-a-a1707-15-4-de-3-1ghz-16gb-ram-1tb-ssd.md
 - products/ipad-new-32gb-4g.md

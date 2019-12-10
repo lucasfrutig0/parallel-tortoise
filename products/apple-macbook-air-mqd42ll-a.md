@@ -5,7 +5,7 @@ colortags:
 id: "54"
 title: Apple MacBook Air MQD42LL/A
 description: A1466 de 13.3 com Intel Core i5 8GB RAM 256GB SSD
-price: '6800.00'
+price: 6.800,00
 image: "/images/macbookair1-thumb.png"
 images:
   default:
@@ -26,6 +26,8 @@ category: macbook-air
 featured: false
 section: Store
 gallery: []
+price_snipcart: "6800"
+sub-category: ''
 
 ---
 # Apple MacBook Air MQD42LL/A A1466 de 13.3 com Intel Core i5 8GB RAM 256GB SSD
