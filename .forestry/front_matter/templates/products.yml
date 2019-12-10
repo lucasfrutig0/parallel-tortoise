@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/desktop-apple-imac-pro-xeon-mq2y2ll-a.md
 - products/carregador-apple-megasefe-2-85w.md
 - products/carregador-apple-megasefe-1-85w.md
 - products/cabo-usb-c-apple-2-mts-mll82am.md
@@ -192,7 +193,6 @@ pages:
 - products/ipad-pro-12-9-64gb-wi-fi.md
 - products/ipad-pro-12-9-512gb-wi-fi.md
 - products/ipad-apple-new-128gb-4g.md
-- products/desktop-apple-imac-pro-xeon-mq2y2ll-a.md
 - products/ipad-new-32gb-4g.md
 - products/pad-apple-new-32gb-wi-fi.md
 - products/ipad-pro-12-9-256gb-4g.md
