@@ -4,7 +4,7 @@ colortags: []
 id: "13"
 title: iPhone Xr 256GB
 description: GARANTIA 1 ANO
-price: '4499.00'
+price: 4.499,00
 image: "/images/iphonexr-thumb.png"
 images:
   default:
@@ -25,6 +25,8 @@ category: smartphones
 featured: false
 section: Store
 gallery: []
+price_snipcart: "4499"
+sub-category: ''
 
 ---
 # iPhone Xr 256GB
