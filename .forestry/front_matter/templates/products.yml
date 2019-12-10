@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/apple-watch-sport-serie-3-42mm-gps.md
 - products/apple-watch-series-4-44-mm-a2008-mtvu2bz-a-gps-celular.md
 - products/apple-watch-serie-3-38m-gps.md
 - products/apple-macbook-pro-touch-bar-mr9r2ll-a-a1989-13-3-de-2-3ghz-8gb-ram-512gb-ssd.md
@@ -213,7 +214,6 @@ pages:
 - products/plant3.md
 - products/plant7.md
 - products/apple-watch-sport-serie-4-40mm-gps.md
-- products/apple-watch-sport-serie-3-42mm-gps.md
 - products/iphone-7-256gb-4g-desbloqueado.md
 - products/iphone-7-256gb-plus-4g-desbloqueado.md
 - products/iphone-xr-256gb.md
