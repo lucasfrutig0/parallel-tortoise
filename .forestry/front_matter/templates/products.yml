@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/apple-macbook-air-mrec2ll-a.md
 - products/apple-macbook-air-mqd42ll-a.md
 - products/apple-ipad-pro-10-5-64gb-wi-fi.md
 - products/apple-ipad-pro-10-5-512gb-wi-fi-4g.md
@@ -185,7 +186,6 @@ pages:
 - products/apple-macbook-pro-mr932ll-a-touch-bar-intel-core-i7-2-2ghz-memória-16gb-ssd-256gb-15-4.md
 - products/apple-macbook-pro-touch-bar-mr9r2ll-a-a1989-13-3-de-2-3ghz-8gb-ram-512gb-ssd.md
 - products/apple-macbook-pro-touch-bar-mr9q2ll-a-a1989-13-3-de-2-3ghz-8gb-ram-256gb-ssd-cinza-espacial.md
-- products/apple-macbook-air-mrec2ll-a.md
 - products/apple-macbook-pro-mpxq2ll-a-a1708.md
 - products/ipad-pro-12-9-256gb-4g.md
 - products/apple-watch-sport-serie-4-gps-celular-40mm.md

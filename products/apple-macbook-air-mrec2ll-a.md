@@ -4,7 +4,7 @@ colortags: []
 id: "55"
 title: Apple Macbook Air MREC2LL/ A
 description: Garantia de 12 meses do fabricante
-price: '7890.00'
+price: 7.890,00
 image: "/images/macbookair2-thumb.png"
 images:
   default:
@@ -25,6 +25,8 @@ category: macbook-air
 featured: false
 section: Store
 gallery: []
+price_snipcart: "7890"
+sub-category: ''
 
 ---
 # Apple Macbook Air MREC2LL/ A Intel Core i5 Memoria 8GB 256GB SSD Tela 13.3
