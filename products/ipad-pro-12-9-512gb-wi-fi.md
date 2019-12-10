@@ -7,7 +7,7 @@ colortags:
 id: "51"
 title: iPad Pro 12.9 512GB WI-FI
 description: GARANTIA DIRETO FABRICANTE 12 MESES
-price: '6999.00'
+price: 6.999,00
 image: "/images/ipadpro256gb-thumb-1.png"
 images:
   default:
@@ -24,10 +24,12 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ipadpro
+category: ''
 featured: false
 section: Store
 gallery: []
+price_snipcart: "6999"
+sub-category: ''
 
 ---
 # iPad Pro 12.9 512GB WI-FI
