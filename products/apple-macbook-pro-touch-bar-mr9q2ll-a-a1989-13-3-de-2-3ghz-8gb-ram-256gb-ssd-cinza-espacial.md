@@ -6,7 +6,7 @@ id: "64"
 title: Apple MacBook Pro TOUCH BAR MR9Q2LL/A A1989 13.3 de 2.3GHz 8GB RAM/256GB SSD
   - Cinza Espacial
 description: Garantia de 1 ano Apple
-price: '10278.00'
+price: 10.278,00
 image: "/images/m1-thumb.png"
 images:
   default:
@@ -27,6 +27,8 @@ category: macbook-pro-touch-bar
 featured: false
 section: Store
 gallery: []
+price_snipcart: "10278"
+sub-category: ''
 
 ---
 # Apple MacBook Pro TOUCH BAR MR9Q2LL/A A1989 13.3 de 2.3GHz 8GB RAM/256GB SSD - Cinza Espacial

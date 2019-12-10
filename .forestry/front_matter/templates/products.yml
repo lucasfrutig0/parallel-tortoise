@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/apple-macbook-pro-touch-bar-mr9q2ll-a-a1989-13-3-de-2-3ghz-8gb-ram-256gb-ssd-cinza-espacial.md
 - products/apple-macbook-pro-touch-bar-mr942ll-a-a1990-15-4-intel-core-i7-16gb-ram-512gb-ssd-cinza-espacial.md
 - products/apple-macbook-pro-touch-bar-mptw2ll-a-a1707-15-4-de-3-1ghz-16gb-ram-1tb-ssd.md
 - products/apple-macbook-pro-mr932ll-a-touch-bar-intel-core-i7-2-2ghz-memória-16gb-ssd-256gb-15-4.md
@@ -189,7 +190,6 @@ pages:
 - products/ipad-new-32gb-4g.md
 - products/pad-apple-new-32gb-wi-fi.md
 - products/apple-macbook-pro-touch-bar-mr9r2ll-a-a1989-13-3-de-2-3ghz-8gb-ram-512gb-ssd.md
-- products/apple-macbook-pro-touch-bar-mr9q2ll-a-a1989-13-3-de-2-3ghz-8gb-ram-256gb-ssd-cinza-espacial.md
 - products/ipad-pro-12-9-256gb-4g.md
 - products/apple-watch-sport-serie-4-gps-celular-40mm.md
 - products/ipad-new-128gb-wi-fi.md
