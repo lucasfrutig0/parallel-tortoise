@@ -6,7 +6,7 @@ colortags:
 id: "29"
 title: APPLE WATCH SERIE 3 38M GPS
 description: GARANTIA APPLE 1 ANO
-price: '1799.00'
+price: 1.799,00
 image: "/images/apple-watch-thumb.png"
 images:
   default:
@@ -28,6 +28,8 @@ featured: false
 section: Store
 gallery:
 - "/images/apple-watch-gallery.jpg"
+price_snipcart: "1799"
+sub-category: ''
 
 ---
 # APPLE WATCH SERIE 3 38M GPS
