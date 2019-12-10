@@ -2,7 +2,7 @@
 id: "3"
 title: iPhone 11 Pro 256GB
 description: GARANTIA 1 ANO ACOMPANHA TODOS OS ACESSORIOS
-price: '7499.00'
+price: 7.499,00
 images:
   default:
     thumbnail:
@@ -38,6 +38,8 @@ colortags:
 - silver
 seo-image: "/images/iphone-11-pro-midnight-green-select-2019_amp.png"
 image: ''
+price_snipcart: "7499"
+sub-category: ''
 
 ---
 # iPhone 11 Pro 256GB
