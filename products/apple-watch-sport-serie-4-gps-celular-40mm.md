@@ -7,7 +7,7 @@ colortags:
 id: "33"
 title: Apple Watch Sport Serie 4 GPS+CELULAR 40MM
 description: Garantia 1 ano de fábrica
-price: '3699,00'
+price: 3.699,00
 image: "/images/aw.png"
 images:
   default:
@@ -28,6 +28,8 @@ category: apple-watch
 featured: false
 section: Store
 gallery: []
+price_snipcart: "3699"
+sub-category: ''
 
 ---
 # Apple Watch Sport Serie 4 GPS+CELULAR 40MM

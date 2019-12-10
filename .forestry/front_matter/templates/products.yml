@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/apple-watch-sport-serie-4-gps-celular-40mm.md
 - products/apple-watch-sport-serie-4-40mm-gps.md
 - products/apple-watch-sport-serie-3-42mm-gps.md
 - products/apple-watch-series-4-44-mm-a2008-mtvu2bz-a-gps-celular.md
@@ -195,7 +196,6 @@ pages:
 - products/ipad-new-32gb-4g.md
 - products/pad-apple-new-32gb-wi-fi.md
 - products/ipad-pro-12-9-256gb-4g.md
-- products/apple-watch-sport-serie-4-gps-celular-40mm.md
 - products/ipad-new-128gb-wi-fi.md
 - products/imac-apple-mmqa2ll-a.md
 - products/ipad-pro-12-9-64gb-4g.md
