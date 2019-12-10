@@ -7,7 +7,7 @@ colortags:
 id: "15"
 title: iPhone XS 256GB
 description: GARANTIA APPLE 1 ANO
-price: '6599.00'
+price: 6.599,00
 image: "/images/iphonexs-dourado-g.png"
 images:
   default:
@@ -28,6 +28,8 @@ category: smartphones
 featured: false
 section: Store
 gallery: []
+price_snipcart: "6599"
+sub-category: ''
 
 ---
 # iPhone XS 256GB
