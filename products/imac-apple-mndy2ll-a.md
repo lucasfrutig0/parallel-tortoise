@@ -4,7 +4,7 @@ colortags: []
 id: "39"
 title: IMAC APPLE MNDY2LL/A
 description: 21.5 4K/I5-3.0/8GB/1TB (2017)
-price: '11,999'
+price: 11.999,00
 image: "/images/imac3-thumb.png"
 images:
   default:
@@ -26,6 +26,7 @@ featured: false
 section: Store
 gallery: []
 sub-category: ''
+price_snipcart: "11999"
 
 ---
 # IMAC APPLE MNDY2LL/A

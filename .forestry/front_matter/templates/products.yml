@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/imac-apple-mndy2ll-a.md
 - products/imac-apple-mmqa2ll-a.md
 - products/gopro-hero-5-session.md
 - products/gopro-hero-5-black.md
@@ -185,7 +186,6 @@ pages:
 - products/apple-carregador-fonte-5w-md810ea-padrao-americano.md
 - products/apple-airpods-fone-de-ouvido-sem-fio-wireless.md
 - products/adaptador-usb-c-para-digital-av-multiporta-apple.md
-- products/imac-apple-mndy2ll-a.md
 - products/plant5.md
 - products/plant4.md
 - products/plant2.md
