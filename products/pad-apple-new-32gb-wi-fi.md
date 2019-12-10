@@ -6,7 +6,7 @@ colortags:
 - Gold
 - Rose
 id: "41"
-title: Pad Apple New 32gb WI FI
+title: iPad Apple New 32gb WI FI
 description: GARANTIA 12 MESES DIRETO FABRICANTE
 price: 1.999,00
 image: "/images/ipad32gb-thumb.png"
