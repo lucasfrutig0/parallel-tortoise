@@ -5,7 +5,7 @@ colortags:
 id: "62"
 title: Apple MacBook Pro TOUCH BAR MR9R2LL/A A1989 13.3 de 2.3GHz 8GB RAM 512GB SSD
 description: Garantia 1 ano Apple
-price: '11620.00'
+price: 11.620,00
 image: "/images/m2-thumb.png"
 images:
   default:
@@ -26,6 +26,8 @@ category: macbook-pro-touch-bar
 featured: false
 section: Store
 gallery: []
+price_snipcart: "11620"
+sub-category: ''
 
 ---
 # Apple MacBook Pro TOUCH BAR MR9R2LL/A A1989 13.3 de 2.3GHz 8GB RAM 512GB SSD
