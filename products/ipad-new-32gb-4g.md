@@ -7,7 +7,7 @@ colortags:
 id: "43"
 title: iPad New 32gb 4G
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: '2649.00'
+price: 2.649,00
 image: "/images/ipadnew128gb-thumb.png"
 images:
   default:
@@ -28,6 +28,8 @@ category: ipad
 featured: false
 section: Store
 gallery: []
+price_snipcart: "2649"
+sub-category: ''
 
 ---
 # iPad New 32gb 4G
