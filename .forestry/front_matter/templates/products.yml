@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/apple-ipad-pro-10-5-512gb-wi-fi-4g.md
 - products/apple-ipad-pro-10-5-512gb-wi-fi.md
 - products/apple-ipad-pro-10-5-256gb-wi-fi-4g.md
 - products/apple-ipad-pro-10-5-256gb-wi-fi.md
@@ -161,7 +162,6 @@ pages:
 - products/carregador-apple-megasefe-2-85w.md
 - products/carregador-apple-megasefe-1-85w.md
 - products/apple-ipad-pro-10-5-64gb-wi-fi.md
-- products/apple-ipad-pro-10-5-512gb-wi-fi-4g.md
 - products/plant5.md
 - products/plant4.md
 - products/plant2.md
