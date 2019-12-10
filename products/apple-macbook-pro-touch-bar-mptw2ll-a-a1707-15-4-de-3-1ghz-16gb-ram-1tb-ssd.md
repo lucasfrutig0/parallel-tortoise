@@ -5,7 +5,7 @@ colortags:
 id: "61"
 title: Apple MacBook Pro TOUCH BAR MPTW2LL/A A1707 15.4 de 3.1GHz 16GB RAM 1TB SSD
 description: Garantia de 1 ano Apple
-price: '15900.00'
+price: 15.900,00
 image: "/images/m2-thumb.png"
 images:
   default:
@@ -26,6 +26,8 @@ category: macbook-pro-touch-bar
 featured: false
 section: Store
 gallery: []
+price_snipcart: "15900"
+sub-category: ''
 
 ---
 # Apple MacBook Pro TOUCH BAR MPTW2LL/A A1707 15.4 de 3.1GHz 16GB RAM 1TB SSD
