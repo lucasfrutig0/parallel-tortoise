@@ -4,7 +4,7 @@ colortags: []
 id: "12"
 title: iPhone Xr 128GB
 description: GARANTIA DIRETO FABRICANTE 12 MESES
-price: '3999.00'
+price: 3.999,00
 image: "/images/iphonexr-thumb.png"
 images:
   default:
@@ -25,6 +25,8 @@ category: smartphones
 featured: false
 section: Store
 gallery: []
+price_snipcart: "3999"
+sub-category: ''
 
 ---
 # iPhone Xr 128GB
