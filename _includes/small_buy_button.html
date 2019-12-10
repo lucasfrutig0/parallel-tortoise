@@ -4,7 +4,7 @@
 <button class="{{ component }}__item-buy button button--icon-only snipcart-add-item"
     data-item-name="{{ product_page.title }}"
     data-item-url="{{ product_page.url }}"
-    data-item-price="{{ %s%v product_page.price }}"
+    data-item-price="{{ product_page.price_snipcart }}"
     date-item-categories="{{ product_page.category }}"
     data-item-image="{{ product_page.images.default.thumbnail.fallback }}"
     data-item-description="{{ product_page.description }}"
