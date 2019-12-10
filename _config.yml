@@ -30,7 +30,7 @@ palettes:
       bg_image_primary_fallback: "/images/cover-home.png"
       bg_image_secondary_optimized: "/images/Untitled-1.svg"
       bg_image_secondary_fallback: "/images/Untitled-1.svg"
-      bg_image_product_optimized: "/images/leaf.svg"
+      bg_image_product_optimized: "/images/Untitled-1.svg"
       bg_image_product_fallback: "/images/Untitled-1.svg"
       bg_image_cart_optimized: "/images/cart-bg.webp"
       bg_image_cart_fallback: "/images/header.jpg"
