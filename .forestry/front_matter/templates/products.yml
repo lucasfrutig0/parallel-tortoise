@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/plant7.md
 - products/plant1.md
 - products/ipad-pro-12-9-64gb-wi-fi.md
 - products/ipad-pro-12-9-64gb-4g.md
@@ -213,7 +214,6 @@ pages:
 - products/plant9.md
 - products/iphone-7-128gb-desbloqueado.md
 - products/plant3.md
-- products/plant7.md
 - products/iphone-7-256gb-4g-desbloqueado.md
 - products/iphone-7-256gb-plus-4g-desbloqueado.md
 - products/iphone-xr-256gb.md
