@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/filmadora-gopro-hero-6-preto.md
 - products/desktop-apple-imac-pro-xeon-mq2y2ll-a.md
 - products/carregador-apple-megasefe-2-85w.md
 - products/carregador-apple-megasefe-1-85w.md
@@ -189,7 +190,6 @@ pages:
 - products/plant1.md
 - products/ipad-pro-12-9-256gb-wi-fi.md
 - products/filmadora-gopro-hero7-black.md
-- products/filmadora-gopro-hero-6-preto.md
 - products/ipad-pro-12-9-64gb-wi-fi.md
 - products/ipad-pro-12-9-512gb-wi-fi.md
 - products/ipad-apple-new-128gb-4g.md
