@@ -5,7 +5,7 @@ colortags: []
 id: "70"
 title: Cabo Lightning USB com 2 Metros para iPhone, iPod, iPad Branco
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: '149.90'
+price: '149,90'
 image: "/images/lightningthumb.png"
 images:
   default:
@@ -26,6 +26,7 @@ category: cabos
 featured: false
 section: Store
 gallery: []
+price_snipcart: '149.90'
 
 ---
 # Cabo Lightning USB com 2 Metros para iPhone, iPod, iPad Branco

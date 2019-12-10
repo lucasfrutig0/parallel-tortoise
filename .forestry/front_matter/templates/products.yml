@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/cabo-lightning-usb-com-2-metros-para-iphone-ipod-ipad-branco.md
 - products/cabo-apple-lightning-para-iphone-ipad-e-ipod.md
 - products/apple-watch-sport-serie-4-gps-celular-40mm.md
 - products/apple-watch-sport-serie-4-40mm-gps.md
@@ -188,7 +189,6 @@ pages:
 - products/filmadora-gopro-hero-6-preto.md
 - products/cabo-usb-c-apple-2-mts-mll82am.md
 - products/cabo-usb-c.md
-- products/cabo-lightning-usb-com-2-metros-para-iphone-ipod-ipad-branco.md
 - products/ipad-pro-12-9-64gb-wi-fi.md
 - products/ipad-pro-12-9-512gb-wi-fi.md
 - products/ipad-apple-new-128gb-4g.md
