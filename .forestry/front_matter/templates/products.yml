@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/ipad-pro-12-9-256gb-4g.md
 - products/ipad-new-32gb-4g.md
 - products/ipad-new-128gb-wi-fi.md
 - products/ipad-apple-new-128gb-4g.md
@@ -197,7 +198,6 @@ pages:
 - products/ipad-pro-12-9-64gb-wi-fi.md
 - products/ipad-pro-12-9-512gb-wi-fi.md
 - products/pad-apple-new-32gb-wi-fi.md
-- products/ipad-pro-12-9-256gb-4g.md
 - products/ipad-pro-12-9-64gb-4g.md
 - products/iphone-x-256gb.md
 - products/iphone-8-64gb.md
