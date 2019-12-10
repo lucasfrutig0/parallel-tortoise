@@ -4,7 +4,7 @@ colortags: []
 id: "52"
 title: iPAD PRO 12.9 64GB 4G
 description: Garantia 12 meses do frabricante
-price: '6300.00'
+price: 6.300,00
 image: "/images/ipadpro12.png"
 images:
   default:
@@ -21,10 +21,12 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ipadpro
+category: ''
 featured: false
 section: Store
 gallery: []
+price_snipcart: "6300"
+sub-category: ''
 
 ---
 # iPAD PRO 12.9 64GB 4G
