@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/plant2.md
 - products/plant7.md
 - products/plant1.md
 - products/ipad-pro-12-9-64gb-wi-fi.md
@@ -198,7 +199,6 @@ pages:
 - products/adaptador-usb-c-para-digital-av-multiporta-apple.md
 - products/plant5.md
 - products/plant4.md
-- products/plant2.md
 - products/pad-apple-new-32gb-wi-fi.md
 - products/iphone-x-256gb.md
 - products/iphone-8-64gb.md
