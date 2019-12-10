@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/plant5.md
 - products/iphone-x-256gb.md
 - products/iphone-8-64gb-plus.md
 - products/iphone-8-64gb.md
@@ -212,7 +213,6 @@ pages:
 - products/apple-carregador-fonte-5w-md810ea-padrao-americano.md
 - products/apple-airpods-fone-de-ouvido-sem-fio-wireless.md
 - products/adaptador-usb-c-para-digital-av-multiporta-apple.md
-- products/plant5.md
 - products/pad-apple-new-32gb-wi-fi.md
 - products/iphone-xs-256gb.md
 - products/iphone-xs-max-256gb.md
