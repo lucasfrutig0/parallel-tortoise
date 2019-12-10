@@ -5,7 +5,7 @@ colortags: []
 id: "71"
 title: CABO USB-C
 description: GARANTIA 3 MESES
-price: '89.90'
+price: '89,90'
 image: "/images/usbc-thumb.png"
 images:
   default:
@@ -26,6 +26,7 @@ category: cabos
 featured: false
 section: Store
 gallery: []
+price_snipcart: '89.90'
 
 ---
 # CABO USB-C
