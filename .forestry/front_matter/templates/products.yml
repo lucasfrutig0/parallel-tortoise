@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/plant4.md
 - products/plant3.md
 - products/plant2.md
 - products/plant7.md
@@ -199,7 +200,6 @@ pages:
 - products/apple-airpods-fone-de-ouvido-sem-fio-wireless.md
 - products/adaptador-usb-c-para-digital-av-multiporta-apple.md
 - products/plant5.md
-- products/plant4.md
 - products/pad-apple-new-32gb-wi-fi.md
 - products/iphone-x-256gb.md
 - products/iphone-8-64gb.md
