@@ -16,6 +16,12 @@ fields:
   config:
     required: false
   label: Price
+- name: price_snipcart
+  type: text
+  config:
+    required: false
+  label: Price Snipcart
+  description: correct format to snipcart price
 - name: image
   type: file
   config:
