@@ -6,7 +6,7 @@ colortags:
 id: "23"
 title: iPhone 7 256GB Plus 4G Desbloqueado
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: '3499.00'
+price: 3.499,00
 image: "/images/iphone7plus-thumb.png"
 images:
   default:
@@ -27,6 +27,8 @@ category: smartphones
 featured: false
 section: Store
 gallery: []
+price_snipcart: "3499"
+sub-category: ''
 
 ---
 # iPhone 7 256GB Plus 4G Desbloqueado
