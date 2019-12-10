@@ -5,7 +5,7 @@ colortags: []
 id: "72"
 title: CABO USB-C APPLE 2 MTS MLL82AM
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: '179.00'
+price: '179,00'
 image: "/images/usbc2-thumb.png"
 images:
   default:
@@ -26,6 +26,7 @@ category: cabos
 featured: false
 section: Store
 gallery: []
+price_snipcart: "179"
 
 ---
 # CABO USB-C APPLE 2 MTS MLL82AM
