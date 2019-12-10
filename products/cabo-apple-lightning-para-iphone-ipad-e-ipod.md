@@ -5,7 +5,7 @@ colortags: []
 id: "69"
 title: Cabo Apple Lightning para iPhone, iPad e iPod
 description: GARANTIA 3 MESES
-price: '99.90'
+price: '99,90'
 image: "/images/lightningthumb.png"
 images:
   default:
@@ -26,6 +26,7 @@ category: cabos
 featured: false
 section: Store
 gallery: []
+price_snipcart: '99.90'
 
 ---
 # Cabo Apple Lightning para iPhone, iPad e iPod
