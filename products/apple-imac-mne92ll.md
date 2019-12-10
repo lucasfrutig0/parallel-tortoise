@@ -4,7 +4,7 @@ colortags: []
 id: "36"
 title: Apple iMac MNE92LL
 description: Intel Core i5 3.4GHz 8GB HD 1TB 27
-price: '11999.00'
+price: 11.999,00
 image: "/images/imacmn92ell-thumb.png"
 images:
   default:
@@ -25,6 +25,8 @@ category: imac
 featured: false
 section: Store
 gallery: []
+price_snipcart: "11999"
+sub-category: ''
 
 ---
 # Apple iMac MNE92LL
