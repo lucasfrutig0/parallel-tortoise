@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/imac-apple-mmqa2ll-a.md
 - products/gopro-hero-5-session.md
 - products/gopro-hero-5-black.md
 - products/filmadora-gopro-hero7-black.md
@@ -197,7 +198,6 @@ pages:
 - products/pad-apple-new-32gb-wi-fi.md
 - products/ipad-pro-12-9-256gb-4g.md
 - products/ipad-new-128gb-wi-fi.md
-- products/imac-apple-mmqa2ll-a.md
 - products/ipad-pro-12-9-64gb-4g.md
 - products/iphone-x-256gb.md
 - products/iphone-8-64gb.md
