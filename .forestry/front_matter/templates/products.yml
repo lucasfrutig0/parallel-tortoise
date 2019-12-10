@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/iphone-xs-64gb.md
 - products/iphone-xs-256gb.md
 - products/iphone-xr-64gb.md
 - products/iphone-xr-256gb.md
@@ -221,4 +222,3 @@ pages:
 - products/iphone-xs-max-256gb.md
 - products/iphone-xs-max-512.md
 - products/iphone-xs-max-64gb.md
-- products/iphone-xs-64gb.md
