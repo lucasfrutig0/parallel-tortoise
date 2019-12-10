@@ -6,7 +6,7 @@ colortags:
 id: "42"
 title: iPad New 128gb Wi FI
 description: GARANTIA DIRETO FABRICANTE 12 MESES
-price: '2757.00'
+price: 2.757,00
 image: "/images/ipadnew128gb-thumb.png"
 images:
   default:
@@ -27,6 +27,8 @@ category: ipad
 featured: false
 section: Store
 gallery: []
+price_snipcart: "2757"
+sub-category: ''
 
 ---
 # iPad New 128gb Wi FI
