@@ -129,6 +129,24 @@
             font-size: $font_size_regular;
         }
     }
+    
+    &__container-gallery {
+        grid-column: 1 / 5;
+        grid-row: 4;
+        padding: 20px;
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+            li {
+                max-width: 120px;
+                margin-left: 20px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
 
     &__price {
         font-family: $font_family_primairy;

@@ -1,0 +1,12 @@
+{% assign images = include.images %}
+{% assign alt = include.alt %}
+<div class="product__container-gallery">
+	<h3>Mais fotos: </h3>
+	<ul class="product__gallery-images">
+		{% for image in images %}
+		<li>
+			<img src="{{ image }}" alt="{{ alt }}">
+		</li>
+		{% endfor %}
+	</ul>
+</div>
