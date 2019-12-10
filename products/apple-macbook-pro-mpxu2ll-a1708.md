@@ -5,7 +5,7 @@ colortags:
 id: "59"
 title: Apple MacBook Pro MPXU2LL A1708
 description: Tela 13 2.3GHz 8GB de RAM/256GB SSD
-price: '8250.00'
+price: 8.250,00
 image: "/images/macbookpro-tr3-thumb.png"
 images:
   default:
@@ -26,6 +26,8 @@ category: macbook-pro-tela-retina
 featured: false
 section: Store
 gallery: []
+price_snipcart: "8250"
+sub-category: ''
 
 ---
 # Apple MacBook Pro MPXU2LL A1708 Tela 13 2.3GHz 8GB de RAM/256GB SSD
