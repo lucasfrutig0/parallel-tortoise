@@ -32,6 +32,8 @@ colortags:
 - Black
 - Silver
 - Gold
+price_snipcart: "7800"
+sub-category: ''
 
 ---
 # iPhone 11 Pro Max 256GB
