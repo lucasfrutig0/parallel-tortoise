@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/plant6.md
 - products/plant9.md
 - products/plant4.md
 - products/plant3.md
@@ -221,4 +222,3 @@ pages:
 - products/iphone-xr-128gb.md
 - products/iphone-xr-64gb.md
 - products/iphone-xs-64gb.md
-- products/plant6.md

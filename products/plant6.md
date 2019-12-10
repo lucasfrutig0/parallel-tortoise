@@ -2,7 +2,7 @@
 id: "6"
 title: iPhone 11 Pro Max 512GB
 description: 'Disponibilidade: 10 dias úteis'
-price: '100.00'
+price: 8.800,00
 images:
   default:
     thumbnail:
@@ -32,6 +32,8 @@ colortags:
 - gold
 - green
 - silver
+price_snipcart: "8800"
+sub-category: ''
 
 ---
 # iPhone 11 Pro Max 512GB
