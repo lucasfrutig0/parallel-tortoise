@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/adaptador-usb-c-para-digital-av-multiporta-apple.md
 - products/apple-imac-mk472-27-retina-5k-intel-core-i5-quad-3-2ghz-8gb-1tb.md
 - products/apple-airpods-fone-de-ouvido-sem-fio-wireless.md
 - products/imac-apple-mndy2ll-a.md
@@ -170,7 +171,6 @@ pages:
 - products/cabo-lightning-usb-com-2-metros-para-iphone-ipod-ipad-branco.md
 - products/cabo-apple-lightning-para-iphone-ipad-e-ipod.md
 - products/apple-ipad-pro-10-5-256gb-wi-fi-4g.md
-- products/adaptador-usb-c-para-digital-av-multiporta-apple.md
 - products/ipad-pro-12-9-64gb-wi-fi.md
 - products/ipad-pro-12-9-512gb-wi-fi.md
 - products/ipad-apple-new-128gb-4g.md
