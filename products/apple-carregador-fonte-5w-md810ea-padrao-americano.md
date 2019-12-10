@@ -5,7 +5,7 @@ colortags: []
 id: "68"
 title: APPLE CARREGADOR FONTE 5W MD810EA PADRAO AMERICANO
 description: GARANTIA DIRETO FABRICANTE 12 MESES
-price: '140.00'
+price: '140,00'
 image: "/images/fonter-thumb.png"
 images:
   default:
@@ -26,6 +26,7 @@ category: cabos
 featured: false
 section: Store
 gallery: []
+price_snipcart: "140"
 
 ---
 # APPLE CARREGADOR FONTE 5W MD810EA PADRÃO AMERICANO
