@@ -2,7 +2,7 @@
 id: "1"
 title: iPhone 11 128GB
 description: GARANTIA 1 ANO ACOMPANHA TODOS OS ACESSORIOS
-price: '4823,00'
+price: 4.823,00
 images:
   default:
     thumbnail:
@@ -35,6 +35,7 @@ colortags:
 - green
 - white
 sub-category: ''
+price_snipcart: "4823"
 
 ---
 # iPhone 11 128GB
