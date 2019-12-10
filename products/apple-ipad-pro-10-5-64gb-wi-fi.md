@@ -7,7 +7,7 @@ colortags:
 id: "48"
 title: Apple iPad Pro 10.5 64gb WI-FI
 description: GARANTIA 12 MESES DIRETO FABRICANTE APPLE
-price: '3999.00'
+price: 3.999,00
 image: "/images/ipadpro14g-thumb.png"
 images:
   default:
@@ -29,6 +29,7 @@ featured: false
 section: Store
 gallery: []
 sub-category: ''
+price_snipcart: "3999"
 
 ---
 # Apple iPad Pro 10.5 64gb WI-FI
