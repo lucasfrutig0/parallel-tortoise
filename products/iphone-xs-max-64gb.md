@@ -7,7 +7,7 @@ colortags:
 id: "16"
 title: iPhone XS MAX 64GB
 description: GARANTIA 1 ANO APPLE
-price: '6299.00'
+price: 6.299,00
 image: "/images/iphoneXs-original-1.png"
 images:
   default:
@@ -30,6 +30,8 @@ section: Store
 gallery:
 - "/images/iphone-xs-max-dourado.png"
 - "/images/iphone-xs-max-thumb-1.png"
+price_snipcart: "6299"
+sub-category: ''
 
 ---
 # iPhone XS MAX 64GB
