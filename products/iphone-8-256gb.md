@@ -7,7 +7,7 @@ colortags:
 id: "25"
 title: iPhone 8 256GB
 description: Garantia 12 meses direto Fabricante
-price: '3800.00'
+price: 3.800,00
 image: "/images/iphone8-thumb.png"
 images:
   default:
@@ -28,6 +28,8 @@ category: smartphones
 featured: false
 section: Store
 gallery: []
+price_snipcart: "3800"
+sub-category: ''
 
 ---
 # iPhone 8 256GB
