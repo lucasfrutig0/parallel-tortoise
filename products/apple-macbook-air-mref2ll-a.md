@@ -5,7 +5,7 @@ colortags:
 id: "56"
 title: Apple MacBook Air MREF2LL/A
 description: " Intel Core i5 Memoria 8GB 256GB SSD Tela 13.3"
-price: '7890,00'
+price: 7.890,00
 image: "/images/macbookair3-thumb.png"
 images:
   default:
@@ -26,6 +26,8 @@ category: macbook-air
 featured: false
 section: Store
 gallery: []
+price_snipcart: "7890"
+sub-category: ''
 
 ---
 # Apple MacBook Air MREF2LL/A A1932 de 13.3 com Intel Core i5 8GB RAM 256GB SSD

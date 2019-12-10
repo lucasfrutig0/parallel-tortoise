@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/apple-macbook-air-mref2ll-a.md
 - products/apple-macbook-air-mrec2ll-a.md
 - products/apple-macbook-air-mqd42ll-a.md
 - products/apple-ipad-pro-10-5-64gb-wi-fi.md
@@ -194,7 +195,6 @@ pages:
 - products/apple-macbook-pro-touch-bar-mr942ll-a-a1990-15-4-intel-core-i7-16gb-ram-512gb-ssd-cinza-espacial.md
 - products/ipad-pro-12-9-64gb-4g.md
 - products/apple-macbook-pro-mpxr2ll-a-a1708.md
-- products/apple-macbook-air-mref2ll-a.md
 - products/iphone-x-256gb.md
 - products/iphone-8-64gb.md
 - products/iphone-8-64gb-plus.md
