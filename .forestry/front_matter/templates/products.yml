@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/iphone-8-64gb-plus.md
 - products/iphone-8-64gb.md
 - products/iphone-8-256gb.md
 - products/iphone-8-256-plus.md
@@ -213,7 +214,6 @@ pages:
 - products/plant5.md
 - products/pad-apple-new-32gb-wi-fi.md
 - products/iphone-x-256gb.md
-- products/iphone-8-64gb-plus.md
 - products/iphone-xs-256gb.md
 - products/iphone-xs-max-256gb.md
 - products/iphone-xs-max-512.md
