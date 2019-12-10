@@ -6,7 +6,7 @@ colortags:
 id: "67"
 title: Carregador Apple Megasefe 2 85w
 description: Garantia de 1 ano do Fabricante
-price: '499.00'
+price: '499,00'
 image: "/images/carregador-thumb.png"
 images:
   default:
@@ -27,6 +27,7 @@ category: cabos
 featured: false
 section: Store
 gallery: []
+price_snipcart: "499"
 
 ---
 # Carregador Apple Megasefe 2 85w

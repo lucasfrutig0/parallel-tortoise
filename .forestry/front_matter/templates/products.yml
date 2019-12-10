@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/carregador-apple-megasefe-2-85w.md
 - products/carregador-apple-megasefe-1-85w.md
 - products/cabo-usb-c-apple-2-mts-mll82am.md
 - products/cabo-usb-c.md
@@ -181,7 +182,6 @@ pages:
 - products/imac-apple-mndy2ll-a.md
 - products/gopro-hero-5-session.md
 - products/gopro-hero-5-black.md
-- products/carregador-apple-megasefe-2-85w.md
 - products/plant5.md
 - products/plant4.md
 - products/plant2.md
