@@ -146,6 +146,7 @@ fields:
   default: []
   label: Colortags
 pages:
+- products/gopro-hero-5-black.md
 - products/filmadora-gopro-hero7-black.md
 - products/filmadora-gopro-hero-6-preto.md
 - products/desktop-apple-imac-pro-xeon-mq2y2ll-a.md
@@ -184,7 +185,6 @@ pages:
 - products/adaptador-usb-c-para-digital-av-multiporta-apple.md
 - products/imac-apple-mndy2ll-a.md
 - products/gopro-hero-5-session.md
-- products/gopro-hero-5-black.md
 - products/plant5.md
 - products/plant4.md
 - products/plant2.md
