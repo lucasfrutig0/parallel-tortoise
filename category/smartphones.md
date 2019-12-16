@@ -6,6 +6,5 @@ section: Store
 menu:
   categories:
     weight: 11
-    title: Smartphone
 
 ---
