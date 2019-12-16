@@ -43,11 +43,13 @@ layout: body
                 <article class="product__description">
                     {{ page.description }}
                 </article>
-                <article class="product__description">
-                    {{ content }}
-                </article>
                 {% include buy_button.html product_page=page %}
             </div>
+        </section>
+        <section class="desc">
+            <article class="product__description">
+                {{ content }}
+            </article>
         </section>
         <section class="content__row">
             <h2 class="content__row-title">Relacionados</h2>

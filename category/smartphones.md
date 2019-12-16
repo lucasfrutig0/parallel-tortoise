@@ -1,10 +1,5 @@
 ---
-layout: category
-slug: smartphones
-title: Smartphones
-section: Store
-menu:
-  categories:
-    weight: 4
+layout: page
+published: false
 
 ---
