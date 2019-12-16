@@ -149,8 +149,8 @@ fields:
   type: text
   config:
     required: false
-  label: Video URL
-  description: a simple video of product
+  label: URL
+  description: URL do video
 pages:
 - products/adaptador-usb-c-para-digital-av-multiporta-apple.md
 - products/apple-airpods-fone-de-ouvido-sem-fio-wireless.md
