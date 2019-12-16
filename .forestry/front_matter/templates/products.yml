@@ -87,7 +87,6 @@ fields:
     source:
       type: simple
     options:
-    - smartphones
     - airpods
     - apple-watch
     - imac
@@ -98,6 +97,7 @@ fields:
     - cabos
     - ipad-pro
     - gopro
+    - smartphone
 - name: sub-category
   type: select
   default: []
