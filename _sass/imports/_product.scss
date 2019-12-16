@@ -160,6 +160,12 @@
         }
     }
 
+    &__content-product {
+        font-size: $font_size_regular;
+        color: $color_medium;
+        margin-bottom: 20px;
+    }
+
     &__description {
         font-size: $font_size_regular;
         color: $color_medium;
