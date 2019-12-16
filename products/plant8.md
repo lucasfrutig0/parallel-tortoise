@@ -30,6 +30,7 @@ gallery:
 colortags: []
 price_snipcart: "7200"
 sub-category: ''
+video: https://www.youtube.com/embed/eYK4fgplYI4
 
 ---
 # iPhone 11 Pro Max 64GB
