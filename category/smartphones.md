@@ -1,5 +1,7 @@
 ---
 layout: page
-published: false
+slug: smartphones
+title: Smartphones
+section: Store
 
 ---
