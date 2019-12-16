@@ -25,7 +25,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: smartphones
+category: smartphone
 featured: false
 section: Store
 gallery: []
