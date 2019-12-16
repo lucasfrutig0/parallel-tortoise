@@ -145,6 +145,12 @@ fields:
   type: tag_list
   default: []
   label: Colortags
+- name: video
+  type: text
+  config:
+    required: false
+  label: Video
+  description: a simple video of product
 pages:
 - products/adaptador-usb-c-para-digital-av-multiporta-apple.md
 - products/apple-airpods-fone-de-ouvido-sem-fio-wireless.md
