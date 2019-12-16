@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/plant5-featured-lg.webp"
       fallback: "/images/plant5-featured-lg.jpg"
-category: smartphones
+category: smartphone
 featured: false
 section: Store
 layout: product
