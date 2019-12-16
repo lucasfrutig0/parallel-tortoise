@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/plant9-featured-lg.webp"
       fallback: "/images/plant9-featured-lg.jpg"
-category: smartphones
+category: ''
 featured: false
 section: Store
 layout: product
@@ -34,6 +34,7 @@ colortags:
 - Gold
 price_snipcart: "7800"
 sub-category: ''
+video-frame: ''
 
 ---
 # iPhone 11 Pro Max 256GB
