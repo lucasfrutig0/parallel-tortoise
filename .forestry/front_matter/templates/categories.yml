@@ -26,14 +26,14 @@ fields:
   config:
     required: true
 pages:
-- category/gopro.md
+- category/airpods.md
+- category/apple-watch.md
 - category/cabos.md
-- category/macbook-pro-touch-bar.md
-- category/macbookpro-tela-retina.md
+- category/gopro.md
+- category/imac.md
+- category/ipad.md
 - category/ipadpro.md
 - category/mac-book-air.md
-- category/ipad.md
-- category/imac.md
-- category/apple-watch.md
-- category/airpods.md
+- category/macbook-pro-touch-bar.md
+- category/macbookpro-tela-retina.md
 - category/smartphones.md
