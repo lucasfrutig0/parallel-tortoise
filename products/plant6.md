@@ -34,7 +34,7 @@ colortags:
 - silver
 price_snipcart: "8800"
 sub-category: ''
-video-frame: ''
+video-frame: akakakakaka
 
 ---
 # iPhone 11 Pro Max 512GB
