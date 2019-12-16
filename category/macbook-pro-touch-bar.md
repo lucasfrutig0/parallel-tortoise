@@ -5,6 +5,6 @@ title: Macbook Pro Touch Bar
 section: Store
 menu:
   categories:
-    weight: 9
+    weight: 8
 
 ---

@@ -5,6 +5,6 @@ title: AirPods
 section: Store
 menu:
   categories:
-    weight: 4
+    weight: 3
 
 ---
