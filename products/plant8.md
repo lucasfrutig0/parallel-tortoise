@@ -36,8 +36,6 @@ sub-category: ''
 
 Disponibilidade: 10 dias úteis
 
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/eYK4fgplYI4](https://www.youtube.com/embed/eYK4fgplYI4 "https://www.youtube.com/embed/eYK4fgplYI4")" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 O **iPhone 11 Pro Max** vem com o primeiro sistema de **câmera tripla** que combina tecnologia de ponta com a já conhecida simplicidade do iPhone. Com ele pode capturar um campo de visão até quatro vezes mais amplas, além de tirar fotos de ótima qualidade em ambientes quase sem luz, ou **gravar vídeos com a maior qualidade em um smartphone** — e depois editar com as ferramentas que você já usa para editar fotos.
 
 Use o zoom para afastar a imagem, indo da câmera teleobjetiva até a nova ultra-angular, com um impressionante alcance de **zoom óptico de 4x**.
