@@ -5,6 +5,6 @@ title: iPad
 section: Store
 menu:
   categories:
-    weight: 4
+    weight: 5
 
 ---

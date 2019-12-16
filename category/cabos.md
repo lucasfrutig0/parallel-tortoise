@@ -5,6 +5,6 @@ title: Cabos
 section: Store
 menu:
   categories:
-    weight: 9
+    weight: 10
 
 ---
