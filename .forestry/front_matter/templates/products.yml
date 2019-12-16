@@ -149,7 +149,7 @@ fields:
   type: text
   config:
     required: false
-  label: Video
+  label: Video URL
   description: a simple video of product
 pages:
 - products/adaptador-usb-c-para-digital-av-multiporta-apple.md
