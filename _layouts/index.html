@@ -25,7 +25,7 @@ layout: body
                 {% assign category_product_pages = '/products' | get_pages | where_exp: "item", "item.category == category_page.slug" | sort: 'title' %}
                 {% assign count = category_product_pages | size %}
                 {% if count > 0 %}
-                    <a href="http://127.0.0.1:4000/{{ category_page.url }}">
+                    <a href="{{ category_page.url }}">
                         <h2 class="content__row-title">{{ category_page.title }}</h2>
                     </a>
                     {% include product_grid.html product_pages=category_product_pages cssClass='product-grid--draggable' %}
