@@ -35,6 +35,7 @@ colortags:
 price_snipcart: "8800"
 sub-category: ''
 video-frame: akakakakaka
+testando: ALOHA2
 
 ---
 # iPhone 11 Pro Max 512GB
