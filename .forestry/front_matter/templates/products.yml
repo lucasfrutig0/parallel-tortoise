@@ -145,7 +145,7 @@ fields:
   type: tag_list
   default: []
   label: Colortags
-- name: video-frame
+- name: url-frame
   type: text
   config:
     required: false
