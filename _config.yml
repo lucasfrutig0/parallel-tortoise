@@ -58,3 +58,7 @@ exclude:
 collections:
   posts:
     permalink: "/posts/:title/"
+algolia:
+  application_id: ALGFNSOX0G
+  index_name:     "site"
+  search_only_api_key: 5feb2dde6d7d118a5294e6bc536f603e

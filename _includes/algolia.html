@@ -1,0 +1,128 @@
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
+
+<script>
+const search = instantsearch({
+  appId: '{{ site.algolia.application_id }}',
+  apiKey: '{{ site.algolia.search_only_api_key }}',
+  indexName: '{{ site.algolia.index_name }}'
+});
+
+const hitTemplate = function(hit) {
+
+console.log(hit)
+  let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
+
+  const title = hit._highlightResult.title.value;
+
+  let breadcrumbs = '';
+  if (hit._highlightResult.headings) {
+    breadcrumbs = hit._highlightResult.headings.map(match => {
+      return `<span class="post-breadcrumb">${match.value}</span>`
+    }).join(' > ')
+  }
+
+  const content = hit._highlightResult.html.value;
+  console.log('IMAGES', hit.images)
+/* 
+  return `
+    <div class="post-item">
+      <h2><a class="post-link" href="${url}">${title}</a></h2>
+      {{#breadcrumbs}}<a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>{{/breadcrumbs}}
+      <div class="post-snippet">${content}</div>
+    </div>
+  `; */
+  return `
+    <a href="http://127.0.0.1:4000${hit.url}">
+      <div class="product-grid__item">
+            <figure data-href="" class="product-grid__item-figure js-figure-link">
+                
+              <picture>
+                <source srcset="${hit.images.default.original.optimized}" type="image/webp">
+                <source srcset="${hit.images.default.original.fallback}" type="image/jpeg"> 
+                <img src="${hit.images.default.original.fallback}" {% assign alt_is_not_empty = alt | is_not_empty %}{% if alt_is_not_empty %}alt="{{ alt }}"{% endif %}  {% assign cssClass_is_not_empty = cssClass | is_not_empty %}{% if cssClass_is_not_empty %}class="{{ cssClass }}"{% endif %}>
+              </picture>
+            </figure>
+            <div class="product-grid__definition">
+                <h3 class="product-grid__title">${title}</h3>
+                <span class="product-grid__category"> ${hit.category} </span>
+                <span class="product-grid__sub-category">
+                    {% if product_page.sub-category %} 
+                        {{ product_page.sub-category }}
+                    {% endif %}
+                </span>
+                <span class="product-grid__price"> R$ ${hit.price} </span>
+            </div>
+        </div>
+    </a>
+  `;  
+}
+
+
+
+
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    placeholder: 'Procurar em produtos...',
+    poweredBy: true // This is required if you're on the free Community plan
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    cssClasses: {
+    root: 'product-grid',
+    list: ['product-grid', 'product-grid--subclass'],
+  },
+    templates: {
+      empty: 'Nada encontrado!',
+      item: hitTemplate
+    }
+  })
+);
+
+search.start();
+</script>
+
+<style>
+.ais-search-box {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.post-item {
+  margin-bottom: 30px;
+}
+.post-link .ais-Highlight {
+  color: #111;
+  font-style: normal;
+  text-decoration: underline;
+}
+.post-breadcrumbs {
+  color: #424242;
+  display: block;
+}
+.post-breadcrumb {
+  font-size: 18px;
+  color: #424242;
+}
+.post-breadcrumb .ais-Highlight {
+  font-weight: bold;
+  font-style: normal;
+}
+.post-snippet .ais-Highlight {
+  color: #2a7ae2;
+  font-style: normal;
+  font-weight: bold;
+}
+.post-snippet img {
+  display: none;
+}
+.my-class {
+  background: olive;
+}
+</style>

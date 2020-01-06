@@ -2,7 +2,7 @@
 {% assign category_link_pages = include.category_link_pages %}
 {% assign listCssClass = include.cssClass %}
 {{category_link_pages}}
-<ul class="product-grid {% assign listCssClass_is_not_empty = listCssClass | is_not_empty %}{% if listCssClass_is_not_empty %}{{ listCssClass }}{% endif %}">
+<ul class="product-grid {% assign listCssClass_is_not_empty = listCssClass | is_not_empty %}{% if listCssClass_is_not_empty %}{{ listCssClass }}{% endif %}" id="search-hits" >
     {% for product_page in product_pages %}
         <li class="product-grid__item">
             <figure data-href="{{ product_page.url | relative_url }}" class="product-grid__item-figure js-figure-link">

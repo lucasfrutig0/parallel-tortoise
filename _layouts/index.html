@@ -14,14 +14,18 @@ layout: body
         {% assign featured_product_pages = '/products' | get_pages | where_exp: "item", "item.featured == true" %}
         
         {% include featured_products.html product_pages=featured_product_pages %}
+        <div id="search-searchbar"></div>
     </section>
-
+    
     <section class="content__row">
-        {% assign category_pages = '/category' | get_pages | sort: 'title' | reverse %}
+        <div id="search-hits">
+
+        </div>
+        <!-- {% assign category_pages = '/category' | get_pages | sort: 'title' | reverse %}
         {% assign categoryIndex = 0 %}
         {% for category_page in category_pages %}
             {% assign categoryIndex = categoryIndex | plus: 1 %}
-            {% if categoryIndex < 5 %}
+            {% if categoryIundex < 5 %}
                 {% assign category_product_pages = '/products' | get_pages | where_exp: "item", "item.category == category_page.slug" | sort: 'title' %}
                 {% assign count = category_product_pages | size %}
                 {% if count > 0 %}
@@ -31,13 +35,12 @@ layout: body
                     {% include product_grid.html product_pages=category_product_pages cssClass='product-grid--draggable' %}
                 {% endif %}
             {% endif %}
-        {% endfor %}
+        {% endfor %} -->
     </section>
-
+    
+    
     <section class="content__row">
-        <h2 class="content__row-title">Testimonials</h2>
-        
-        {% include testimonials.html testimonials=site.data.testimonials.data %}
+        {% include algolia.html %}
     </section>
 
     {% include promo_section.html site=site %}
