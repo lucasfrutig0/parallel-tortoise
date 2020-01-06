@@ -1,3 +1,5 @@
+{% assign product_pages = include.product_pages %}
+
 <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
 
@@ -36,7 +38,7 @@ console.log(hit)
     </div>
   `; */
   return `
-    <a href="http://127.0.0.1:4000${hit.url}">
+    <a href="${hit.url}">
       <div class="product-grid__item">
             <figure data-href="" class="product-grid__item-figure js-figure-link">
                 
