@@ -34,6 +34,8 @@ testando: ''
 ---
 # Apple AirPods Fone de Ouvido Sem Fio Wireless
 
+***
+
 ### Visão geral
 
 #### Mais mágicos do que nunca.
@@ -68,7 +70,7 @@ O estojo pode ser recarregado usando o conector Lightning ou sem fio, com um car
 
 Áudio e voz de alta qualidade
 
-Alterna facilmente entre seus aparelhos
+Alterna facilmente entre seus aparelho
 
 ### Conteúdo da caixa
 
