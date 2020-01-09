@@ -74,4 +74,4 @@ Garantia de 12 meses do fabricante
 </tr>
 </table>
 
-| Header | | ------ | | Cell  | | Header | | ------ | | Cell  | 
+    
