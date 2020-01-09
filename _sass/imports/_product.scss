@@ -179,10 +179,11 @@
         color: $color_medium;
         margin-bottom: 20px;
         line-height: 150%;
-        h1
-        h2
-        h3 {
+        h1, h2, h3, p, table {
             margin-bottom: 10px;
+        }
+        th, td {
+            padding: 15px;
         }
         @include smaller-than-tablet { font-size: $font_size_regular; }
     }
