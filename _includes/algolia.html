@@ -10,7 +10,13 @@
 const search = instantsearch({
   appId: '{{ site.algolia.application_id }}',
   apiKey: '{{ site.algolia.search_only_api_key }}',
-  indexName: '{{ site.algolia.index_name }}'
+  indexName: '{{ site.algolia.index_name }}',
+  searchParameters: {
+    hitsPerPage: 5,
+    attributesToSnippet: ["content:14"],
+    snippetEllipsisText: "...",
+    attributesToHighlight: ["name", "description", "hierarchicalCategories"]
+  }
 });
 
 const hitTemplate = function(hit) {
@@ -25,8 +31,7 @@ const hitTemplate = function(hit) {
     }).join(' > ')
   }
 
-  const content = hit._highlightResult.html.value;
-  console.log('IMAGES', hit.images)
+  
 /* 
   return `
     <div class="post-item">
