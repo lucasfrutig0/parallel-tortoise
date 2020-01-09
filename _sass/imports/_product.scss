@@ -237,67 +237,93 @@
         }
     }
 }
-tabs {
-    display: block;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -moz-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin: 0;
-    overflow: hidden; }
-    .tabs [class^="tab"] label,
-    .tabs [class*=" tab"] label {
-      color: #efedef;
+.container {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 0;
+    box-shadow: 0 0 100px RGBa(0,0,0,0.5);
+    border-radius: 3px;
+    overflow: hidden;
+    input {
+      display: none;
+      &:checked + label {
+        background: #eee;
+      }
+      @for $i from 1 through 4 {
+        &#tab#{$i}:checked {
+          ~ .line {
+            left: #{($i - 1) * 25%};
+          }
+          ~ .content-container #c#{$i} {
+            opacity: 1;
+          }
+        }
+      }
+    }
+    label {
+      display: inline-block;
+      font-size: 16px;
+      height: 36px;
+      line-height: 36px;
+      width: 25%;
+      text-align: center;
+      background: #f4f4f4;
+      color: #555;
+      position: relative;
+      transition: 0.25s background ease;
       cursor: pointer;
-      display: block;
-      font-size: 1.1em;
-      font-weight: 300;
-      line-height: 1em;
-      padding: 2rem 0;
-      text-align: center; }
-    .tabs [class^="tab"] [type="radio"],
-    .tabs [class*=" tab"] [type="radio"] {
-      border-bottom: 1px solid rgba(239, 237, 239, 0.5);
-      cursor: pointer;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
-      display: block;
-      width: 100%;
-      -webkit-transition: all 0.3s ease-in-out;
-      -moz-transition: all 0.3s ease-in-out;
-      -o-transition: all 0.3s ease-in-out;
-      transition: all 0.3s ease-in-out; }
-      .tabs [class^="tab"] [type="radio"]:hover, .tabs [class^="tab"] [type="radio"]:focus,
-      .tabs [class*=" tab"] [type="radio"]:hover,
-      .tabs [class*=" tab"] [type="radio"]:focus {
-        border-bottom: 1px solid #fd264f; }
-      .tabs [class^="tab"] [type="radio"]:checked,
-      .tabs [class*=" tab"] [type="radio"]:checked {
-        border-bottom: 2px solid #fd264f; }
-      .tabs [class^="tab"] [type="radio"]:checked + div,
-      .tabs [class*=" tab"] [type="radio"]:checked + div {
-        opacity: 1; }
-      .tabs [class^="tab"] [type="radio"] + div,
-      .tabs [class*=" tab"] [type="radio"] + div {
+      &::after {
+        content: "";
+        height: 2px;
+        width: 100%;
+        position: absolute;
         display: block;
+        background: #ccc;
+        bottom: 0;
         opacity: 0;
-        padding: 2rem 0;
-        width: 90%;
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out; }
-    .tabs .tab-2 {
-      width: 50%; }
-      .tabs .tab-2 [type="radio"] + div {
-        width: 200%;
-        margin-left: 200%; }
-      .tabs .tab-2 [type="radio"]:checked + div {
-        margin-left: 0; }
-      .tabs .tab-2:last-child [type="radio"] + div {
-        margin-left: 100%; }
-      .tabs .tab-2:last-child [type="radio"]:checked + div {
-        margin-left: -100%; }
+        left: 0;
+        transition: 0.25s ease;
+      }
+      &:hover::after {
+        opacity: 1;
+      }
+    }
+    .line {
+      position: absolute;
+      height: 2px;
+      background: #1E88E5;
+      width: 25%;
+      top: 34px;
+      left: 0;
+      transition: 0.25s ease;
+    }
+    .content-container {
+      background: #eee;
+      position: relative;
+      height: 100px;
+      font-size: 16px;
+      .content {
+        position: absolute;
+        padding: 10px;
+        width: 100%;
+        top: 0;
+        opacity: 0;
+        transition: 0.25s ease;
+        color: #333;
+        h3 {
+          font-weight: 200;
+          margin: 10px 0;
+        }
+        p {
+          margin: 10px 0;
+        }
+        p, i {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
