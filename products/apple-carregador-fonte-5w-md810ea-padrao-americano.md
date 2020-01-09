@@ -35,27 +35,39 @@ testando: ''
 
 ### 
 
-Visão Geral
+### Visão Geral
 
 Com design ultracompacto, ele permite carregar seu dispositivo de forma rápida e eficiente em casa, no escritório ou em trânsito. Ele funciona com qualquer modelo de Apple Watch, iPhone ou iPod.  
 O cabo é vendido separadamente.
 
-\### Conteúdo da caixa
+### Conteúdo da caixa
 
 Carregador USB de 5W Apple
 
-\### Compatibilidade
+### Compatibilidade
 
-### Table title
-
-| Modelos de iPhone | Header | Header |
+| Modelos de iPhone | Modelos de iPad | Modelos de Apple Watch |
 | --- | --- | --- |
-| iPhone 11 Pro | Cell | Cell |
-| iPhone 11 Pro Max | Cell | Cell |
-| iPhone 11 | Cell | Cell |
-| iPhone XS | Cell | Cell |
-| iPhone XS Max | Cell | Cell |
-| iPhone XR | Cell | Cell |
+| iPhone 11 Pro | iPad mini 4 | Series 5 |
+| iPhone 11 Pro Max | iPad mini 3 | Series 4 |
+| iPhone 11 | iPad mini 2 | Series 3 |
+| iPhone XS  | Series 2 |
+| iPhone XS Max  | Series 1 |
+| iPhone XR  | 1ª geração |
+| iPhone X  | Cell |
+| iPhone 8  | Cell |
+| iPhone 8 Plus  | Cell |
+| iPhone 7 | Cell |
+| iPhone 7 Plus  | Cell |
+| iPhone 6s  | Cell |
+| iPhone 6s Plus  | Cell |
+| iPhone 6  | Cell |
+| iPhone 6 Plus  | Cell |
+| iPhone SE  | Cell |
+| iPhone 5s  | Cell |
+| iPhone 5c  | Cell |
+| iPhone 5  | Cell |
+
 
 <iframe
 width="560"
@@ -68,7 +80,5 @@ encrypted-media;
 gyroscope;
 picture-in-picture"
 allowfullscreen
-
-> 
 
 </iframe>
