@@ -238,15 +238,11 @@
     }
 }
 .container {
-    width: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    width: 100%;
     font-size: 0;
-    box-shadow: 0 0 100px RGBa(0,0,0,0.5);
     border-radius: 3px;
     overflow: hidden;
+    margin: 0 auto;
     input {
       display: none;
       &:checked + label {
