@@ -33,20 +33,23 @@ testando: ''
 ---
 # APPLE CARREGADOR FONTE 5W MD810EA PADRÃO AMERICANO
 
-### 
 
 ### Visão Geral
+
 
 Com design ultracompacto, ele permite carregar seu dispositivo de forma rápida e eficiente em casa, no escritório ou em trânsito. Ele funciona com qualquer modelo de Apple Watch, iPhone ou iPod.  
 O cabo é vendido separadamente.
 
+
 ### Conteúdo da caixa
+
 
 Carregador USB de 5W Apple
 
+
 ### Compatibilidade
 
-| Modelos de iPhone  |  Modelos de iPad  |  Modelos de Apple Watch |
+| Modelos de iPhone  	|  Modelos de iPad  	|  Modelos de Apple Watch 	|
 | --- | --- | --- |
 | iPhone 11 Pro | iPad mini 4 | Series 5 |
 | iPhone 11 Pro Max | iPad mini 3 | Series 4 |
@@ -54,19 +57,21 @@ Carregador USB de 5W Apple
 | iPhone XS |  | Series 2 |
 | iPhone XS Max | | Series 1 |
 | iPhone XR |  | 1ª geração |
-| iPhone X | Cell |  |
-| iPhone 8 | Cell |  |
-| iPhone 8 Plus | Cell |  |
-| iPhone 7 | Cell |  |
-| iPhone 7 Plus | Cell |  |
-| iPhone 6s | Cell |  |
-| iPhone 6s Plus | Cell |  |
-| iPhone 6 | Cell |  |
-| iPhone 6 Plus | Cell |  |
-| iPhone SE | Cell |  |
-| iPhone 5s | Cell |  |
-| iPhone 5c | Cell |  |
-| iPhone 5 | Cell |  |
+| iPhone X 
+| iPhone 8
+| iPhone 8 Plus 
+| iPhone 7 
+| iPhone 7 Plus 
+| iPhone 6s 
+| iPhone 6s Plus 
+| iPhone 6 
+| iPhone 6 Plus
+| iPhone SE
+| iPhone 5s
+| iPhone 5c
+| iPhone 5
+
+
 
 <iframe
 width="560"
