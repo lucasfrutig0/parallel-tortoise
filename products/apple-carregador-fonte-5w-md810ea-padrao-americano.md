@@ -27,11 +27,33 @@ featured: false
 section: Store
 gallery: []
 price_snipcart: "140"
+url-frame: ''
+testando: ''
 
 ---
 # APPLE CARREGADOR FONTE 5W MD810EA PADRÃO AMERICANO
 
-Disponibilidade: 10 dias úteis
+### 
 
-APPLE FONTE 5W MD810EA  
-MODELO: MD810E/AFONTE 5V 100-240V Compátivel com todo tipo de iPhone e iPodNão acompanha cabo USB
+Visão Geral
+
+Com design ultracompacto, ele permite carregar seu dispositivo de forma rápida e eficiente em casa, no escritório ou em trânsito. Ele funciona com qualquer modelo de Apple Watch, iPhone ou iPod.  
+O cabo é vendido separadamente.
+
+\### Conteúdo da caixa
+
+Carregador USB de 5W Apple
+
+\### Compatibilidade
+
+### Table title
+
+| Modelos de iPhone | Header | Header |
+| --- | --- | --- |
+| iPhone 11 Pro | Cell | Cell |
+| iPhone 11 Pro Max | Cell | Cell |
+| iPhone 11  | Cell | Cell |
+| iPhone XS | Cell | Cell |
+| iPhone XS Max | Cell | Cell |
+| iPhone XR  | Cell | Cell |
+
