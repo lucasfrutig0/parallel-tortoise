@@ -63,6 +63,10 @@ figure {
     color: white !important;
 }
 
+hr {
+    border-top:1px solid #d2d2d7;
+}
+
 // Global styles
 @import "imports/reset";
 @import "imports/mixins";
