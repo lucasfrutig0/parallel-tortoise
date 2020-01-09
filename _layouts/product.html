@@ -50,7 +50,9 @@ layout: body
             <h2 class="content__row-title">Informações do Produto</h2>
             <article class="product__description">
                 {{ content }}
-                <iframe width="560" height="315" src="{{  page.url-frame }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                {% if page.url-frame != "" %}
+                    <iframe width="560" height="315" src="{{  page.url-frame }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                {% endif %}
             </article>
         </section>
         <section class="content__row">
