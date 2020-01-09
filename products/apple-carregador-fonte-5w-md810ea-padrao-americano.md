@@ -52,8 +52,23 @@ Carregador USB de 5W Apple
 | --- | --- | --- |
 | iPhone 11 Pro | Cell | Cell |
 | iPhone 11 Pro Max | Cell | Cell |
-| iPhone 11  | Cell | Cell |
+| iPhone 11 | Cell | Cell |
 | iPhone XS | Cell | Cell |
 | iPhone XS Max | Cell | Cell |
-| iPhone XR  | Cell | Cell |
+| iPhone XR | Cell | Cell |
 
+<iframe
+width="560"
+height="315"
+src="https://www.youtube.com/embed/lUd9SQCkDj0"
+frameborder="0"
+allow="accelerometer;
+autoplay;
+encrypted-media;
+gyroscope;
+picture-in-picture"
+allowfullscreen
+
+> 
+
+</iframe>
