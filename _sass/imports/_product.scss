@@ -186,6 +186,9 @@
         th, td {
             padding: 15px;
         }
+        p {
+            padding: 20px;
+        }
         @include smaller-than-tablet { font-size: $font_size_regular; }
     }
 
@@ -320,7 +323,6 @@
         }
         p {
           margin: 10px 0;
-          padding: 20px;
         }
         p, i {
           font-size: 16px;
