@@ -61,17 +61,49 @@ Garantia de 12 meses do fabricante
 
 <table style="width:100%">
 <tr>
-<th>Header:</th>
-<td>Cell</td>
+<th>**MODELO**:</th>
+<td>MacBook Air MREF2LL/A A1932</td>
 </tr>
 <tr>
-<th>Header:</th>
-<td>Cell</td>
+<th>**COR**:</th>
+<td>Dourado</td>
 </tr>
 <tr>
-<th>Header:</th>
-<td>Cell</td>
+<th>**TELA**:</th>
+<td>Retina LED de 13.3" com resolução de 2560 x 1600p</td>
 </tr>
+
+<tr> <th>**PROCESSADOR CPU**:</th> <td>Intel Core i5 Dual Core com 1.6GHz (até 3.6GHz com Turbo Boost) - 4MB de Cache L3</td> </tr>
+
+<tr> <th>**CAMERA**:</th> <td>FaceTime HD</td> </tr>
+
+<tr> <th>**MEMÓRIA RAM**:</th> <td>8GB LPDDR3 SDRAM de 2133MHz</td> </tr>
+
+<tr> <th>**CONECTIVIDADE WIRELESS**:</th> <td>Wi-Fi 802.11 ac - Bluetooth 4.2</td> </tr>
+
+<tr> <th>**SISTEMA OPERACIONAL**:</th> <td>macOS</td> </tr>
+
+<tr> <th>**SENSOR**:</th> <td>Touch ID - Sensor de luz ambiente</td> </tr>
+
+<tr> <th>**MICROFONE**:</th> <td>3 integrados</td> </tr>
+
+<tr> <th>**MARCA**:</th> <td>Apple</td> </tr>
+
+<tr> <th>**INTERFACE**:</th> <td>2 USB-C (Thunderbolt 3) - Mini Jack 3.5mm</td> </tr>
+
+<tr> <th>**PESO BRUTO (g)**:</th> <td>1979</td> </tr>
+
+<tr> <th>**DIMENSÕES DA EMBALAGEM (cm)**:</th> <td>23 x 5.9 x 32.5</td> </tr>
+
+<tr> <th>**ALTO-FALANTE**:</th> <td>Stereo integrados</td> </tr>
+
+<tr> <th>**CONEXÃO A INTERNET**:</th> <td>Wi-Fi</td> </tr>
+
+<tr> <th>**GRÁFICOS**:</th> <td>Intel UHD Graphics 617</td> </tr>
+
+<tr> <th>**TECLADO**:</th> <td>Retroiluminado</td> </tr>
+
+<tr> <th>**SSD**:</th> <td>R256GB</td> </tr>
 </table>
 
     
