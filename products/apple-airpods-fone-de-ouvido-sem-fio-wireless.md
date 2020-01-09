@@ -34,8 +34,6 @@ testando: ''
 ---
 # Apple AirPods Fone de Ouvido Sem Fio Wireless
 
-***
-
 ### Visão geral
 
 #### Mais mágicos do que nunca.
