@@ -73,3 +73,25 @@ USB-C
 macOS Mojave 10.14.6 ou posterior; iOS 12.4 ou posterior
 
 Necessário cabo HDMI (vendido separadamente) para conexão com a sua TV ou projetor. Compatível com saída de áudio e vídeo.
+
+### Compatibilidade
+
+#### Modelos de iPad
+
+* iPad Pro de 11 polegadas
+* iPad Pro de 12,9 polegadas (3ª geração)
+
+#### Modelos de Mac
+
+* MacBook (Retina, 12 polegadas, início de 2015 até 2017)
+* MacBook Air (Retina, 13 polegadas, 2018 e posterior)
+* MacBook Pro (13 polegadas, 2016 e posterior)
+* MacBook Pro (15 polegadas, 2016 até 2019)
+* MacBook Pro (16 polegadas, 2019)
+* iMac (Retina 4K, 21,5 polegadas, 2019)
+* iMac (Retina 4K, 21,5 polegadas, 2017)
+* iMac (Retina 5K, 27 polegadas, 2019)
+* iMac (Retina 5K, 27 polegadas, 2017)
+* iMac Pro (2017 e posterior)
+* Mac Pro (2019)
+* Mac mini (2018)
