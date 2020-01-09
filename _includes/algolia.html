@@ -12,16 +12,13 @@ const search = instantsearch({
   apiKey: '{{ site.algolia.search_only_api_key }}',
   indexName: '{{ site.algolia.index_name }}',
   searchParameters: {
-    hitsPerPage: 5,
-    attributesToSnippet: ["content:14"],
-    snippetEllipsisText: "...",
-    attributesToHighlight: ["name", "description", "hierarchicalCategories"]
+    hitsPerPage: 20
   }
 });
 
 const hitTemplate = function(hit) {
   let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
-
+  console.log(hit)
   const title = hit._highlightResult.title.value;
 
   let breadcrumbs = '';
