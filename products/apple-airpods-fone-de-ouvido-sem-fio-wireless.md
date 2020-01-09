@@ -157,3 +157,7 @@ Modelos de Apple TV com a versão mais recente do tvOS
 * iMac Pro (2017 e posterior)
 * Mac Pro (2019)
 * Mac mini (2018)
+
+Lucas Frutig  
+  
+Suiça - Frutigem
