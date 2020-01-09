@@ -46,14 +46,14 @@ Carregador USB de 5W Apple
 
 ### Compatibilidade
 
-| Modelos de iPhone | Modelos de iPad | Modelos de Apple Watch |
+| Modelos de iPhone  |  Modelos de iPad  |  Modelos de Apple Watch |
 | --- | --- | --- |
 | iPhone 11 Pro | iPad mini 4 | Series 5 |
 | iPhone 11 Pro Max | iPad mini 3 | Series 4 |
 | iPhone 11 | iPad mini 2 | Series 3 |
-| iPhone XS | Series 2 |  |
-| iPhone XS Max | Series 1 |  |
-| iPhone XR | 1ª geração |  |
+| iPhone XS |  | Series 2 |
+| iPhone XS Max | | Series 1 |
+| iPhone XR |  | 1ª geração |
 | iPhone X | Cell |  |
 | iPhone 8 | Cell |  |
 | iPhone 8 Plus | Cell |  |
