@@ -27,6 +27,8 @@ section: Store
 gallery: []
 sub-category: ''
 price_snipcart: "9999"
+url-frame: ''
+testando: ''
 
 ---
-# Apple iMac MK472 27
+# Apple iMac MK472 27 Retina 5K Intel Core i5 (quad 3,2GHz) 8GB/1TB
