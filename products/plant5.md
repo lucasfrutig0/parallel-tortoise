@@ -30,9 +30,15 @@ colortags:
 - silver
 sub-category: ''
 price_snipcart: "4599"
+url-frame: ''
+testando: ''
 
 ---
 # iPhone X 64GB
 
 O Apple iPhone X é um dos smartphones **iOS** mais avançados e completos que existem em circulação. Tem um grande display de **5.8** polegadas com uma resolução de **2436x1125** pixel. As funcionalidades oferecidas pelo Apple iPhone X são muitas e inovadoras. Começando pelo **LTE 4G** que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de **256 GB** mas sem a possibilidade de expansão.  
 Câmera discreta de **12** megapixel mas que permite ao Apple iPhone X tirar fotos de boa qualidade com uma resolução de **4608x2592** pixel e gravar vídeos em **4K** a espantosa resolução de **3840x2160** pixels. A espessura de **7.7mm** torna o Apple iPhone X um dos telefones mais completos e finos.
+
+1. ![iPhone X](/images/xr1.png)![iPhone X](/images/xr2.png)![iPhone X](/images/xr3.png)![iPhone X](/images/xr4.png)![iPhone X](/images/xr5.png)![iPhone X](/images/xr6.png)![iPhone X](/images/xr7.png)![iPhone X](/images/xr8.png)
+
+![iPhone X](/images/xr9.png)
