@@ -27,6 +27,8 @@ featured: false
 section: Store
 gallery: []
 price_snipcart: "2099"
+url-frame: ''
+testando: ''
 
 ---
 # FILMADORA GOPRO HERO 6 PRETO
@@ -34,3 +36,25 @@ price_snipcart: "2099"
 Disponibilidade: 10 dias úteis
 
 FILMADORA GOPRO HERO 6 CHDHX-601 PRETO
+
+## Detalhes do produto Filmadora GoPro Hero 6 Black 4K
+
+| Informações Básicas |
+| --- | --- |
+| Marca | GoPro |
+| Modelo | Black |
+| Linha | Hero 6 |
+| Características e Funções da Filmadora |
+| Tipo | De Ação |
+| Recursos e Funções da Filmadora | GPS Acionamento via voz e som Câmera Digital Estabilizador de Imagem Filma com pouca luz Tira Foto e Filma Simultâneo |
+| Armazenamento | Cartão de Memória |
+| Sensor de Imagem | Não Informado Pelo Fabricante |
+| Tipo de Tela | Fixa Touchscreen |
+| Resistência da Filmadora | Á Prova D'Água |
+| Características da Imagem / Vídeo |
+| Resolução máxima de vídeo | 4K |
+| Resolução da Câmera Fotográfica | 12 Megapixels |
+| Conexões |
+| Conectividade | Bluetooth Wi Fi Integrado Micro HDMI USB-C |
+| Especificações Técnicas |
+| Alimentação | Bateria |
