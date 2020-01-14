@@ -31,6 +31,8 @@ colortags: []
 price_snipcart: "7200"
 sub-category: ''
 video: https://www.youtube.com/embed/eYK4fgplYI4
+url-frame: ''
+testando: ''
 
 ---
 # iPhone 11 Pro Max 64GB
@@ -60,3 +62,7 @@ Até 5 horas a mais de duração e 50% de bateria em aproximadamente 30 minutos 
 Aplicando uma troca iônica dupla para aumentar a resistência da tela do iPhone, o qual foi esculpida com precisão a partir de uma peça única de vidro
 
 **Resistência à água** a uma profundidade de até quatro metros por até 30 minutos, resistente a respingos de líquidos comuns, como café, chá e refrigerante, e precisamente por ser selado para proteção, também é resistente à poeira.
+
+![https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-11-pro-gallery-2019-5?wid=3360&hei=1280&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1567208466277](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-11-pro-gallery-2019-5?wid=3360&hei=1280&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1567208466277)
+
+![https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-11-pro-gallery-2019-2?wid=3360&hei=1280&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1567208466417](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-11-pro-gallery-2019-2?wid=3360&hei=1280&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1567208466417)
