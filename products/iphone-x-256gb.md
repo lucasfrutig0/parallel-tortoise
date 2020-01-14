@@ -29,11 +29,94 @@ gallery:
 - "/images/iphonex-thumb.png"
 price_snipcart: "5299"
 sub-category: ''
+url-frame: ''
+testando: ''
 
 ---
 # iPhone X 256GB
 
 Disponibilidade: 10 dias úteis
 
-O Apple iPhone X é um dos smartphones **iOS** mais avançados e completos que existem em circulação. Tem um grande display de **5.8** polegadas com uma resolução de **2436x1125** pixel. As funcionalidades oferecidas pelo Apple iPhone X são muitas e inovadoras. Começando pelo **LTE 4G** que permite a transferência de dados e excelente navegação na internet. Enfatizamos a excelente memória interna de **256 GB** mas sem a possibilidade de expansão.  
-Câmera discreta de **12** megapixel mas que permite ao Apple iPhone X tirar fotos de boa qualidade com uma resolução de **4608x2592** pixel e gravar vídeos em **4K** a espantosa resolução de **3840x2160** pixels. A espessura de **7.7mm** torna o Apple iPhone X um dos telefones mais completos e finos.
+## 
+
+### Sistema Operacional
+
+Plataforma iOS Versão iOS 11
+
+### Vídeo
+
+FPS da Gravação 60 fps
+
+### Tela
+
+Tamanho da Tela 5.8"
+
+### Memória
+
+Memória Interna 256 GB
+
+### Câmera Traseira
+
+Câmera 12 MP Recursos Autofocus;   
+ Detecção Facial;   
+ Detecção de Sorriso;   
+ Estabilização de Imagem;   
+ Flash;   
+ HDR;   
+ Zoom Óptico;   
+ Temporizador;   
+ Abertura F/1.8;   
+ Abertura F/2.4;   
+ Lente de Seis Elementos;   
+ Redução de Ruído;   
+ Modo Retrato;   
+ Iluminação do Retrato;   
+ Zoom Digital até 10x;   
+ Flash True Tone;   
+ Sensor de retroiluminação;   
+ Filtro IV híbrido
+
+### Câmera Frontal
+
+Câmera Frontal 7 MP Recursos Flash Retina;   
+ Temporizador;   
+ Controle de Exposição;   
+ Modo Retrato;   
+ Iluminação de Retrato;   
+ Animoji
+
+### Conectividade
+
+Rede 4G;   
+ 3G;   
+ 2G Conectividade Bluetooth 5.0;   
+ Wi-Fi 802.11 a/b/g/n/ac;   
+ NFC;   
+ Conexão Lightning;   
+ GPS;   
+ A-GPS;   
+ GLONASS;   
+ Galileo;   
+ QZSS
+
+### Resistência
+
+Tipo Água e Poeira (IP67)
+
+### Processador
+
+Modelo Chip A11 Bionic 64 Bits com Coprocessador M11
+
+### Chip
+
+Chips 1 Chip Tipo do Chip Nano SIM
+
+### Dimensões
+
+Altura (cm) 14.30 Espessura (cm) 0.70 Largura (cm) 7.00 Peso (g) 174.00
+
+### Fabricante
+
+Marca Apple Modelo iPhone X
+
+![](/images/01.png)
