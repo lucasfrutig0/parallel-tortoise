@@ -36,6 +36,8 @@ colortags:
 - black
 sub-category: ''
 price_snipcart: "4599"
+url-frame: ''
+testando: ''
 
 ---
 # iPhone 11 64GB
@@ -51,3 +53,7 @@ A câmera **Grande-angular** de **12 MP** tem Focus Pixels a 100% para foco auto
 Ambas as câmeras do iPhone 11 gravam **vídeos 4K** nítidos a 60 qps. A nova câmera ultra-angular captura 4x mais de qualquer cena e é ideal para objetos em movimento. E, com o zoom de áudio, o som se aproxima junto com a imagem. Além disso, editar vídeos ficou tão simples quanto editar fotos. O **Modo Noite** é um novo recurso automático para fotografar em ambientes com pouca iluminação. As cores ficam mais naturais, as fotos mais brilhantes e você nem precisa usar o flash.
 
 O **vidro** nas partes da **frente** e de **trás** do iPhone 11 foi reforçado por meio de um processo de troca iônica. O iPhone 11 é **resistente à água** a uma profundidade de até **dois metros** por até 30 minutos, o dobro da profundidade do iPhone XR.
+
+## Conteúdo da caixa
+
+![fone de ouvido](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/earpods-iphone-box-201709?wid=236&hei=744&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1503860785391 =118x372)![iphone](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-black-box-2019?wid=426&hei=744&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1566845419135 =213x372)![fio carregador](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/lightning-to-usb-iphone-box-201709?wid=204&hei=744&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1510185722301 =102x372)![carregador 5w](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/power-adapter-iphone-box-201709_GEO_BR?wid=204&hei=744&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1533838016780 =102x372)
