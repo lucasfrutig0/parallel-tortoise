@@ -64,3 +64,19 @@ Apple Watch Series 3 e o Apple Watch Series 4 têm classificação de 50 metros 
 | Duração aproximada da Bateria | 18 hrs |
 | Especificações Técnicas |
 | Material da Pulseira | O material da pulseira pode variar de acordo com a edição do produto. |
+
+<iframe
+width="560"
+height="315"
+src="[https://www.youtube.com/embed/TRjQ_pGCU0U](https://www.youtube.com/embed/TRjQ_pGCU0U "https://www.youtube.com/embed/TRjQ_pGCU0U")"
+frameborder="0"
+allow="accelerometer;
+autoplay;
+encrypted-media;
+gyroscope;
+picture-in-picture"
+allowfullscreen
+
+> 
+
+</iframe>
