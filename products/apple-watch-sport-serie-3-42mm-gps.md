@@ -39,7 +39,7 @@ O Apple Watch Series 3 requer iPhone 6s ou posterior com iOS 13 ou posterior. O 
 
 ## Recursos do Series 3 (GPS)
 
-* Caixa cinza-espacial de alumínio
+* Caixa prateada de alumínio
 * GPS/GNSS
 * Chip S3 com processador de dois núcleos
 * Chip W2 sem fio da Apple
@@ -58,7 +58,7 @@ O Apple Watch Series 3 requer iPhone 6s ou posterior com iOS 13 ou posterior. O 
 
 ## Recursos do Series 3 (GPS + Cellular)
 
-* Caixa cinza-espacial de alumínio
+* Caixa prateada de alumínio
 * LTE e UMTS
 * GPS/GNSS
 * Chip S3 com processador de dois núcleos
@@ -78,7 +78,7 @@ O Apple Watch Series 3 requer iPhone 6s ou posterior com iOS 13 ou posterior. O 
 
 ## Dimensões
 
-!\[\](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-spec-dim-38-201609_GEO_BR?wid=96&hei=106&fmt=png-alpha&.v=1484169535269 =96x106)
+![](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-spec-dim-38-201609_GEO_BR?wid=96&hei=106&fmt=png-alpha&.v=1484169535269 =96x106)
 
 * Altura: 38,6 mm
 * Largura: 33,3 mm
@@ -86,7 +86,7 @@ O Apple Watch Series 3 requer iPhone 6s ou posterior com iOS 13 ou posterior. O 
 * Peso da caixa (GPS): 26,7g
 * Peso da caixa (GPS + Cellular): 28,7g
 
-!\[\](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-spec-dim-42-201609_GEO_BR?wid=105&hei=117&fmt=png-alpha&.v=1484169529177 =105x117)
+![](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-spec-dim-42-201609_GEO_BR?wid=105&hei=117&fmt=png-alpha&.v=1484169529177 =105x117)
 
 * Altura: 42,5 mm
 * Largura: 36,4 mm
@@ -96,4 +96,4 @@ O Apple Watch Series 3 requer iPhone 6s ou posterior com iOS 13 ou posterior. O 
 
 ## Conteúdo da Caixa
 
-!\[\]([https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/42-aluminum-grey-case?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1504387553385](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/42-aluminum-grey-case?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1504387553385 "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/42-aluminum-grey-case?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1504387553385") =196x372)!\[\]([https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/42-alu-space-sport-black-nc-band?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1509054010445](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/42-alu-space-sport-black-nc-band?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1509054010445 "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/42-alu-space-sport-black-nc-band?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1509054010445") =196x372)!\[\]([https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-witb-charger-alt-201703?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1489458232778](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-witb-charger-alt-201703?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1489458232778 "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-witb-charger-alt-201703?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1489458232778") =196x372)!\[\]([https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-witb-plug-201809_GEO_BR?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1567544176827](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-witb-plug-201809_GEO_BR?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1567544176827 "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-witb-plug-201809_GEO_BR?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1567544176827") =196x372)
+![](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/42-aluminum-silver-case?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1504387553439 =196x372)![](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/42-alu-sport-white-band?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1537220941386 =196x372)![](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-witb-charger-alt-201703?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1489458232778 =196x372)![](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-witb-plug-201809_GEO_BR?wid=196&hei=372&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1567544176827 =196x372)
