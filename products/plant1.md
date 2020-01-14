@@ -57,3 +57,8 @@ O **vidro** nas partes da **frente** e de **trás** do iPhone 11 foi reforçado 
 ## Conteúdo da caixa
 
 ![](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/earpods-iphone-box-201709?wid=236&hei=744&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1503860785391 =118x372)![](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-black-box-2019?wid=426&hei=744&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1566845419135 =213x372)![](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/lightning-to-usb-iphone-box-201709?wid=204&hei=744&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1510185722301 =102x372)![](https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/power-adapter-iphone-box-201709_GEO_BR?wid=204&hei=744&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1533838016780 =102x372)
+
+* EarPods com conector Lightning
+* iPhone
+* Cabo de Lightning para USB
+* Carregador USB de 5W
