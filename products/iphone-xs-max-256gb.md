@@ -41,41 +41,80 @@ Câmera discreta de **12** megapixel mas que permite ao Apple iPhone XS Max tira
 
 ![](/images/5-min.jpg)![](/images/2-min.jpg)![](/images/1-min.jpg)
 
-## Marca 	Apple
-## Referência 	MT522BZ/A
-## Modelo 	iPhone XSMax ## Capacidade
+## Marca 
+
+Apple
+
+## Modelo 
+
+iPhone XSMAX
+
+## Capacidade
+
 64GB
+
 ## Tecnologia
+
 3G/4G
+
 ## Tamanho da tela
+
 6,5"
+
 ## Tipo da tela
+
 Retina
-## Resolução Câmera 
+
+## Resolução Câmera
+
 iSightDupla de 12MP com lentes grande-angular e teleobjetivaResolução câmera face time7MP
+
 ## Sistema Operacional
+
 iOS12
-## Conectividade 
+
+## Conectividade
+
 Wi-Fi - Bluetooth
+
 ## Processador
-A12 Bionic 
+
+A12 Bionic
+
 ## chip
+
 Desbloqueado
+
 ## Operadora
+
 Desbloqueado para todas as operadoras
+
 ## Cor
+
 Ouro Prata Preto
+
 ## Recurso
+
 Face ID - Barômetro - Giroscópio de três eixos - Acelerômetro - Sensor de proximidade - Sensor de luz ambiente
-## TelaResolução 	
+
+## TelaResolução
+
 2688x1242 pixels
-## Função 
-celular 
-## Câmera 
+
+## Função
+
+celular
+
+## Câmera
+
 iSight
-## Detecção de rostos 	
+
+## Detecção de rostos
+
 Sim
+
 ## Câmera FaceTime
+
 Vídeos em HD 	Sim
 Chamada Via FaceTime 	Sim
 Detecção de rostos 	Sim
@@ -93,15 +132,25 @@ LocalizaçãoWi-fi 	Sim
 GPS assistido 	Sim
 ChamadasChamadas com áudio 	Sim
 Video 	Sim
+
 ## Idioma
+
 Suporte a vários idiomas 	SimIdiomas do Siri 	Alemão, árabe, catalão, chinês (simplificado, tradicional, tradicional de Hong Kong), coreano, croata, dinamarquês, eslovaco, espanhol (América Latina, Espanha, México), finlandês, francês (Canadá, França), grego, hebraico, hindi, holandês, húngaro, indonésio, inglês (Austrália, EUA, Reino Unido), italiano, japonês, malaio, norueguês, polonês, português (Brasil, Portugal), romeno, russo, sueco, tailandês, tcheco, turco, ucraniano, vietnamita
+
 ## Energia e bateria
+
 Tipo de bateria 	Íon de lítio
-## Alimentação da fonte 	
+
+## Alimentação da fonte
+
 Bateria Recarregável
+
 ## Resistência à águ
+
 respingos e poeiraClassificado como IP67 (profundidade máxima de 1m por até 30min) segundo a norma IEC 60529
+
 ## Peso aproximado
+
 Peso do produto 	194gramas
 Peso do produto com embalagem 	430gramas
 Dimensões do produto
@@ -113,9 +162,11 @@ Largura 	9,3cm
 Altura 	4,9cm
 Profundidade 	16,8cm
 Prazo01 ano (3 meses de garantia legal e mais 9 meses de garantia especial concedida pelo fabricante).
+
 ## Conteúdo da embalagem
- - 01 iPhone 
- - EarPods com conector Lightning 
- - Cabo de Lightning para USB 
- - Carregador USB 
- - Documentação
+
+* 01 iPhone
+* EarPods com conector Lightning
+* Cabo de Lightning para USB
+* Carregador USB
+* Documentação
