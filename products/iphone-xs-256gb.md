@@ -150,3 +150,5 @@ Prazo de Garantia 01 ano (3 meses de garantia legal e mais 9 meses de garantia e
 *  Cabo de Lightning para USB 
 *  Carregador USB 
 * Documentação 
+
+![iPhone XS](/images/1-min.jpg)![iPhone XS](/images/2-min.jpg)![iPhone XS](/images/5-min.jpg)
