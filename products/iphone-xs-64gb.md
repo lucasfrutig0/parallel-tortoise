@@ -38,7 +38,7 @@ testando: ''
 ---
 # iPhone XS 64GB
 
-## Phone XS Apple 256GB Prata 4G Tela 5,8” Retina - Câmera Dupla 12MP + Selfie 7MP iOS 12
+## 
 
 Bem-vindo às telonas com o iPhone XS da Apple com tela Super Retina HD de 5,8". Na cor prata, tem câmera dupla de 12MP com lentes grande-angular e teleobjetiva, câmera selfie de 7MP, 256GB de armazenamento interno, sistema operacional iOS12 e processador A12 Bionic chip. Tem também, tecnologia 3G/4G e recursos como: Face ID ainda mais rápido, acelerômetro, sensor de proximidade e sensor de luz ambiente.
 
