@@ -4,7 +4,7 @@ permalink: "/:title/"
 title: iTechRP - Assistência Especializada Apple
 snipcart_js: https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.js
 snipcart_css: https://cdn.snipcart.com/themes/v3.0.3/default/snipcart.css
-snipcart_api_key: YTc4NjE5OTYtM2M3MC00MDc4LWE2MTktZWIxNDBhMDNlYTIyNjM3MTA0ODkyNTYxOTg1NTY5
+snipcart_api_key: NDY5ODZjZDItNDliZi00NDM5LWFkYTctNDg2NDBmN2MzMDg3NjM3MTY1ODg3MTU5Mjc0NzE1
 logos:
   light:
     optimized: "/images/LOGO-LIGHT.png"
@@ -60,5 +60,5 @@ collections:
     permalink: "/posts/:title/"
 algolia:
   application_id: ALGFNSOX0G
-  index_name:     "site"
+  index_name: site
   search_only_api_key: 5feb2dde6d7d118a5294e6bc536f603e
