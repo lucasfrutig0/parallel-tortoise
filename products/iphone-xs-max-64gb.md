@@ -19,8 +19,8 @@ images:
       fallback: "/images/iphone-xs-max-original.png"
   featured:
     thumbnail:
-      optimized: ''
-      fallback: ''
+      optimized: "/images/2-min.jpg"
+      fallback: "/images/2-min.jpg"
     original:
       optimized: ''
       fallback: ''
