@@ -189,6 +189,9 @@
         p {
             padding: 20px;
         }
+        img {
+            width: 100%;
+        }
         @include smaller-than-tablet { font-size: $font_size_regular; }
     }
 
