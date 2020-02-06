@@ -25,7 +25,7 @@ images:
       optimized: ''
       fallback: ''
 category: smartphone
-featured: false
+featured: true
 section: Store
 gallery:
 - "/images/iphone-xs-max-dourado.png"
