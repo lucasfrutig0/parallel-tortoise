@@ -33,3 +33,6 @@ The content of this site is managed by Forestry. Visit [https://forestry.io](htt
         bundle exec jekyll serve
 
 1. Browse to [http://localhost:4000](http://localhost:4000)
+
+## Netlify Status 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5cd1de32-42a6-42a6-a0a8-948c9ab0330b/deploy-status)](https://app.netlify.com/sites/parallel-tortoise-04f14/deploys)
