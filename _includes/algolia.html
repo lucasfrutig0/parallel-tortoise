@@ -18,7 +18,6 @@ const search = instantsearch({
 
 const hitTemplate = function(hit) {
   let url = `{{ site.baseurl }}${hit.url}#${hit.anchor}`;
-  console.log(hit)
   const title = hit._highlightResult.title.value;
 
   let breadcrumbs = '';
