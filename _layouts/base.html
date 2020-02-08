@@ -22,15 +22,17 @@
         <div hidden id="snipcart" data-api-key="{{ site.snipcart_api_key }}">
         <script src="https://www.paypal.com/sdk/js?client-id=AWO0-SPTYciacN_VKsigW8kUc0Dbt8qBuCOCl74vtdWNc0IukxX_ktTYEka_sYFPZQ5UPCzSzASZkojd&currency=BRL"></script>
         <script>
-          paypal.Buttons().render({
-            style: {
-                color:  'black',
-                shape:  'pill',
-                label:  'pay',
-                height: 40,
-                size: 'responsive'
-            }
-          },'body');
+          // Render the PayPal button into #paypal-button-container
+          paypal.Buttons({
+  
+              style: {
+                  color:  'blue',
+                  shape:  'pill',
+                  label:  'pay',
+                  height: 55,
+              }
+  
+          }).render('body');
         </script>
           <cart-header title="ItechRP">
             <div class="root">
