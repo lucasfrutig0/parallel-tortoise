@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: admin
-webhook_url: ''
+webhook_url: https://api.stackbit.com/project/5de04f140323e6001af9058e/webhook/forestry
 sections:
 - type: directory
   path: sub-categories
