@@ -28,7 +28,7 @@ category: apple-watch
 featured: false
 section: Store
 gallery: []
-price_snipcart: '3,699'
+price_snipcart: '3,699.00'
 sub-category: ''
 url-frame: ''
 testando: ''
