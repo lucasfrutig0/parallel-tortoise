@@ -694,3 +694,5 @@ document.querySelectorAll('.js-figure-link').forEach((l) => {
     }
   });
 });
+
+

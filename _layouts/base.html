@@ -21,7 +21,7 @@
         <div hidden id="snipcart" data-api-key="{{ site.snipcart_api_key }}">
         <script src="https://cdn.snipcart.com/themes/v3.0.7/default/snipcart.js"></script>
         <!-- <script src="{{ site.snipcart_js }}" defer></script> -->
-       <!--  <script src="https://www.paypal.com/sdk/js?client-id=AWO0-SPTYciacN_VKsigW8kUc0Dbt8qBuCOCl74vtdWNc0IukxX_ktTYEka_sYFPZQ5UPCzSzASZkojd&currency=BRL"></script> -->
+        <script src="https://www.paypal.com/sdk/js?client-id=AWO0-SPTYciacN_VKsigW8kUc0Dbt8qBuCOCl74vtdWNc0IukxX_ktTYEka_sYFPZQ5UPCzSzASZkojd&currency=BRL"></script>
         <script>
           // Render the PayPal button into #paypal-button-container
 /*           paypal.Buttons({
@@ -35,6 +35,38 @@
   
           }).render('#paypal-button'); */
         </script>
+        <script>
+          //Paypal
+      /*   paypal.Buttons({
+          style: {
+            color:  'blue',
+            shape:  'pill',
+            label:  'pay',
+            height: 55,
+          },
+          createOrder: function(data, actions) {
+            console.log(actions)
+            return actions.order.create({
+
+            });
+          },
+          onApprove: function(data, actions) {
+            return actions.order.capture().then(function(details) {
+              alert('Transaction completed by ' + details.payer.name.given_name);
+              // Call your server to save the transaction
+              return fetch('/paypal-transaction-complete', {
+                method: 'post',
+                headers: {
+                  'content-type': 'application/json'
+                },
+                body: JSON.stringify({
+                  orderID: data.orderID
+                })
+              });
+            });
+          }
+        }).render('#paypal-button'); */
+      </script>
           <cart-header title="ItechRP">
             <div class="root">
               <header class="snipcart-cart-header" v-if="!loading">
