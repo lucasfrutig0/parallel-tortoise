@@ -66,6 +66,7 @@ sections:
   label: Product
   create: all
   match: "**/*"
+  new_doc_ext: ".json"
   templates:
   - products
 - type: document
