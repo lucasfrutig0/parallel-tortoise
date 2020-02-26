@@ -147,7 +147,7 @@ fields:
   label: Colortags
 - name: url-frame
   type: text
-  config:
+  config: 
   required: false
   label: URL
   description: URL do video

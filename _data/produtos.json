@@ -4,7 +4,20 @@
       "id": 1,
       "title": "iPhone XS MAS 64GB",
       "desc": "GARANTIA 1 ANO APPLE",
-      "price": "6.299,00",
+      "price": "6.299,00"
     }
-  ]
+  ],
+  "id": "1010",
+  "title": "teste produto",
+  "description": "teste",
+  "price": "6.999,12",
+  "image": "/images/blt9g-1tspn-0.webp",
+  "images": {
+    "default": {
+      "thumbnail": {
+        "optimized": "/images/bicik-156ro-0-1.webp",
+        "fallback": "/images/gopro7-original.png"
+      }
+    }
+  }
 }
