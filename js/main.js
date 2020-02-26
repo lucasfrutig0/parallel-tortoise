@@ -685,7 +685,7 @@ window.onresize = function() {
 document.addEventListener('mouseout', _ => draggableItems.forEach(element => element.isActive = false))
 
 // FIGURE LINKS
-document.querySelectorAll('.js-figure-link').forEach((l) => {
+/* document.querySelectorAll('.js-figure-link').forEach((l) => {
   l.addEventListener('click', _ => {
     const snipcartButton = _.target.closest('.snipcart-add-item');
     if (!snipcartButton) {
@@ -693,6 +693,6 @@ document.querySelectorAll('.js-figure-link').forEach((l) => {
       window.location = link;
     }
   });
-});
+}); */
 
-
+console.log('buceta')

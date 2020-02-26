@@ -1,162 +1,46 @@
 <!doctype html>
 <html lang="pt-br">
-    <head>    
-        
-        <title>
-            {{ page.title }}
-        </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        {% seo %}
-        <link rel="stylesheet" href="{{ site.snipcart_css }}" />
-        <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
-        <link rel="icon" type="image/png" href="{{ 'images/favicon.png' | relative_url }}">
-        
-    </head>
-    <body>
-        
-        {{ content }}
-        <script src="{{ 'js/main.js' | relative_url }}"></script>
-        <div hidden id="snipcart" data-api-key="{{ site.snipcart_api_key }}">
-        <script src="https://cdn.snipcart.com/themes/v3.0.7/default/snipcart.js"></script>
-        <!-- <script src="{{ site.snipcart_js }}" defer></script> -->
-        <script src="https://www.paypal.com/sdk/js?client-id=AWO0-SPTYciacN_VKsigW8kUc0Dbt8qBuCOCl74vtdWNc0IukxX_ktTYEka_sYFPZQ5UPCzSzASZkojd&currency=BRL"></script>
-        <script>
-          // Render the PayPal button into #paypal-button-container
-/*           paypal.Buttons({
-  
-              style: {
-                  color:  'blue',
-                  shape:  'pill',
-                  label:  'pay',
-                  height: 55,
-              }
-  
-          }).render('#paypal-button'); */
-        </script>
-        <script>
-          //Paypal
-      /*   paypal.Buttons({
-          style: {
-            color:  'blue',
-            shape:  'pill',
-            label:  'pay',
-            height: 55,
-          },
-          createOrder: function(data, actions) {
-            console.log(actions)
-            return actions.order.create({
 
-            });
-          },
-          onApprove: function(data, actions) {
-            return actions.order.capture().then(function(details) {
-              alert('Transaction completed by ' + details.payer.name.given_name);
-              // Call your server to save the transaction
-              return fetch('/paypal-transaction-complete', {
-                method: 'post',
-                headers: {
-                  'content-type': 'application/json'
-                },
-                body: JSON.stringify({
-                  orderID: data.orderID
-                })
-              });
-            });
-          }
-        }).render('#paypal-button'); */
-      </script>
-          <cart-header title="ItechRP">
-            <div class="root">
-              <header class="snipcart-cart-header" v-if="!loading">
-                <close-cart-action class="snipcart-cart-header__close-button snipcart-modal__close">
-                  <icon class="snipcart-modal__close-icon snipcart__icon--blue-light" name="back-arrow"></icon>
-                  <span class="snipcart-modal__close-title snipcart__font--std">
-                    {% raw %}{{ $localize('actions.continue_shopping') }}{% endraw %}
-                  </span>
-                </close-cart-action>
-        
-                <h3 class="snipcart-cart-header__title snipcart__font--black snipcart__font--secondary" v-if="title">
-                  <img src="{{ site.logos.dark.optimized | relative_url }}" alt="">
-                </h3>
-        
-                <div class="snipcart-cart-header__count snipcart__font--secondary snipcart__font--bold">
-                  <icon name="cart" class="snipcart-cart-header__icon snipcart__icon--blue-dark"></icon>
-                  {% raw %}{{ itemsCount }}{% endraw %}
-                </div>
-              </header>
-              <header class="snipcart-cart-header" v-else>
-                <close-cart-action class="snipcart-modal__close">
-                  <icon class="snipcart-modal__close-icon snipcart__icon--blue-light" name="back-arrow"></icon>
-                  <span class="snipcart-modal__close-title snipcart__font--std">
-                    {% raw %}{{ itemsCount }}{% endraw %}
-                  </span>
-                </close-cart-action>
-              </header>
-            </div>
-          </cart-header>
-          <checkout section="header">
-            <div class="root">
-              <div class="snipcart-layout__header">
-                <header class="snipcart-modal__header snipcart-modal__header--fixed">
-                  <close-cart-action class="snipcart-modal__close">
-                    <icon name="back-arrow" class="snipcart-modal__close-icon snipcart__icon--blue-light"
-                      alt="actions.close_cart"></icon>
-                    <span class="snipcart-modal__close-title snipcart__font--std">
-                      {% raw %}{{ $localize('actions.continue_shopping') }}{% endraw %}
-                    </span>
-                  </close-cart-action>
-        
-                  <img src="{{ site.logos.dark.optimized | relative_url }}" alt="" class="snipcart-modal__logo">
-        
-                  <div class="snipcart-modal__header-summary">
-                    <div
-                      class="snipcart-modal__header-summary-title snipcart__font--large snipcart__font--secondary snipcart__font--bold"
-                      @click.prevent="showSummary">
-                      <icon name="cart" class="snipcart__icon--blue-dark"></icon>
-                      <span>
-                        {% raw %}{{ total | money(cart.currency) }}{% endraw %}
-                      </span>
-                      <media name="mobile, tablet">
-                        <icon :name="summaryIcon" class="snipcart__icon--blue-dark snipcart__icon--medium"></icon>
-                      </media>
-                    </div>
-                    <cart-summary class="snipcart-cart-summary--small" v-if="summaryVisible" @close="closeSummary"></cart-summary>
-                  </div>
-                </header>
-              </div>
-            </div>
-          </checkout>
-        </div>
-        <!-- <script>
-          paypal.Buttons({
-              createOrder: function(data, actions) {
-              return actions.order.create({
-                  purchase_units: [{
-                  amount: {
-                      value: '0.01'
-                  }
-                  }]
-              });
-              },
-              onApprove: function(data, actions) {
-              return actions.order.capture().then(function(details) {
-                  alert('Transaction completed by ' + details.payer.name.given_name);
-                  // Call your server to save the transaction
-                  return fetch('/paypal-transaction-complete', {
-                  method: 'post',
-                  headers: {
-                      'content-type': 'application/json'
-                  },
-                  body: JSON.stringify({
-                      orderID: data.orderID
-                  })
-                  });
-              });
-              }
-          }).render('#paypal-button');
-      </script> -->
-      
-    </body> 
+<head>
+
+  <title>
+    {{ page.title }}
+  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  {% seo %}
+  <link rel="stylesheet" href="{{ site.snipcart_css }}" />
+  <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ 'images/favicon.png' | relative_url }}">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/4fd10231e2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  {{ content }}
+  <!-- cart -->
+  <div class="cart-overlay">
+    <div class="cart">
+      <span class="close-cart">
+        <i class="fas fa-window-close"></i>
+      </span>
+      <h2>your cart</h2>
+      <div class="cart-content">
+        <!-- cart item -->
+        <!-- end of cart item -->
+      </div>
+      <div class="cart-footer">
+        <h3>your total: $ <span class="cart-total"></span></h3>
+        <button class="clear-cart banner-btn">clear cart</button>
+      </div>
+    </div>
+  </div>
+  <!-- end of cart -->
+  <script src="{{ 'js/main.js' | relative_url }}"></script>
+  <script src="{{ 'js/cart.js' | relative_url }}"></script>
+</body>
+
 </html>

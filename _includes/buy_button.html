@@ -18,17 +18,10 @@
         <li>{{ item }}</li>
     {% endfor %}
 </ul>
-{{ product_page.price }}
-<!-- <button class="button button--std snipcart-add-item snipcart-button"
-    data-item-name="{{ product_page.title }}"
-    data-item-url="https://"
-    data-item-price="{{ product_page.price_snipcart }}"
-    data-item-image="{{ product_page.images.default.thumbnail.fallback }}"
-    data-item-description="{{ product_page.description }}"
-    date-item-categories="{{ product_page.category }}"
+
+<button 
+    class="button button--std snipcart-add-item snipcart-button"
     data-item-id="{{ product_page.id }}"
-    data-item-custom1-name="Escolha uma cor:"
-    data-item-custom1-options="{% for item in all_tags %}|{{ item }}{% endfor %}"
 >
     
     <span class="button__icon">
@@ -42,46 +35,8 @@
     <span class="button__text">
         Adicionar ao Carrinho
     </span>
-</button> -->
-<!-- <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="YQDAEWY2GEB48">
-    <table>
-    <tr><td><input type="hidden" name="on0" value="Selecione a Cor">Selecione a Cor</td></tr><tr><td><select name="os0">
-        {% for item in all_tags %}
-            <option value="{{ item }}">{{ item }}</option>
-        {% endfor %}
-    </select> </td></tr>
-    </table>
-    <input type="hidden" name="currency_code" value="BRL">
-    <input type="image" src="https://www.paypalobjects.com/pt_BR/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
-    <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
-    </form> -->
-<!--     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="5ZWJ76JVNKEYE">
-        <input type="hidden" name="item-name" value="{{ product_page.title }}">
-        <input type="hidden" name="amount" value="{{ product_page.price }}">
-        <input type="hidden" name="currency_code" value="BRL">
-        <input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
-        </form> -->
-        <form action="https://www.paypal.com/cgi-bin/webscr?custom={{product_page.title}}" method="post" target="_top">
-            <input type="hidden" name="cmd" value="_xclick">
-            <input type="hidden" name="business" value="ZKR6XEYC8K6KW">
-            <input type="hidden" name="lc" value="BR">
-            <input type="hidden" name="item-name" value="teste name">
-            <input type="hidden" name="amount" value="2.99">
-            <input type="hidden" name="button_subtype" value="services">
-            <input type="hidden" name="no_note" value="0">
-            <input type="hidden" name="cn" value="Adicionar instruções especiais para o vendedor:">
-            <input type="hidden" name="no_shipping" value="2">
-            <input type="hidden" name="currency_code" value="BRL">
-            <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHosted">
-            <input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
-            <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
-            </form>
-            
+</button>
+
                 
             
         
