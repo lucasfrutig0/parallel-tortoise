@@ -148,13 +148,13 @@ fields:
 - name: url-frame
   type: text
   config:
-    required: false
+  required: false
   label: URL
   description: URL do video
 - name: testando
   type: text
   config:
-    required: false
+  required: false
   label: testando
   description: asasas
 pages:

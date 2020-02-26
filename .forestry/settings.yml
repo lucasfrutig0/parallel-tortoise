@@ -61,11 +61,6 @@ sections:
   label: Testimonials
   templates:
   - testimonials
-- type: document
-  path: _data/produtos.json
-  label: Produtos
-  templates:
-  - produtos
 - type: directory
   path: products
   label: Product
