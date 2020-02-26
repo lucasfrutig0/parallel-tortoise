@@ -1,0 +1,153 @@
+---
+label: Produtos
+hide_body: false
+fields:
+- type: text
+  name: id
+  label: ID
+- type: text
+  name: title
+  label: Title
+- type: text
+  name: description
+  label: Description
+- name: price
+  type: text
+  config:
+    required: false
+  label: Price
+- name: price_snipcart
+  type: text
+  config:
+    required: false
+  label: Price Snipcart
+  description: correct format to snipcart price
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: SEO-Image
+  description: an image to use in SEO
+- type: field_group
+  name: images
+  label: Images
+  fields:
+  - type: field_group
+    name: default
+    label: Default
+    fields:
+    - type: field_group
+      name: thumbnail
+      label: Thumbnail
+      fields:
+      - type: file
+        name: optimized
+        label: Optimized (WEBP or similar)
+      - type: file
+        name: fallback
+        label: Fallback (JPG or PNG)
+    - type: field_group
+      name: original
+      label: Original
+      fields:
+      - type: file
+        name: optimized
+        label: Optimized (WEBP or similar)
+      - type: file
+        name: fallback
+        label: Fallback (JPG or PNG)
+  - type: field_group
+    name: featured
+    label: Featured
+    fields:
+    - type: field_group
+      name: thumbnail
+      label: Thumbnail
+      fields:
+      - type: file
+        name: optimized
+        label: Optimized (WEBP or similar)
+      - type: file
+        name: fallback
+        label: Fallback (JPG or PNG)
+    - type: field_group
+      name: original
+      label: Original
+      fields:
+      - type: file
+        name: optimized
+        label: Optimized (WEBP or similar)
+      - type: file
+        name: fallback
+        label: Fallback (JPG or PNG)
+- type: select
+  name: category
+  label: Category
+  config:
+    source:
+      type: simple
+    options:
+    - airpods
+    - apple-watch
+    - imac
+    - ipad
+    - macbook-air
+    - macbook-pro-tela-retina
+    - macbook-pro-touch-bar
+    - cabos
+    - ipad-pro
+    - gopro
+    - smartphone
+- name: sub-category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Adaptadores
+    - Carregador
+    - Fonte
+    - Lightning
+    - USB-C
+    source:
+      type: simple
+      section: sub-categories
+      file: 
+      path: 
+  label: Sub-Category
+  description: choose a sub-category
+- type: boolean
+  name: featured
+  label: Featured
+- type: select
+  name: section
+  label: Section
+  config:
+    source:
+      type: custom
+    options:
+    - Store
+    - About
+    - Home
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: product
+  config:
+    required: true
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: gallery
+  description: gallery images for product
+- name: colortags
+  type: tag_list
+  default: []
+  label: Colortags
+- name: url-frame
+  type: text
+  config:
+  required: false
+  label: URL
+  description: URL do video
