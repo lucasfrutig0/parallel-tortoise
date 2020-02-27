@@ -141,10 +141,6 @@ fields:
   config: {}
   label: gallery
   description: gallery images for product
-- name: colortags
-  type: tag_list
-  default: []
-  label: Colortags
 - name: url-frame
   type: text
   config: 
@@ -157,6 +153,16 @@ fields:
   required: false
   label: testando
   description: asasas
+- name: colors
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+  label: Colors
+  description: cores
 pages:
 - products/adaptador-usb-c-para-digital-av-multiporta-apple.md
 - products/apple-airpods-fone-de-ouvido-sem-fio-wireless.md
