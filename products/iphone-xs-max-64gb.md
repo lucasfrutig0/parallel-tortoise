@@ -34,6 +34,10 @@ price_snipcart: "6299"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors:
+- Gold
+- Silver
+- Black
 
 ---
 # iPhone XS MAX 64GB
