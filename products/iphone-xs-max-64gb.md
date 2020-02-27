@@ -35,6 +35,7 @@ sub-category: ''
 url-frame: ''
 testando: ''
 colors:
+- Rose
 - Gold
 - Silver
 - Black
