@@ -1,6 +1,7 @@
 {% assign product_page = include.product_page %}
 {% assign all_tags = product_page | map: "colortags" | compact %}
 
+<!-- {{product_page}} -->
 <style>
     .text-list-color li {
         list-style-type:none;
@@ -22,6 +23,11 @@
 <button 
     class="button button--std snipcart-add-item snipcart-button"
     data-item-id="{{ product_page.id }}"
+    data-item-name="{{ product_page.title}}"
+    data-item-price="{{ product_page.price_snipcart}}"
+    data-item-colortags="{{ product_page.colortags |}}"
+    data-item-amount="1"
+    data-item-image="{{ product_page.images.default.thumbnail.fallback}}"
 >
     
     <span class="button__icon">
@@ -35,9 +41,7 @@
     <span class="button__text">
         Adicionar ao Carrinho
     </span>
-</button>
-
-                
+</button>           
             
         
     

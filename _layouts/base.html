@@ -33,7 +33,7 @@
         <!-- end of cart item -->
       </div>
       <div class="cart-footer">
-        <h3>your total: $ <span class="cart-total"></span></h3>
+        <h3>your total: R$ <span class="cart-total"></span></h3>
         <button class="clear-cart banner-btn">clear cart</button>
       </div>
     </div>
@@ -41,6 +41,9 @@
   <!-- end of cart -->
   <script src="{{ 'js/main.js' | relative_url }}"></script>
   <script src="{{ 'js/cart.js' | relative_url }}"></script>
+  <div style="display: none;">
+    {% include buy_button.html product_page=page %}
+  </div>
 </body>
 
 </html>
