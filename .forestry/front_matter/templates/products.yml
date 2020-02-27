@@ -147,12 +147,6 @@ fields:
   required: false
   label: URL
   description: URL do video
-- name: testando
-  type: text
-  config: 
-  required: false
-  label: testando
-  description: asasas
 - name: colors
   type: list
   config:
