@@ -1,5 +1,7 @@
 {% assign product_page = include.product_page %}
-{% assign all_tags = product_page | map: "colortags" | compact %}
+{% assign all_tags = product_page | map: "colors" | compact %}
+
+
 
 <!-- {{product_page}} -->
 <style>
@@ -12,12 +14,10 @@
         border-bottom: 3px solid #88b3dd;
     }
 </style>
-
-<p>{%if all_tags.size > 0 %}Cores Disponíves: {% endif %}</p>
 <ul class="text-list-color">
-    {% for item in all_tags %}
-        <li>{{ item }}</li>
-    {% endfor %}
+    {% for color in all_tags %}
+        <li>{{color}}</li>
+    {%endfor%}
 </ul>
 
 <button 
@@ -25,7 +25,7 @@
     data-item-id="{{ product_page.id }}"
     data-item-name="{{ product_page.title}}"
     data-item-price="{{ product_page.price_snipcart}}"
-    data-item-colortags="{{ product_page.colortags |}}"
+    data-item-colortags="{% for item in all_tags %} {{item|}}{% endfor %}"
     data-item-amount="1"
     data-item-image="{{ product_page.images.default.thumbnail.fallback}}"
 >

@@ -4,6 +4,7 @@ const cartDOM = document.querySelector('.cart')
 const cartOverlay = document.querySelector('.cart-overlay')
 const iconCart = document.querySelector('.snipcart-checkout')
 const closeCartBtn = document.querySelector('.close-cart')
+const clearCartBtn = document.querySelector('.clear-cart')
 const cartItems = document.querySelector('.snipcart-items-count')
 const cartTotal = document.querySelector('.cart-total')
 const cartContent = document.querySelector('.cart-content')
@@ -55,22 +56,22 @@ class UI {
 
   // update cart Items values
   setCartValues(cart) {
-    console.log(cart)
     let tempTotal = 0;
     let itemsTotal = 0;
     cart.map(item => {
       tempTotal += item.itemPrice * item.itemAmount
       itemsTotal += Number(item.itemAmount)
     })
-    cartTotal.innerText = tempTotal.toLocaleString();
+    cartTotal.innerText = tempTotal.toLocaleString('pt-BR', {
+      maximumFractionDigits: 2
+    });
     cartItems.innerText = itemsTotal;
   }
 
   //add cart Items
   addCartItem(item) {
     console.log(item)
-    let colors = item.itemColors.split('').join(',')
-    console.log(colors)
+    let colors = item.itemColors.split(' ')
     const div = document.createElement('div')
     div.classList.add('cart-item')
     div.innerHTML = `
@@ -78,19 +79,35 @@ class UI {
     <div>
       <h4>${item.itemName}</h4>
       <h6>Escolha uma cor:</h6>
-      <select>
-        <option value=""></option>
-      </select>
+        <select class="select-color" data-id="${item.itemID}">
+          ${colors.map(color => `<option value="${color}">${color}</option>`)}
+        </select>
       <h5>R$${item.itemPrice.toLocaleString()}</h5>
-      <span class="remove-item" data-id=${item.itemId}>remove</span>
+      <span class="remove-item" data-id=${item.itemID}>remove</span>
     </div>
     <div>
-      <i class="fas fa-chevron-up" data-id=${item.itemIdid}></i>
+      <i class="fas fa-chevron-up" data-id=${item.itemID}></i>
       <p class="item-amount">${item.itemAmount}</p>
-      <i class="fas fa-chevron-down" data-id=${item.itemIdid}></i>
+      <i class="fas fa-chevron-down" data-id=${item.itemID}></i>
     </div>
     `;
     cartContent.appendChild(div)
+
+    //Get all select color elements on the cart
+    let selectEl = [...document.querySelectorAll('.select-color')]
+    //Add an event listener for each one
+    selectEl.forEach(select => {
+      select.addEventListener('change', () => {
+        //Update cart Colors in localStorage
+        let selectID = select.dataset.id
+        cart = Storage.getCart()
+        cart.find(item => {
+          item.itemID === selectID
+          item.itemColors = select.value
+          Storage.saveCart(cart)
+        })
+      })
+    })
   }
 
   showCart() {
@@ -120,6 +137,75 @@ class UI {
     
   }
 
+  cartLogic() {
+    //clear car button
+    clearCartBtn.addEventListener('click', () => {
+      this.clearCart()
+    })
+
+    //cart functionality
+    cartContent.addEventListener('click', event => {
+      console.log(event)
+      if (event.target.classList.contains('remove-item')) {
+        let removeItem = event.target
+        let id = removeItem.dataset.id
+        cartContent.removeChild(removeItem.parentElement.parentElement);
+        this.removeItem(id)
+      }
+      else if (event.target.classList.contains("fa-chevron-up")) {
+        let addAmount = event.target
+        console.log(addAmount)
+        let id = addAmount.dataset.id
+        let tempItem = cart.find(item => item.itemID === id)
+        console.log(tempItem)
+        tempItem.itemAmount = Number(tempItem.itemAmount) + 1
+        Storage.saveCart(cart)
+        this.setCartValues(cart)
+        addAmount.nextElementSibling.innerText = Number(tempItem.itemAmount)
+      }
+      else if (event.target.classList.contains("fa-chevron-down")) {
+        let lowerAmount = event.target
+        let id = lowerAmount.dataset.id
+        let tempItem = cart.find(item => item.itemID === id)
+        tempItem.itemAmount = Number(tempItem.itemAmount) - 1
+        if (tempItem.itemAmount > 0) {
+          Storage.saveCart(cart)
+          this.setCartValues(cart)
+          lowerAmount.previousElementSibling.innerText = Number(tempItem.itemAmount)
+        }
+        else {
+          cartContent.removeChild(lowerAmount.parentElement.parentElement)
+          this.removeItem(id)
+        }
+      }
+    })
+  }
+  clearCart() {
+    let cartItems = cart.map(item => item.id)
+    cartItems.forEach(id => this.removeItem(id))
+
+    while(cartContent.children.length > 0) {
+      cartContent.removeChild(cartContent.children[0])
+    }
+    this.hideCart()
+  }
+
+  removeItem(id) {
+    cart = cart.filter(item => item.id !== id)
+    this.setCartValues(cart)
+    Storage.saveCart(cart)
+    let button = this.getSingleButton(id)
+    button.disabled = false
+    button.innerHTML = `
+      <i class="fas fa-shopping-cart"></i>
+      add to cart
+    `
+  }
+
+  getSingleButton(id) {
+    return buttonsDOM.find(button => button.dataset.id === id)
+  }
+
 }
 
 //localStorage
@@ -144,6 +230,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   //setup Application
   ui.setupAPP()
+
+  //cart logic
+  ui.cartLogic()
 
   //get all buttons
   ui.getButButtons();
