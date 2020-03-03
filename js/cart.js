@@ -8,6 +8,10 @@ const clearCartBtn = document.querySelector('.clear-cart')
 const cartItems = document.querySelector('.snipcart-items-count')
 const cartTotal = document.querySelector('.cart-total')
 const cartContent = document.querySelector('.cart-content')
+const cartForm = document.querySelector('.shipping-method')
+const cartFooter = document.querySelector('.cart-footer')
+const spinner = document.getElementById("spinner");
+const clientAddress = document.createElement('div')
 let addToCartBtn = ''
 
 
@@ -24,8 +28,13 @@ class UI {
   const buttonsBuy = [...document.querySelectorAll('.snipcart-add-item')]
     buttonsDOM = buttonsBuy
     buttonsBuy.forEach(button => {
+      /* let id = button.dataset.itemId
+      let inCart = cart.find(item => item.itemID === id)
+      if(inCart) {
+        button.innerText = 'No Carrinho'
+        button.disabled = true
+      } */
       button.addEventListener('click', (event) => {
-        console.log(button.dataset)
         // get product info
         let cartItem = {
           itemID: button.dataset.itemId,
@@ -33,7 +42,8 @@ class UI {
           itemPrice: Number(button.dataset.itemPrice),
           itemAmount: button.dataset.itemAmount,
           itemColors: button.dataset.itemColortags,
-          itemImage: button.dataset.itemImage
+          itemImage: button.dataset.itemImage,
+          itemFrete: 0
         }
 
         //add product to the cart
@@ -56,21 +66,24 @@ class UI {
 
   // update cart Items values
   setCartValues(cart) {
+
     let tempTotal = 0;
     let itemsTotal = 0;
     cart.map(item => {
       tempTotal += item.itemPrice * item.itemAmount
+      tempTotal += Number(item.itemFrete)
       itemsTotal += Number(item.itemAmount)
     })
     cartTotal.innerText = tempTotal.toLocaleString('pt-BR', {
-      maximumFractionDigits: 2
+      minimumFractionDigits: 2
     });
     cartItems.innerText = itemsTotal;
   }
 
   //add cart Items
   addCartItem(item) {
-    console.log(item)
+
+    cartForm.classList.remove('hide-form')
     let colors = item.itemColors.split(' ')
     const div = document.createElement('div')
     div.classList.add('cart-item')
@@ -124,6 +137,32 @@ class UI {
     iconCart.addEventListener('click', this.showCart)
     addToCartBtn.addEventListener('click', this.showCart)
     closeCartBtn.addEventListener('click', this.hideCart)
+
+
+    //get all radio buttons
+    const radioElements = [...document.querySelectorAll('.shipping-method input[type="radio"]')]
+    const inputCepElement = document.createElement('input')
+    const buttonCepElement = document.createElement('button')
+    inputCepElement.setAttribute('placeholder', 'Informe o CEP. Ex: 14700000')
+    buttonCepElement.innerHTML = `Calcular`
+    inputCepElement.classList.add('input-cep')
+    const containerInputCep = document.createElement('div')
+    containerInputCep.classList.add('cep')
+    radioElements.forEach(radio => {
+      radio.addEventListener('change', () => {
+        if (radio.value === 'SEDEX') {
+          containerInputCep.appendChild(inputCepElement)
+          containerInputCep.appendChild(buttonCepElement)
+          buttonCepElement.addEventListener('click', () => this.calculaCEP(inputCepElement.value))
+        } else {
+          containerInputCep.innerHTML = `
+              <p>Entrega gratuita</p>
+          `
+        }
+      })
+      /* cartForm.appendChild(containerInputCep) */
+      cartFooter.prepend(containerInputCep)
+    })
   }
 
   populateCart(cart) {
@@ -145,7 +184,6 @@ class UI {
 
     //cart functionality
     cartContent.addEventListener('click', event => {
-      console.log(event)
       if (event.target.classList.contains('remove-item')) {
         let removeItem = event.target
         let id = removeItem.dataset.id
@@ -154,10 +192,10 @@ class UI {
       }
       else if (event.target.classList.contains("fa-chevron-up")) {
         let addAmount = event.target
-        console.log(addAmount)
+
         let id = addAmount.dataset.id
         let tempItem = cart.find(item => item.itemID === id)
-        console.log(tempItem)
+
         tempItem.itemAmount = Number(tempItem.itemAmount) + 1
         Storage.saveCart(cart)
         this.setCartValues(cart)
@@ -181,25 +219,105 @@ class UI {
     })
   }
   clearCart() {
-    let cartItems = cart.map(item => item.id)
+    let cartItems = cart.map(item => item.itemID)
+    console.log(cartItems)
     cartItems.forEach(id => this.removeItem(id))
-
     while(cartContent.children.length > 0) {
       cartContent.removeChild(cartContent.children[0])
     }
+    cartFooter.removeChild(cartFooter.children[1])
+    
+
     this.hideCart()
   }
 
   removeItem(id) {
-    cart = cart.filter(item => item.id !== id)
+    cart = cart.filter(item => item.itemID !== id)
     this.setCartValues(cart)
     Storage.saveCart(cart)
-    let button = this.getSingleButton(id)
+/*     let button = this.getSingleButton(id)
     button.disabled = false
     button.innerHTML = `
       <i class="fas fa-shopping-cart"></i>
-      add to cart
-    `
+      adicionar ao carrinho
+    ` */
+  }
+
+  //spinner 
+  showSpinner() {
+      spinner.className = spinner.classList.add('show');
+  }
+
+  //hide spinner
+
+hideSpinner() {
+  spinner.classList.remove('show');
+}
+
+  //calcula cep
+  calculaCEP(cep) {
+    console.log(cep)
+    let args = {
+      nCdServico:"04014",
+      sCepOrigem: "14015080",
+      sCepDestino: cep,
+      nVlPeso: "1",
+      nCdFormato: 1,
+      nVlComprimento: 20,
+      nVlAltura: 5,
+      nVlLargura: 15,
+      nVlDiametro: 0
+    }
+    /* let queryString = Object.keys(args).map(key => key + '=' + args[key]).join('&'); */
+    this.fetchCep(cep)
+    
+    this.calcFrete(args)
+  }
+
+  fetchCep(cep) {
+    const url = `https://frete-correios.herokuapp.com/cep/${cep}`
+    clientAddress.innerHTML = ``
+    
+      fetch(url, {
+        method: 'GET'
+      })
+        .then(response => response.json())
+        .then(response => {
+          console.log(response.data)
+          //TODO show address to cart content
+          
+          clientAddress.innerHTML = `
+            <p class="address"><strong><i class="fas fa-truck"></i> Endereço:</strong> ${response.data.logradouro}, ${response.data.bairro} - ${response.data.localidade}/${response.data.uf}</p>
+          `
+          cartForm.appendChild(clientAddress)
+        })
+        .catch(function(err) {
+          console.log(err)
+        })
+  }
+
+  calcFrete(args) {
+    const url = `https://frete-correios.herokuapp.com/ship`
+    //TODO fix spinner
+    this.showSpinner()
+    fetch(url, {
+      method: 'POST',
+      headers: { 'Content-type': 'application/json'},
+      body: JSON.stringify(args)
+    })
+      .then(response => response.json())
+      .then(response => {
+        //TODO show value in the cart content
+        cart[0].itemFrete = response[0].Valor.replace(',', '.')
+        const clientShip = document.createElement('div')
+        clientShip.innerHTML = `<p class="frete"><strong>Frete Sedex: </strong>${response[0].Valor.toLocaleString('pt-br')}</p>`
+        this.setCartValues(cart)
+        this.hideSpinner()
+        cartForm.appendChild(clientShip)
+      })
+      .catch(function(err) {
+        console.log(err)
+      })
   }
 
   getSingleButton(id) {
@@ -207,6 +325,8 @@ class UI {
   }
 
 }
+
+
 
 //localStorage
 class Storage {

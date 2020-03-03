@@ -31,8 +31,18 @@
       <div class="cart-content">
         <!-- cart item -->
         <!-- end of cart item -->
+        <div id="spinner"></div>
       </div>
       <div class="cart-footer">
+        <form class="shipping-method hide-form">
+          <h6>Escolha uma forma de envio:</h6>
+            <label for="sedex">
+              SEDEX <input type="radio" id="sedex" name="envio" value="SEDEX">
+            </label>
+            <label for="pac">
+              PAC <input type="radio" id="pac" name="envio" value="PAC">
+            </label>
+        </form> 
         <h3>seu total: R$ <span class="cart-total"></span></h3>
         <button class="clear-cart banner-btn">clear cart</button>
       </div>
