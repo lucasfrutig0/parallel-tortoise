@@ -15,6 +15,10 @@
   <link rel="icon" type="image/png" href="{{ 'images/favicon.png' | relative_url }}">
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/4fd10231e2.js" crossorigin="anonymous"></script>
+  <!--Paypal Checkout -->
+  <script 
+    src="https://www.paypal.com/sdk/js?client-id=AVQ2TVWtzhH2g1peNe4HfDqo9GaPXlxI9Khr7kRv99x3dh0n-hGCxcrnSuiAEmoJmY-kq_zEpImwDF7M&currency=BRL">
+  </script>
 
 </head>
 
@@ -31,20 +35,35 @@
       <div class="cart-content">
         <!-- cart item -->
         <!-- end of cart item -->
-        <div id="spinner"></div>
       </div>
+      <div class="shipping-method">
+        <h6>Simule seu frete:</h6>
+        <input 
+          type="text" 
+          name="cep" 
+          id="cep" 
+          class="input-cep" 
+          placeholder="Informe o CEP"
+          required
+        >
+        <button type="button" value="Calcular" class="calc-cep">Calcular</button>
+      </div>
+      <div class="hide ship">
+        <h5>Escolha sua forma de envio</h5>
+        <label for="sedex">
+          SEDEX <input type="radio" name="envio" id="sedex" value="sedex">
+        </label>
+        <label for="pac">
+          PAC <input type="radio" name="envio" id="pac" value="pac">
+        </label>
+      </div>
+      <div class="loader"></div>
       <div class="cart-footer">
-        <form class="shipping-method hide-form">
-          <h6>Escolha uma forma de envio:</h6>
-            <label for="sedex">
-              SEDEX <input type="radio" id="sedex" name="envio" value="SEDEX">
-            </label>
-            <label for="pac">
-              PAC <input type="radio" id="pac" name="envio" value="PAC">
-            </label>
-        </form> 
         <h3>seu total: R$ <span class="cart-total"></span></h3>
-        <button class="clear-cart banner-btn">clear cart</button>
+        <button class="clear-cart banner-btn">Limpar</button>
+      </div>
+      <div class="hide paypal">
+        <div id="paypal-button-container"></div>
       </div>
     </div>
   </div>

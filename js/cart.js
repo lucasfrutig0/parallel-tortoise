@@ -10,9 +10,17 @@ const cartTotal = document.querySelector('.cart-total')
 const cartContent = document.querySelector('.cart-content')
 const cartForm = document.querySelector('.shipping-method')
 const cartFooter = document.querySelector('.cart-footer')
-const spinner = document.getElementById("spinner");
+const loader = document.querySelector(".loader");
 const clientAddress = document.createElement('div')
+const paypalButtons = document.querySelector('.paypal')
 let addToCartBtn = ''
+let checkRadiobtns = false
+const inputCep = document.querySelector('.input-cep')
+const submitCepBtn = document.querySelector('.calc-cep')
+const shipElement = document.querySelector('.ship')
+const radioBtns = document.getElementsByName('envio')
+const buttonPaypal = document.getElementById('paypal-button-container')
+
 
 
 //initialize cart array
@@ -40,7 +48,7 @@ class UI {
           itemID: button.dataset.itemId,
           itemName: button.dataset.itemName,
           itemPrice: Number(button.dataset.itemPrice),
-          itemAmount: button.dataset.itemAmount,
+          itemAmount: Number(button.dataset.itemAmount),
           itemColors: button.dataset.itemColortags,
           itemImage: button.dataset.itemImage,
           itemFrete: 0
@@ -82,8 +90,6 @@ class UI {
 
   //add cart Items
   addCartItem(item) {
-
-    cartForm.classList.remove('hide-form')
     let colors = item.itemColors.split(' ')
     const div = document.createElement('div')
     div.classList.add('cart-item')
@@ -137,32 +143,6 @@ class UI {
     iconCart.addEventListener('click', this.showCart)
     addToCartBtn.addEventListener('click', this.showCart)
     closeCartBtn.addEventListener('click', this.hideCart)
-
-
-    //get all radio buttons
-    const radioElements = [...document.querySelectorAll('.shipping-method input[type="radio"]')]
-    const inputCepElement = document.createElement('input')
-    const buttonCepElement = document.createElement('button')
-    inputCepElement.setAttribute('placeholder', 'Informe o CEP. Ex: 14700000')
-    buttonCepElement.innerHTML = `Calcular`
-    inputCepElement.classList.add('input-cep')
-    const containerInputCep = document.createElement('div')
-    containerInputCep.classList.add('cep')
-    radioElements.forEach(radio => {
-      radio.addEventListener('change', () => {
-        if (radio.value === 'SEDEX') {
-          containerInputCep.appendChild(inputCepElement)
-          containerInputCep.appendChild(buttonCepElement)
-          buttonCepElement.addEventListener('click', () => this.calculaCEP(inputCepElement.value))
-        } else {
-          containerInputCep.innerHTML = `
-              <p>Entrega gratuita</p>
-          `
-        }
-      })
-      /* cartForm.appendChild(containerInputCep) */
-      cartFooter.prepend(containerInputCep)
-    })
   }
 
   populateCart(cart) {
@@ -217,7 +197,16 @@ class UI {
         }
       }
     })
+    //Call fetch cep and calc frete functions
+    
+    submitCepBtn.addEventListener('click', e => {
+      loader.style.display = 'block'
+      e.preventDefault()
+      let cep = inputCep.value
+      this.calculaCEP(cep)
+    })
   }
+
   clearCart() {
     let cartItems = cart.map(item => item.itemID)
     console.log(cartItems)
@@ -225,8 +214,6 @@ class UI {
     while(cartContent.children.length > 0) {
       cartContent.removeChild(cartContent.children[0])
     }
-    cartFooter.removeChild(cartFooter.children[1])
-    
 
     this.hideCart()
   }
@@ -243,20 +230,20 @@ class UI {
     ` */
   }
 
-  //spinner 
-  showSpinner() {
-      spinner.className = spinner.classList.add('show');
+  //loader 
+  showloader() {
+      loader.style.display = 'block'
+      
   }
 
-  //hide spinner
+  //hide loader
 
-hideSpinner() {
-  spinner.classList.remove('show');
+hideloader() {
+  loader.style.display = 'none'
 }
 
   //calcula cep
   calculaCEP(cep) {
-    console.log(cep)
     let args = {
       nCdServico:"04014",
       sCepOrigem: "14015080",
@@ -284,8 +271,6 @@ hideSpinner() {
         .then(response => response.json())
         .then(response => {
           console.log(response.data)
-          //TODO show address to cart content
-          
           clientAddress.innerHTML = `
             <p class="address"><strong><i class="fas fa-truck"></i> Endereço:</strong> ${response.data.logradouro}, ${response.data.bairro} - ${response.data.localidade}/${response.data.uf}</p>
           `
@@ -297,9 +282,8 @@ hideSpinner() {
   }
 
   calcFrete(args) {
-    const url = `https://frete-correios.herokuapp.com/ship`
-    //TODO fix spinner
-    this.showSpinner()
+    const url = `https://frete-correios.herokuapp.com/ship/`
+    const clientShip = document.createElement('div')
     fetch(url, {
       method: 'POST',
       headers: { 'Content-type': 'application/json'},
@@ -307,19 +291,95 @@ hideSpinner() {
     })
       .then(response => response.json())
       .then(response => {
-        //TODO show value in the cart content
-        cart[0].itemFrete = response[0].Valor.replace(',', '.')
-        const clientShip = document.createElement('div')
-        clientShip.innerHTML = `<p class="frete"><strong>Frete Sedex: </strong>${response[0].Valor.toLocaleString('pt-br')}</p>`
-        this.setCartValues(cart)
-        this.hideSpinner()
+        console.log(response)
+        loader.style.display = 'none'
+        
+        clientShip.innerHTML = 
+          `
+            <p class="frete">
+              <strong>Sedex para seu Estado: R$</strong>${response[0].Valor.toLocaleString('pt-br')}
+              <strong>PAC: R$</strong> Entrega Gratuita
+            </p>
+          `
+        
         cartForm.appendChild(clientShip)
+        shipElement.classList.replace('hide', 'show')
+        let totalValue = cartTotal.innerHTML
+        let freteFormat = 0
+        radioBtns.forEach(radio => {
+          radio.addEventListener('change', e => {
+            if(e.target.value === 'sedex') {
+              cart[0].itemFrete = response[0].Valor.replace(',', '.')
+              freteFormat = parseFloat(cart[0].itemFrete)
+              totalValue = freteFormat + cart[0].itemPrice * cart[0].itemAmount 
+              this.setCartValues(cart)
+              console.log(totalValue)
+
+            } else if (e.target.value === 'pac'){
+              cart[0].itemFrete = 0
+              this.setCartValues(cart)
+              totalValue = cart[0].itemFrete + cart[0].itemPrice * cart[0].itemAmount  
+              console.log(totalValue)
+              
+            }
+            if(e.target.checked && buttonPaypal.children.length === 0) {
+              paypalButtons.classList.replace('hide', 'show')
+              
+              paypal.Buttons({
+                createOrder: function(data, actions) {
+                  // This function sets up the details of the transaction, including the amount and line item details.
+                  return actions.order.create({
+                    intent: "CAPTURE",
+                    purchase_units: [
+                      {
+                          reference_id: "PUHF",
+                          description: "MacBook",
+
+                          custom_id: "CUST-HighFashions",
+                          soft_descriptor: "HighFashions",
+                          amount: {
+                            currency_code: "BRL",
+                            value: totalValue,
+                            breakdown: {
+                              item_total: {
+                                  currency_code: "BRL",
+                                  value: cart[0].itemPrice * cart[0].itemAmount
+                              },
+                              shipping: {
+                                currency_code: "BRL",
+                                value: cart[0].itemFrete
+                            },
+                            }
+                        },
+                          items: [
+                              {
+                                  name: cart[0].itemName,
+                                  description: `Cor: ${cart[0].itemColors}`,
+                                  sku: "sku01",
+                                  unit_amount: {
+                                      currency_code: "BRL",
+                                      value: cart[0].itemPrice
+                                  },
+                                  quantity: cart[0].itemAmount,
+                                  category: "PHYSICAL_GOODS"
+                              }
+                          ]
+                      }
+                  ]
+                  });
+                }
+              }).render('#paypal-button-container')
+            } 
+          })
+        })
+        
       })
       .catch(function(err) {
         console.log(err)
+        loader.style.display = 'none'
+        clientShip.innerHTML = `<p>Ocorreu um erro durante o cálculo do cep, por favor tente novamente<p>`
       })
   }
-
   getSingleButton(id) {
     return buttonsDOM.find(button => button.dataset.id === id)
   }
@@ -355,6 +415,6 @@ document.addEventListener('DOMContentLoaded', () => {
   ui.cartLogic()
 
   //get all buttons
-  ui.getButButtons();
+  ui.getButButtons()
 })
 
