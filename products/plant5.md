@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/plant5-featured-lg.webp"
       fallback: "/images/plant5-featured-lg.jpg"
-category: smartphone
+category: iphone
 featured: false
 section: Store
 layout: product
@@ -32,6 +32,7 @@ sub-category: ''
 price_snipcart: "4599"
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # iPhone X 64GB
