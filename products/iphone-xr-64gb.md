@@ -30,7 +30,10 @@ price_snipcart: "3499"
 sub-category: ''
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Silver
+- White
+- Black
 
 ---
 # iPhone Xr 64GB
