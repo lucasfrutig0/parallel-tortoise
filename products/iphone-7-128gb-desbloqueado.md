@@ -23,12 +23,14 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: smartphone
+category: iphone
 featured: false
 section: Store
 gallery: []
 price_snipcart: "2800"
 sub-category: ''
+url-frame: ''
+colors: []
 
 ---
 # iPhone 7 128GB Desbloqueado
