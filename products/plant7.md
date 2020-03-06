@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/iphone11-black-original.webp"
       fallback: "/images/iphone11-black-original.png"
-category: smartphone
+category: iphones
 featured: false
 section: Store
 layout: product
@@ -31,6 +31,7 @@ price_snipcart: "5299"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # iPhone 11 256GB
