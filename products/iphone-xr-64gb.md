@@ -21,7 +21,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: smartphone
+category: iphone
 featured: false
 section: Store
 gallery:
@@ -30,6 +30,7 @@ price_snipcart: "3499"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # iPhone Xr 64GB
