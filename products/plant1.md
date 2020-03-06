@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/iphone11amarelo-thumb.webp"
       fallback: "/images/iphone11amarelo-thumb.png"
-category: smartphone
+category: iphone
 featured: false
 section: Store
 layout: product
@@ -38,6 +38,7 @@ sub-category: ''
 price_snipcart: "4823"
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # iPhone 11 128GB
