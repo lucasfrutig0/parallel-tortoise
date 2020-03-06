@@ -31,7 +31,8 @@ price_snipcart: "5299"
 sub-category: ''
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Silver
 
 ---
 # iPhone X 256GB
