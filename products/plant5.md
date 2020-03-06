@@ -32,7 +32,8 @@ sub-category: ''
 price_snipcart: "4599"
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Silver
 
 ---
 # iPhone X 64GB
