@@ -6,11 +6,11 @@ price: 7.200,00
 images:
   default:
     thumbnail:
-      optimized: "/images/iphone-11-pro-midnight-green-select-2019_amp-1.png"
-      fallback: "/images/iphone-11-pro-midnight-green-select-2019_amp-1.png"
+      optimized: "/images/iphone-11-pro-max-apple-com-64gb-tela-retina-hd-de-65-ios-13-tripla-camera-traseira-resistente-a-agua-e-bateria-de-longa-duracao-prateado-50004418.jpg"
+      fallback: "/images/iphone-11-pro-max-apple-com-64gb-tela-retina-hd-de-65-ios-13-tripla-camera-traseira-resistente-a-agua-e-bateria-de-longa-duracao-prateado-50004418.jpg"
     original:
-      optimized: "/images/iphone-11-pro-midnight-green-select-2019_amp.webp"
-      fallback: "/images/iphone-11-pro-midnight-green-select-2019_amp.png"
+      optimized: "/images/iphone-11-pro-max-apple-com-64gb-tela-retina-hd-de-65-ios-13-tripla-camera-traseira-resistente-a-agua-e-bateria-de-longa-duracao-prateado-50004418.jpg"
+      fallback: "/images/iphone-11-pro-max-apple-com-64gb-tela-retina-hd-de-65-ios-13-tripla-camera-traseira-resistente-a-agua-e-bateria-de-longa-duracao-prateado-50004418.jpg"
   featured:
     thumbnail:
       optimized: "/images/plant8-featured.webp"
