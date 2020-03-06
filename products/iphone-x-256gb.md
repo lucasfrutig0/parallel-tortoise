@@ -21,7 +21,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: smartphone
+category: iphone
 featured: false
 section: Store
 gallery:
@@ -31,6 +31,7 @@ price_snipcart: "5299"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # iPhone X 256GB
