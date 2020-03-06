@@ -24,7 +24,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: smartphone
+category: iphones
 featured: true
 section: Store
 gallery:
