@@ -34,7 +34,8 @@ price_snipcart: "5599"
 sub-category: ''
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Silver
 
 ---
 # iPhone XS 64GB
