@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/iphone11pro64gb.webp"
       fallback: "/images/iphone11pro64gb.png"
-category: ''
+category: iphone
 featured: false
 section: Store
 layout: product
@@ -35,6 +35,7 @@ sub-category: ''
 price_snipcart: "6399"
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # iPhone 11 Pro 64GB
