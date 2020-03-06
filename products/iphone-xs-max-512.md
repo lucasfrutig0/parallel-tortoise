@@ -32,7 +32,10 @@ price_snipcart: "7899"
 sub-category: ''
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Rose
+- Black
+- Silver
 
 ---
 # iPhone XS MAX 512GB
