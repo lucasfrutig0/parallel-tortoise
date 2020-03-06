@@ -32,7 +32,8 @@ price_snipcart: "3599"
 sub-category: ''
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- White
 
 ---
 # iPhone 8 64GB Plus
