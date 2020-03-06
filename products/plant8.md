@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/plant8-featured-lg.webp"
       fallback: "/images/plant8-featured-lg.jpg"
-category: smartphone
+category: iphone
 featured: false
 section: Store
 layout: product
@@ -33,6 +33,7 @@ sub-category: ''
 video: https://www.youtube.com/embed/eYK4fgplYI4
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # iPhone 11 Pro Max 64GB
