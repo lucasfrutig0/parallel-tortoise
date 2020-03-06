@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/plant6-featured-lg.webp"
       fallback: "/images/plant6-featured-lg.jpg"
-category: smartphone
+category: iphone
 featured: false
 section: Store
 layout: product
@@ -37,6 +37,7 @@ sub-category: ''
 video-frame: akakakakaka
 testando: ALOHA2
 url-frame: ''
+colors: []
 
 ---
 # iPhone 11 Pro Max 512GB
