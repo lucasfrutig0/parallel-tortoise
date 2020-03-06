@@ -24,7 +24,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ''
+category: ipad
 featured: false
 section: Store
 gallery: []
@@ -32,6 +32,7 @@ price_snipcart: "6999"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # iPad Pro 12.9 512GB WI-FI
