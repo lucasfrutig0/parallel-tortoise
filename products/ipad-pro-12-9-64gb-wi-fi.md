@@ -21,7 +21,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ''
+category: iphone
 featured: false
 section: ''
 gallery: []
@@ -29,6 +29,7 @@ price_snipcart: "5300"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # iPad Pro 12.9 64GB WI-FI
