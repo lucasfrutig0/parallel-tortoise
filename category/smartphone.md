@@ -1,7 +1,7 @@
 ---
 layout: category
-slug: smartphone
-title: Smartphone
+slug: iphones
+title: iPhones
 section: Store
 menu:
   categories:
