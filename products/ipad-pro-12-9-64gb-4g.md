@@ -21,7 +21,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ''
+category: iphone
 featured: false
 section: Store
 gallery: []
@@ -29,6 +29,7 @@ price_snipcart: "6300"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # iPAD PRO 12.9 64GB 4G
