@@ -32,7 +32,10 @@ price_snipcart: "6899"
 sub-category: ''
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Gold
+- Silver
+- Rose
 
 ---
 # iPhone XS MAX 256GB
