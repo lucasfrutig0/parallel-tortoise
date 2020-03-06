@@ -32,7 +32,8 @@ price_snipcart: "6599"
 sub-category: ''
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Silver
 
 ---
 # iPhone XS 256GB
