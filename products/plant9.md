@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/plant9-featured-lg.webp"
       fallback: "/images/plant9-featured-lg.jpg"
-category: smartphone
+category: iphone
 featured: false
 section: Store
 layout: product
@@ -37,6 +37,7 @@ sub-category: ''
 video-frame: ''
 testando: ALOHA
 url-frame: ''
+colors: []
 
 ---
 # iPhone 11 Pro Max 256GB
