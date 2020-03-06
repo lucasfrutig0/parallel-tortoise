@@ -98,7 +98,7 @@ fields:
     - ipad-pro
     - gopro
     - smartphone
-    - iphone
+    - iphones
 - name: sub-category
   type: select
   default: []
