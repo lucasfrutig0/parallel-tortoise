@@ -5,6 +5,6 @@ title: GoPro
 section: Store
 menu:
   categories:
-    weight: 10
+    weight: 11
 
 ---

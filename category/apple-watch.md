@@ -5,6 +5,6 @@ title: Apple Watch
 section: Store
 menu:
   categories:
-    weight: 2
+    weight: 5
 
 ---

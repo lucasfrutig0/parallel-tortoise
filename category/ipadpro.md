@@ -5,6 +5,6 @@ title: iPad Pro
 section: Store
 menu:
   categories:
-    weight: 5
+    weight: 3
 
 ---

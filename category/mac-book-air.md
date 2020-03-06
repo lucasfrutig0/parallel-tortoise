@@ -5,6 +5,6 @@ title: MacBook Air
 section: Store
 menu:
   categories:
-    weight: 6
+    weight: 7
 
 ---
