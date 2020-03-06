@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/iphone11-colors-original.png"
       fallback: "/images/iphone 11 vermelho-original.webp"
-category: smartphone
+category: iphones
 featured: false
 section: Store
 layout: product
@@ -38,6 +38,7 @@ sub-category: ''
 price_snipcart: "4599"
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # iPhone 11 64GB
