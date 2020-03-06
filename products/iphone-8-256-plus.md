@@ -30,7 +30,8 @@ price_snipcart: "4260"
 sub-category: ''
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- White
 
 ---
 # iPhone 8 256 Plus
