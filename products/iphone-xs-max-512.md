@@ -24,7 +24,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: smartphone
+category: iphone
 featured: false
 section: Store
 gallery: []
@@ -32,6 +32,7 @@ price_snipcart: "7899"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # iPhone XS MAX 512GB
