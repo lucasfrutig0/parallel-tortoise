@@ -21,7 +21,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: iphone
+category: ipad
 featured: false
 section: ''
 gallery: []
