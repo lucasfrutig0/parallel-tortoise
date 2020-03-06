@@ -24,7 +24,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: ''
+category: ipad
 featured: false
 section: Store
 gallery: []
@@ -32,6 +32,7 @@ sub-category: ''
 price_snipcart: "6230"
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # iPad Pro 12.9 256GB WI-FI
