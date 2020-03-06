@@ -25,7 +25,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: smartphone
+category: iphone
 featured: false
 section: Store
 gallery: []
@@ -33,6 +33,7 @@ price_snipcart: "2050"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # iPhone 6s 64gb
