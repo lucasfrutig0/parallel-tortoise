@@ -25,7 +25,7 @@ category: iphones
 featured: false
 section: Store
 gallery: []
-price_snipcart: "4499"
+price_snipcart: '4499,00'
 sub-category: ''
 url-frame: ''
 testando: ''
