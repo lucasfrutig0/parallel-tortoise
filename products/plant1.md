@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/iphone11amarelo-thumb.webp"
       fallback: "/images/iphone11amarelo-thumb.png"
-category: iphones
+category: iphone
 featured: false
 section: Store
 layout: product
