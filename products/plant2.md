@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/iphone11-colors-original.png"
       fallback: "/images/iphone 11 vermelho-original.webp"
-category: iphones
+category: iphone
 featured: false
 section: Store
 layout: product
