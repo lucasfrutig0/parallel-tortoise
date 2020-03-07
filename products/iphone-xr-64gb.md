@@ -4,7 +4,7 @@ colortags: []
 id: "11"
 title: iPhone Xr 64GB
 description: GARANTIA DIRETO FABRICANTE 12 MESES
-price: 3.900,00
+price: '3900,00'
 image: "/images/iphonexr.jpg"
 images:
   default:
