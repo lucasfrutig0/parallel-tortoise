@@ -28,7 +28,7 @@ gallery:
 - "/images/iphone11pro256gb-thumbf.webp"
 - "/images/iphone11promax512gb-featured-thumb.webp"
 colortags: []
-price_snipcart: '7199,00'
+price_snipcart: "7199"
 sub-category: ''
 video: https://www.youtube.com/embed/eYK4fgplYI4
 url-frame: ''
