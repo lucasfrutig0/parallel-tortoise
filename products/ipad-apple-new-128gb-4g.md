@@ -6,7 +6,7 @@ colortags:
 - Rose
 - Gold
 id: "40"
-title: 'iPad Apple 7 Geração 128gb 4G '
+title: 'iPad Apple 7 Geração 128gb 10.2 4G '
 description: GARANTIA 12 MESES DIRETO FABRICANTE
 price: 3.699,00
 image: "/images/ipad128gb-thumb.png"
@@ -36,7 +36,7 @@ testando: ''
 colors: []
 
 ---
-# iPad Apple 7 Geração 128gb 4g
+# iPad Apple 7 Geração 128gb 10.2 4g
 
 Disponibilidade: 10 dias úteis
 
