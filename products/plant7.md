@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/iphone11-black-original.webp"
       fallback: "/images/iphone11-black-original.png"
-category: iphones
+category: iphone
 featured: false
 section: Store
 layout: product
