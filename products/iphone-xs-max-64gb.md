@@ -30,7 +30,7 @@ section: Store
 gallery:
 - "/images/iphone-xs-max-dourado.png"
 - "/images/iphone-xs-max-thumb-1.png"
-price_snipcart: '5300,00'
+price_snipcart: "5300"
 sub-category: ''
 url-frame: ''
 testando: ''
