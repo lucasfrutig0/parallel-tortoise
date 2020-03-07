@@ -2,7 +2,7 @@
 id: "7"
 title: iPhone 11 256GB
 description: 'Disponibilidade: 10 dias úteis'
-price: 5.299,00
+price: '5399,00'
 images:
   default:
     thumbnail:
@@ -27,7 +27,7 @@ gallery:
 - "/images/iphone11amarelo-thumb.png"
 - "/images/iphone-11-vermelho-thumb.png"
 colortags: []
-price_snipcart: "5299"
+price_snipcart: '5399,00'
 sub-category: ''
 url-frame: ''
 testando: ''
