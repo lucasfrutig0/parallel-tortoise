@@ -7,7 +7,7 @@ colortags:
 id: "24"
 title: iPhone 8 64GB
 description: Garantia 12 meses direto Fabricante
-price: 3.099,00
+price: '3099,00'
 image: "/images/iphone8-orihinal.png"
 images:
   default:
@@ -28,7 +28,7 @@ category: iphones
 featured: false
 section: Store
 gallery: []
-price_snipcart: "3099"
+price_snipcart: '3099,00'
 sub-category: ''
 url-frame: ''
 testando: ''
