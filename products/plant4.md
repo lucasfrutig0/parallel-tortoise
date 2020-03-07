@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/iphone11pro64gb.webp"
       fallback: "/images/iphone11pro64gb.png"
-category: iphones
+category: iphone
 featured: false
 section: Store
 layout: product
