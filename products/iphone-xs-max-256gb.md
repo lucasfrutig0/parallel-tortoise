@@ -7,7 +7,7 @@ colortags:
 id: "17"
 title: iPhone XS MAX 256GB
 description: GARANTIA 1 ANO DIRETO FABRICANTE APPLE
-price: 6.899,00
+price: '5499,00'
 image: "/images/iphone-xs-max-dourado.png"
 images:
   default:
@@ -28,7 +28,7 @@ category: iphones
 featured: false
 section: Store
 gallery: []
-price_snipcart: "6899"
+price_snipcart: '5499,00'
 sub-category: ''
 url-frame: ''
 testando: ''
