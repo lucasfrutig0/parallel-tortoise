@@ -5,7 +5,7 @@ colortags:
 - Silver
 - Gold
 id: "43"
-title: iPad 7 Geração 2019 32gb 10.2 4G
+title: iPad 7 Geração 32gb 10.2 4G
 description: GARANTIA 12 MESES DIRETO FABRICANTE
 price: 2.699,00
 image: "/images/ipadnew128gb-thumb.png"
