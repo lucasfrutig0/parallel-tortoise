@@ -7,7 +7,7 @@ colortags:
 id: "14"
 title: iPhone XS 64GB
 description: GARANTIA 12 MESES DO FABRICANTE
-price: 5.599,00
+price: '4900,00'
 image: "/images/iphoneXs-thumb.png"
 images:
   default:
@@ -30,7 +30,7 @@ section: Store
 gallery:
 - "/images/iphonexs-dourado-g.png"
 - "/images/iphoneXs-thumb-1.png"
-price_snipcart: "5599"
+price_snipcart: '4900,00'
 sub-category: ''
 url-frame: ''
 testando: ''
