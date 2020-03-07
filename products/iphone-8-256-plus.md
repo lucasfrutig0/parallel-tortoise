@@ -5,7 +5,7 @@ colortags:
 id: "27"
 title: iPhone 8 256 Plus
 description: Garantia 12 meses de fábrica
-price: 4.260,00
+price: '3999,00'
 image: "/images/iphone8-thumb.png"
 images:
   default:
@@ -26,7 +26,7 @@ category: iphones
 featured: false
 section: Store
 gallery: []
-price_snipcart: "4260"
+price_snipcart: '3999,00'
 sub-category: ''
 url-frame: ''
 testando: ''
