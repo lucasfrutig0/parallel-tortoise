@@ -22,7 +22,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: iphones
+category: iphone
 featured: false
 section: Store
 gallery: []
