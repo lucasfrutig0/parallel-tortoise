@@ -34,7 +34,6 @@ video: https://www.youtube.com/embed/eYK4fgplYI4
 url-frame: ''
 testando: ''
 colors: []
-published: false
 
 ---
 # iPhone 11 Pro Max 64GB
