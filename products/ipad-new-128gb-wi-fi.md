@@ -4,7 +4,7 @@ colortags:
 - Black
 - Silver
 id: "42"
-title: iPad New 128gb Wi FI
+title: iPad 7 Geracao 128gb 10.2 Wi Fi
 description: GARANTIA DIRETO FABRICANTE 12 MESES
 price: 2.757,00
 image: "/images/ipadnew128gb-thumb.png"
@@ -31,9 +31,10 @@ price_snipcart: "2757"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
 
 ---
-# iPad New 128gb Wi FI
+# iPad 7 128gb 10.2 Wi FI
 
 Disponibilidade: 10 dias úteis
 
