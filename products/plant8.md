@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/iphone-11-pro-max-apple-com-64gb-tela-retina-hd-de-65-ios-13-tripla-camera-traseira-resistente-a-agua-e-bateria-de-longa-duracao-prateado-50004418.jpg"
       fallback: "/images/iphone-11-pro-max-apple-com-64gb-tela-retina-hd-de-65-ios-13-tripla-camera-traseira-resistente-a-agua-e-bateria-de-longa-duracao-prateado-50004418.jpg"
-category: iphones
+category: iphone
 featured: false
 section: Store
 layout: product
