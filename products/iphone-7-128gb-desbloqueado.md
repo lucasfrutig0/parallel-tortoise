@@ -6,7 +6,7 @@ colortags:
 id: "20"
 title: iPhone 7 128GB Desbloqueado
 description: " É poderoso em cada detalhe. E poderoso como um todo."
-price: 2.800,00
+price: '2800,00'
 image: "/images/4.png"
 images:
   default:
