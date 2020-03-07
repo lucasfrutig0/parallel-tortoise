@@ -2,7 +2,7 @@
 id: "2"
 title: iPhone 11 64GB
 description: GARANTIA 1 ANO APPLE ACOMPANHA TODOS OS ACESSORIOS
-price: 4.599,00
+price: 4.699,00
 images:
   default:
     thumbnail:
@@ -35,7 +35,7 @@ colortags:
 - red
 - black
 sub-category: ''
-price_snipcart: "4599"
+price_snipcart: '4699,00'
 url-frame: ''
 testando: ''
 colors: []
