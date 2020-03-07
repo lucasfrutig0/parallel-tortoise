@@ -4,7 +4,7 @@ colortags: []
 id: "53"
 title: iPad Pro 12.9 64GB WI-FI
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: 5.300,00
+price: '5300,00'
 image: "/images/ipadpro14g-thumb.png"
 images:
   default:

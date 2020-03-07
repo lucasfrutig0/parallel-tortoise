@@ -4,7 +4,7 @@ colortags: []
 id: "38"
 title: IMAC APPLE MMQA2LL/A
 description: 21.5 /I5-2.3/8GB/1TB (2017)
-price: 6.699,00
+price: '6699,00'
 image: "/images/imac2-thumb.png"
 images:
   default:
@@ -29,6 +29,7 @@ price_snipcart: "6699"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # IMAC APPLE MMQA2LL/A

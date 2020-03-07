@@ -5,9 +5,9 @@ colortags:
 - Silver
 - Gold
 id: "43"
-title: iPad New 32gb 4G
+title: iPad 7 Geração 32gb 10.2 4G
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: 2.649,00
+price: '2699,00'
 image: "/images/ipadnew128gb-thumb.png"
 images:
   default:
@@ -28,13 +28,14 @@ category: ipad
 featured: false
 section: Store
 gallery: []
-price_snipcart: "2649"
+price_snipcart: "2699"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
 
 ---
-# iPad New 32gb 4G
+# iPad 7 Geração 2019 32gb 10.2 4G
 
 Aprenda, jogue, navegue e crie. O iPad tem uma tela incrível, desempenho espetacular e muitos apps para você fazer o que quiser. É prático. É fácil. É mágico.
 

@@ -2,15 +2,15 @@
 id: "2"
 title: iPhone 11 64GB
 description: GARANTIA 1 ANO APPLE ACOMPANHA TODOS OS ACESSORIOS
-price: 4.599,00
+price: '4699,00'
 images:
   default:
     thumbnail:
-      optimized: "/images/iphone-11-vermelho-thumb-1.png"
-      fallback: "/images/iphone-11-vermelho-thumb-1.png"
+      optimized: "/images/15080871690270.jpg"
+      fallback: "/images/15080871690270-1.jpg"
     original:
-      optimized: "/images/iphone 11 vermelho-original.webp"
-      fallback: "/images/iphone-11-vermelho-original.png"
+      optimized: "/images/15080871690270-1.jpg"
+      fallback: "/images/15080871690270-1.jpg"
   featured:
     thumbnail:
       optimized: "/images/iphone 11 vermelho-thumb-1.webp"
@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/iphone11-colors-original.png"
       fallback: "/images/iphone 11 vermelho-original.webp"
-category: iphones
+category: iphone
 featured: false
 section: Store
 layout: product
@@ -35,7 +35,7 @@ colortags:
 - red
 - black
 sub-category: ''
-price_snipcart: "4599"
+price_snipcart: "4699"
 url-frame: ''
 testando: ''
 colors: []

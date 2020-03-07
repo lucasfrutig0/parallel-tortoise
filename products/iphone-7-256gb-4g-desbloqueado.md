@@ -8,7 +8,7 @@ colortags:
 id: "21"
 title: iPhone 7 256gb 4G Desbloqueado
 description: " É poderoso em cada detalhe. E poderoso como um todo."
-price: 2.999,00
+price: '2999,00'
 image: "/images/bhuoz-9a2ak-0-1.webp"
 images:
   default:
@@ -25,7 +25,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: iphones
+category: iphone
 featured: false
 section: Store
 gallery: []

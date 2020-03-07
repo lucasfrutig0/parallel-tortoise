@@ -6,9 +6,9 @@ colortags:
 - Rose
 - Gold
 id: "40"
-title: iPad Apple New 128gb 4G
+title: 'iPad Apple 7 Geração 128gb 10.2 4G '
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: 3.100,00
+price: '3699,00'
 image: "/images/ipad128gb-thumb.png"
 images:
   default:
@@ -29,39 +29,40 @@ category: ipad
 featured: false
 section: Store
 gallery: []
-price_snipcart: "3100"
+price_snipcart: "3699"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
 
 ---
-# iPad Apple New 128gb 4G
+# iPad Apple 7 Geração 128gb 10.2 4g
 
 Disponibilidade: 10 dias úteis
 
 ## Detalhes do produto Tablet Apple iPad 6ª Geração 128GB 4G 9,7" iOS 8 MP
 
 | Informações Básicas |
-| --- | --- |
-| Marca | Apple |
-| Linha | iPad |
-| Série | Não Possui |
-| Geração | 6ª Geração |
+| --- |
+| Marca |
+| Linha |
+| Série |
+| Geração |
 | Características da Tela/Imagem |
-| Tipo de Tela | Retina |
-| Tamanho da Tela | 9,7" |
-| Resolução de Tela | 2K |
+| Tipo de Tela |
+| Tamanho da Tela |
+| Resolução de Tela |
 | Processador, Memória e Armazenamento |
-| Sistema Operacional | iOS 11 |
-| Processador | Apple A10 Fusion |
-| Memória Interna | 128GB |
+| Sistema Operacional |
+| Processador |
+| Memória Interna |
 | Conexões e Recursos |
-| Acesso a internet | 4G Wi-Fi |
-| Conectividade | Bluetooth |
-| Recursos e Funções | Leitor Biométrico |
-| Infantil | Não |
+| Acesso a internet |
+| Conectividade |
+| Recursos e Funções |
+| Infantil |
 | Recursos da Câmera |
-| Câmera Frontal | Sim |
-| Resolução da Câmera Frontal | 1,2 MP |
-| Resolução da Câmera Traseira | 8 MP |
-| Filma em | Full HD |
+| Câmera Frontal |
+| Resolução da Câmera Frontal |
+| Resolução da Câmera Traseira |
+| Filma em |

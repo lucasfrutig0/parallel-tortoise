@@ -2,7 +2,7 @@
 id: "5"
 title: iPhone X 64GB
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: 4.599,00
+price: '4299,00'
 images:
   default:
     thumbnail:
@@ -18,7 +18,7 @@ images:
     original:
       optimized: "/images/plant5-featured-lg.webp"
       fallback: "/images/plant5-featured-lg.jpg"
-category: iphones
+category: iphone
 featured: false
 section: Store
 layout: product
@@ -29,7 +29,7 @@ colortags:
 - black
 - silver
 sub-category: ''
-price_snipcart: "4599"
+price_snipcart: '4299,00'
 url-frame: ''
 testando: ''
 colors:

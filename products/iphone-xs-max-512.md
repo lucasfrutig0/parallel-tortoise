@@ -7,7 +7,7 @@ colortags:
 id: "18"
 title: iPhone XS MAX 512GB
 description: GARANTIA 1 ANO
-price: 7.899,00
+price: '7300,00'
 image: "/images/iphone-xs-max-original.png"
 images:
   default:
@@ -24,11 +24,11 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: iphones
+category: iphone
 featured: false
 section: Store
 gallery: []
-price_snipcart: "7899"
+price_snipcart: '7300,00'
 sub-category: ''
 url-frame: ''
 testando: ''

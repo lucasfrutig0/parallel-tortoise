@@ -5,7 +5,7 @@ colortags: []
 id: "75"
 title: Gopro Hero 5 Session
 description: Garantia 12 MESES DIRETO FABRICANTE
-price: 1.699,00
+price: '1699,00'
 image: "/images/gopro5-thumb.png"
 images:
   default:
@@ -27,6 +27,8 @@ featured: false
 section: Store
 gallery: []
 price_snipcart: "1699"
+url-frame: ''
+colors: []
 
 ---
 # Gopro Hero 5 Session

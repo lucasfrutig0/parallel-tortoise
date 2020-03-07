@@ -4,7 +4,7 @@ colortags: []
 id: "10"
 title: iPhone X 256GB
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: 5.299,00
+price: '4499,00'
 image: "/images/iphonex1.png"
 images:
   default:
@@ -21,13 +21,13 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: iphones
+category: iphone
 featured: false
 section: Store
 gallery:
 - "/images/iPhonex.png"
 - "/images/iphonex-thumb.png"
-price_snipcart: "5299"
+price_snipcart: '4499,00'
 sub-category: ''
 url-frame: ''
 testando: ''

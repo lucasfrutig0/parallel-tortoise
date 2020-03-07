@@ -8,7 +8,7 @@ colortags:
 id: "19"
 title: iPhone 6s 64gb
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: 2.050,00
+price: '2050,00'
 image: "/images/b7yhl-f1xoy-0.webp"
 images:
   default:
@@ -25,7 +25,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: iphones
+category: iphone
 featured: false
 section: Store
 gallery: []

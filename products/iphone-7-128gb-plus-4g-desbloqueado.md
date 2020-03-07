@@ -8,7 +8,7 @@ colortags:
 id: "22"
 title: iPhone 7 128GB Plus 4G Desbloqueado
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: 3.199,00
+price: '3199,00'
 image: "/images/iphone7plus-thumb.png"
 images:
   default:
@@ -25,7 +25,7 @@ images:
     original:
       optimized: ''
       fallback: ''
-category: iphones
+category: iphone
 featured: false
 section: Store
 gallery: []

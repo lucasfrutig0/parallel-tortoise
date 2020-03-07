@@ -5,7 +5,7 @@ colortags: []
 id: "74"
 title: Filmadora GoPro Hero7 Black
 description: Garantia 6 meses
-price: 2.199,00
+price: '2399,00'
 image: "/images/gopro7-thumb.png"
 images:
   default:
@@ -26,9 +26,10 @@ category: gopro
 featured: false
 section: Store
 gallery: []
-price_snipcart: "2199"
+price_snipcart: "2399"
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # Filmadora GoPro Hero7 Black

@@ -5,7 +5,7 @@ colortags: []
 id: "76"
 title: GoPro Hero 5 Black
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: 1.431,00
+price: '1431,00'
 image: "/images/gopro5black-thumb.png"
 images:
   default:
@@ -27,6 +27,8 @@ featured: false
 section: Store
 gallery: []
 price_snipcart: "1431"
+url-frame: ''
+colors: []
 
 ---
 # GoPro Hero 5 Black

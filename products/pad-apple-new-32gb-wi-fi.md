@@ -6,9 +6,9 @@ colortags:
 - Gold
 - Rose
 id: "41"
-title: iPad Apple New 32gb WI FI
+title: iPad Apple 7 Geracao  32gb 10.2 WI FI
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: 1.999,00
+price: '2199,00'
 image: "/images/ipad32gb-thumb.png"
 images:
   default:
@@ -31,39 +31,40 @@ section: Store
 gallery:
 - "/images/ipad128gb-thumb-2.png"
 - "/images/ipad128gb-gallery.png"
-price_snipcart: "1999"
+price_snipcart: '2199,00'
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
 
 ---
-# iPad Apple New 32gb WI FI
+# iPad Apple 7 Geracao 32gb 10.2 Wi Fi
 
 Disponibilidade: 10 dias úteis
 
 ## Detalhes do produto Tablet Apple iPad 5ª Geração 32GB 9,7" iOS 8 MP Filma em Full HD
 
 | Informações Básicas |
-| --- | --- |
-| Marca | Apple |
-| Linha | iPad |
-| Série | Não Possui |
-| Geração | 5ª Geração |
+| --- |
+| Marca |
+| Linha |
+| Série |
+| Geração |
 | Características da Tela/Imagem |
-| Tipo de Tela | Retina |
-| Tamanho da Tela | 9,7" |
-| Resolução de Tela | 2K |
+| Tipo de Tela |
+| Tamanho da Tela |
+| Resolução de Tela |
 | Processador, Memória e Armazenamento |
-| Sistema Operacional | iOS 10 |
-| Processador | Apple A9 |
-| Memória Interna | 32GB |
+| Sistema Operacional |
+| Processador |
+| Memória Interna |
 | Conexões e Recursos |
-| Acesso a internet | Wi-Fi |
-| Conectividade | Bluetooth |
-| Recursos e Funções | Não informado pelo Fabricante |
-| Infantil | Não |
+| Acesso a internet |
+| Conectividade |
+| Recursos e Funções |
+| Infantil |
 | Recursos da Câmera |
-| Câmera Frontal | Sim |
-| Resolução da Câmera Frontal | 1,2 MP |
-| Resolução da Câmera Traseira | 8 MP |
-| Filma em | Full HD |
+| Câmera Frontal |
+| Resolução da Câmera Frontal |
+| Resolução da Câmera Traseira |
+| Filma em |
