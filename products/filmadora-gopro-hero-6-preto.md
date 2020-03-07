@@ -5,7 +5,7 @@ colortags: []
 id: "73"
 title: FILMADORA GOPRO HERO 6 PRETO
 description: GARANTIA 90 DIAS
-price: 2.099,00
+price: '2099,00'
 image: "/images/goproh6-thumb.png"
 images:
   default:
@@ -29,6 +29,7 @@ gallery: []
 price_snipcart: "2099"
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # FILMADORA GOPRO HERO 6 PRETO
