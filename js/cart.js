@@ -20,6 +20,14 @@ const submitCepBtn = document.querySelector('.calc-cep')
 const shipElement = document.querySelector('.ship')
 const radioBtns = document.getElementsByName('envio')
 const buttonPaypal = document.getElementById('paypal-button-container')
+const installmentElement = document.createElement('div')
+installmentElement.classList.add('parcelamento')
+const detailsParcelamento = document.createElement('details')
+const summaryParcelamento = document.createElement('summary')
+const contentParcelas = document.createElement('span')
+const parcelasContainer = document.querySelector('.parcelas')
+const inCashElement = document.querySelector('.in-cash')
+
 
 
 
@@ -77,11 +85,46 @@ class UI {
 
     let tempTotal = 0;
     let itemsTotal = 0;
+    let inCash = 0
+    
     cart.map(item => {
       tempTotal += item.itemPrice * item.itemAmount
       tempTotal += Number(item.itemFrete)
       itemsTotal += Number(item.itemAmount)
     })
+    //percent in cash
+    inCashElement.innerHTML = ``
+    inCash = ( 6 / 100 ) * tempTotal
+    const discountInCash = document.createElement('div')
+    discountInCash.classList.add('avista')
+    discountInCash.innerHTML = `
+      <p>Pagamento à vista: <span>-6%</span> Desconto de R$${inCash.toLocaleString('pt-br', {minimumFractionDigits: 2})}</p>
+    `
+   /*  const discountPercent = document.createElement('small')
+    discountInCash.innerText = `À vista `
+    discountPercent.innerText = '-6%' */
+    inCashElement.appendChild(discountInCash)
+
+
+    // installment in x
+    detailsParcelamento.appendChild(summaryParcelamento)
+    let parcelas = [1,2,3,4,5,6,7,8,9,10,11,12]
+    let resultParcelas = 0
+    const markup = (parcelas)
+      .map( (parcela, idx) => {
+        resultParcelas = tempTotal / parcela
+        resultParcelas.toFixed(2)
+        return `<p>Parcelado em ${idx + 1}x = R$${resultParcelas.toLocaleString('pt-BR', {maximumFractionDigits: 2})}</p>`
+      })
+    summaryParcelamento.innerText = 'Parcelas'
+    contentParcelas.innerHTML = markup
+    detailsParcelamento.appendChild(contentParcelas)
+    installmentElement.appendChild(detailsParcelamento)
+    inCashElement.appendChild(installmentElement)
+    
+
+    
+
     cartTotal.innerText = tempTotal.toLocaleString('pt-BR', {
       minimumFractionDigits: 2
     });
@@ -111,6 +154,7 @@ class UI {
     </div>
     `;
     cartContent.appendChild(div)
+    cartContent.appendChild(inCashElement)
 
     //Get all select color elements on the cart
     let selectEl = [...document.querySelectorAll('.select-color')]
@@ -214,7 +258,7 @@ class UI {
     while(cartContent.children.length > 0) {
       cartContent.removeChild(cartContent.children[0])
     }
-
+    inCashElement.innerHTML = ``
     this.hideCart()
   }
 
@@ -222,6 +266,7 @@ class UI {
     cart = cart.filter(item => item.itemID !== id)
     this.setCartValues(cart)
     Storage.saveCart(cart)
+    inCashElement.innerHTML = ``
 /*     let button = this.getSingleButton(id)
     button.disabled = false
     button.innerHTML = `
