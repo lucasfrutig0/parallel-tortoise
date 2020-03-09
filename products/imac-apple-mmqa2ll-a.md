@@ -22,7 +22,7 @@ images:
       optimized: "/images/bah7d-s4wh9-0.webp"
       fallback: "/images/imac2-original.png"
 category: imac
-featured: true
+featured: false
 section: Store
 gallery: []
 price_snipcart: "6699"
