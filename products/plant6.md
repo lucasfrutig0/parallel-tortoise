@@ -19,7 +19,7 @@ images:
       optimized: "/images/plant6-featured-lg.webp"
       fallback: "/images/plant6-featured-lg.jpg"
 category: iphone
-featured: false
+featured: true
 section: Store
 layout: product
 image: "/images/iphone11pro64gb-thumb.png"
