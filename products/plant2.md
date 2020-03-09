@@ -38,7 +38,9 @@ sub-category: ''
 price_snipcart: "4699"
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Black
+- White
 
 ---
 # iPhone 11 64GB
