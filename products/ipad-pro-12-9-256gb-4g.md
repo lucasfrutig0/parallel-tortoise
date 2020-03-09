@@ -19,13 +19,13 @@ images:
       fallback: "/images/ipadpro129-original.png"
   featured:
     thumbnail:
-      optimized: ''
+      optimized: "/images/ipadpro129-original.png"
       fallback: ''
     original:
       optimized: ''
       fallback: ''
 category: ipad
-featured: false
+featured: true
 section: Store
 gallery: []
 price_snipcart: '7999,00'
