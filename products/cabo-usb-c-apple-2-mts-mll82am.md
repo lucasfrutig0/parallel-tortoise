@@ -29,6 +29,8 @@ gallery: []
 price_snipcart: "179"
 url-frame: ''
 testando: ''
+colors:
+- White
 
 ---
 # CABO USB-C APPLE 2 MTS MLL82AM
