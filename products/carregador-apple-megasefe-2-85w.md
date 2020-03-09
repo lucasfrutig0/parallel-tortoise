@@ -30,6 +30,8 @@ gallery: []
 price_snipcart: "499"
 url-frame: ''
 testando: ''
+colors:
+- White
 
 ---
 # Carregador Apple Megasefe 2 85w
