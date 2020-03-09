@@ -37,7 +37,9 @@ sub-category: ''
 video-frame: akakakakaka
 testando: ALOHA2
 url-frame: ''
-colors: []
+colors:
+- Silver
+- Black
 
 ---
 # iPhone 11 Pro Max 512GB
