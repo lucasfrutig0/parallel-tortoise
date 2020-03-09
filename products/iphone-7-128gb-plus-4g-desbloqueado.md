@@ -33,7 +33,8 @@ price_snipcart: "3199"
 sub-category: ''
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Black
 
 ---
 # iPhone 7 128GB Plus 4G Desbloqueado
