@@ -25,7 +25,7 @@ images:
       optimized: ''
       fallback: ''
 category: apple-watch
-featured: true
+featured: false
 section: Store
 gallery: []
 price_snipcart: "3699"
