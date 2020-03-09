@@ -28,11 +28,12 @@ category: apple-watch
 featured: false
 section: Store
 gallery: []
-price_snipcart: '3699.'
+price_snipcart: "3699"
 sub-category: ''
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Black
 
 ---
 # Apple Watch Sport Serie 4 GPS+CELULAR 40MM
