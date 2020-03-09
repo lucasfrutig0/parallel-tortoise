@@ -33,7 +33,9 @@ price_snipcart: "2999"
 sub-category: ''
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Black
+- Gold
 
 ---
 # iPhone 7 256gb 4G Desbloqueado
