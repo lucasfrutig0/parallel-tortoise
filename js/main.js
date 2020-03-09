@@ -695,3 +695,18 @@ document.querySelectorAll('.js-figure-link').forEach((l) => {
   });
 });
 
+
+//Product Page
+const buttonAddToCart = document.querySelector('.snipcart-button')
+const inCashElement = document.querySelector('.in-cash')
+const descontoElement = document.querySelector('.desconto')
+const parcelasElement = document.querySelector('details')
+
+
+let price = buttonAddToCart.dataset.itemPrice
+let inCash = (6 / 100) * price
+Number(inCash)
+descontoElement.innerText = `
+  à vista R$${(price - inCash).toLocaleString('pt-BR')}
+`
+
