@@ -6,7 +6,7 @@ colortags:
 id: "30"
 title: Apple Watch Sport Serie 3 42mm GPS
 description: 1 ano de garantia de fábrica
-price: 1.799,00
+price: '1799,00'
 image: "/images/apple-watch42mm-thumb.png"
 images:
   default:
@@ -31,6 +31,8 @@ price_snipcart: "1799"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors:
+- White
 
 ---
 # Apple Watch Sport Serie 3 42mm GPS
