@@ -38,7 +38,9 @@ sub-category: ''
 price_snipcart: "4899"
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Silver
+- Black
 
 ---
 # iPhone 11 128GB
