@@ -37,7 +37,10 @@ sub-category: ''
 video-frame: ''
 testando: ALOHA
 url-frame: ''
-colors: []
+colors:
+- Gold
+- Silver
+- Black
 
 ---
 # iPhone 11 Pro Max 256GB
