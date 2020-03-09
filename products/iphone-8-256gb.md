@@ -32,7 +32,8 @@ price_snipcart: "3180"
 sub-category: ''
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Silver
 
 ---
 # iPhone 8 256GB
