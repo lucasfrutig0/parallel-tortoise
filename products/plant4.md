@@ -19,7 +19,7 @@ images:
       optimized: "/images/iphone11pro64gb.webp"
       fallback: "/images/iphone11pro64gb.png"
 category: iphone
-featured: false
+featured: true
 section: Store
 layout: product
 image: "/images/iphone-11-pro-midnight-green-select-2019_amp.png"
