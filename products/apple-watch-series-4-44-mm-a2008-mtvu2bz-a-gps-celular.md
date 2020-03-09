@@ -32,6 +32,8 @@ price_snipcart: "3699"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors:
+- Black
 
 ---
 # Apple Watch Series 4 44 mm A2008 MTVU2BZ/A GPS CELULAR
