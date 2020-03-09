@@ -33,7 +33,9 @@ price_snipcart: "2050"
 sub-category: ''
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Silver
+- White
 
 ---
 # iPhone 6s 64gb
