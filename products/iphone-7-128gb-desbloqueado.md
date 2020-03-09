@@ -30,7 +30,8 @@ gallery: []
 price_snipcart: "2800"
 sub-category: ''
 url-frame: ''
-colors: []
+colors:
+- Black
 
 ---
 # iPhone 7 128GB Desbloqueado
