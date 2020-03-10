@@ -18,13 +18,13 @@ images:
       fallback: "/images/ipadnew128gb-original.png"
   featured:
     thumbnail:
-      optimized: ''
-      fallback: ''
+      optimized: "/images/ipad32gb-original.png"
+      fallback: "/images/ipad32gb-original.png"
     original:
       optimized: ''
       fallback: ''
 category: ipad
-featured: false
+featured: true
 section: Store
 gallery: []
 price_snipcart: "2757"

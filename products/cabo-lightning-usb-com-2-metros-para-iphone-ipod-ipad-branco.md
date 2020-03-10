@@ -29,6 +29,8 @@ gallery: []
 price_snipcart: '149.90'
 url-frame: ''
 testando: ''
+colors:
+- White
 
 ---
 # Cabo Lightning USB com 2 Metros para iPhone, iPod, iPad Branco

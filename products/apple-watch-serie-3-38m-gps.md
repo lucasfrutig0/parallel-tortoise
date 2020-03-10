@@ -32,6 +32,9 @@ price_snipcart: "1799"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors:
+- White
+- Black
 
 ---
 # APPLE WATCH SERIE 3 38M GPS

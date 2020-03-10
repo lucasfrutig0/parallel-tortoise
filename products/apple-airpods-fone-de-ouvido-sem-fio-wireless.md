@@ -30,6 +30,8 @@ sub-category: ''
 price_snipcart: "1200"
 url-frame: ''
 testando: ''
+colors:
+- White
 
 ---
 # Apple AirPods Fone de Ouvido Sem Fio Wireless

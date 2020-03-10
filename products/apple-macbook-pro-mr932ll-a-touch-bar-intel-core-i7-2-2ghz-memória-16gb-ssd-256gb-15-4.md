@@ -24,13 +24,14 @@ images:
       optimized: ''
       fallback: ''
 category: macbook-pro-touch-bar
-featured: true
+featured: false
 section: Store
 gallery: []
 price_snipcart: "12400"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # Apple Macbook Pro MR932LL/A Touch Bar Intel Core i7 2.2GHz Memória 16GB SSD 256GB 15.4

@@ -29,6 +29,9 @@ gallery: []
 price_snipcart: '89.90'
 url-frame: ''
 testando: ''
+colors:
+- Silver
+- White
 
 ---
 # CABO USB-C

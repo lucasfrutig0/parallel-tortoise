@@ -8,7 +8,7 @@ colortags:
 id: "40"
 title: 'iPad Apple 7 Geração 128gb 10.2 4G '
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: '3699,00'
+price: '4199,00'
 image: "/images/ipad128gb-thumb.png"
 images:
   default:
@@ -29,7 +29,7 @@ category: ipad
 featured: false
 section: Store
 gallery: []
-price_snipcart: "3699"
+price_snipcart: "4199"
 sub-category: ''
 url-frame: ''
 testando: ''

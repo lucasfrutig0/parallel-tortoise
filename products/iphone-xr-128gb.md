@@ -29,7 +29,8 @@ price_snipcart: '4199,00'
 sub-category: ''
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Black
 
 ---
 # iPhone Xr 128GB

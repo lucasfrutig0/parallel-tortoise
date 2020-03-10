@@ -20,20 +20,22 @@ images:
       fallback: "/images/iphone6s-original.png"
   featured:
     thumbnail:
-      optimized: ''
-      fallback: ''
+      optimized: "/images/iphone6s-thumb.png"
+      fallback: "/images/iphone6s-thumb-1.png"
     original:
       optimized: ''
       fallback: ''
 category: iphone
-featured: false
+featured: true
 section: Store
 gallery: []
 price_snipcart: "2050"
 sub-category: ''
 url-frame: ''
 testando: ''
-colors: []
+colors:
+- Silver
+- White
 
 ---
 # iPhone 6s 64gb

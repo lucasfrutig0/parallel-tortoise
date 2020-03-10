@@ -25,13 +25,14 @@ images:
       optimized: ''
       fallback: ''
 category: ipad-pro
-featured: true
+featured: false
 section: Store
 gallery: []
 sub-category: ''
 price_snipcart: "5990"
 url-frame: ''
 testando: ''
+colors: []
 
 ---
 # Apple iPad Pro 10.5 512gb WI-FI 4G

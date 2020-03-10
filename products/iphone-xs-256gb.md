@@ -33,6 +33,7 @@ sub-category: ''
 url-frame: ''
 testando: ''
 colors:
+- GOLD
 - Silver
 
 ---

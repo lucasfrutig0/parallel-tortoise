@@ -29,6 +29,8 @@ gallery: []
 price_snipcart: '99.90'
 url-frame: ''
 testando: ''
+colors:
+- White
 
 ---
 # Cabo Apple Lightning para iPhone, iPad e iPod
