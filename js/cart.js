@@ -114,7 +114,7 @@ class UI {
     </div>
     `;
     cartContent.appendChild(div)
-    parcelasElement.appendChild(inCashElement)
+    /* parcelasElement.appendChild(inCashElement) */
 
     //Get all select color elements on the cart
     let selectEl = [...document.querySelectorAll('.select-color')]
