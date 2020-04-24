@@ -2,7 +2,7 @@
 id: "9"
 title: iPhone 11 Pro Max 256GB
 description: GARANTIA 1 ANO APPLE ACOMPANHA TODOS OS ACESSORIOS
-price: '7800,00'
+price: "8400"
 images:
   default:
     thumbnail:
@@ -32,7 +32,7 @@ colortags:
 - Black
 - Silver
 - Gold
-price_snipcart: "7800"
+price_snipcart: "8400"
 sub-category: ''
 video-frame: ''
 testando: ALOHA
