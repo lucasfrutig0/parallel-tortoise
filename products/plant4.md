@@ -2,7 +2,7 @@
 id: "4"
 title: iPhone 11 Pro 64GB
 description: GARANTIA 1 ANO APPLE ACOMPANHA TODOS OS ACESSORIOS
-price: '6399,00'
+price: "6999"
 images:
   default:
     thumbnail:
@@ -32,7 +32,7 @@ colortags:
 - green
 - silver
 sub-category: ''
-price_snipcart: "6399"
+price_snipcart: "6999"
 url-frame: ''
 testando: ''
 colors: []
