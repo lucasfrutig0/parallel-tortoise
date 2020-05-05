@@ -7,7 +7,7 @@ colortags:
 id: "43"
 title: iPad 7 Geração 32gb 10.2 4G
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: '2699,00'
+price: "3979"
 image: "/images/ipadnew128gb-thumb.png"
 images:
   default:
@@ -28,7 +28,7 @@ category: ipad
 featured: false
 section: Store
 gallery: []
-price_snipcart: "2699"
+price_snipcart: "3979"
 sub-category: ''
 url-frame: ''
 testando: ''
@@ -59,4 +59,4 @@ Wi-Fi e 4G LTE
 
 ## ![](https://cdn.awsli.com.br/311/311926/arquivos/new-ipad-9.7.jpg)
 
-## 
+##
