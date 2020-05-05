@@ -7,7 +7,7 @@ colortags:
 id: "26"
 title: iPhone 8 64GB Plus
 description: Garantia 12 meses de fábrica
-price: '3699,00'
+price: "4100"
 image: "/images/bsi49-d6jbp-0.webp"
 images:
   default:
@@ -28,7 +28,7 @@ category: iphone
 featured: false
 section: Store
 gallery: []
-price_snipcart: "3699"
+price_snipcart: "4100"
 sub-category: ''
 url-frame: ''
 testando: ''
