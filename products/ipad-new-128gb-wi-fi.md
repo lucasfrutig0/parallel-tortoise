@@ -6,7 +6,7 @@ colortags:
 id: "42"
 title: iPad 7 Geracao 128gb 10.2 Wi Fi
 description: GARANTIA DIRETO FABRICANTE 12 MESES
-price: '2757,00'
+price: "3800"
 image: "/images/ipadnew128gb-thumb.png"
 images:
   default:
@@ -27,7 +27,7 @@ category: ipad
 featured: true
 section: Store
 gallery: []
-price_snipcart: "2757"
+price_snipcart: "3800"
 sub-category: ''
 url-frame: ''
 testando: ''
