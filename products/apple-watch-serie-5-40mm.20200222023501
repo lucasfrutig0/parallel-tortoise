@@ -1,0 +1,36 @@
+---
+sub-category: ''
+layout: product
+id: "76"
+title: Apple Watch Serie 5 40mm
+description: 'Garantia 1 ano '
+price: "3460"
+price_snipcart: "3460"
+image: ''
+images:
+  default:
+    thumbnail:
+      optimized: ''
+      fallback: ''
+    original:
+      optimized: ''
+      fallback: ''
+  featured:
+    thumbnail:
+      optimized: ''
+      fallback: ''
+    original:
+      optimized: ''
+      fallback: ''
+category: apple-watch
+featured: false
+section: ''
+gallery: []
+url-frame: ''
+colors:
+- Rose
+- Silver
+- Black
+published: false
+
+---
