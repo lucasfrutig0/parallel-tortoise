@@ -27,7 +27,10 @@ featured: false
 section: Store
 gallery: []
 url-frame: ''
-colors: []
+colors:
+- SILVER
+- ROSE
+- 'BLACK '
 published: false
 
 ---
