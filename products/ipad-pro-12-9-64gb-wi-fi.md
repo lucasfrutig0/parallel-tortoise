@@ -30,7 +30,6 @@ sub-category: ''
 url-frame: ''
 testando: ''
 colors: []
-published: false
 
 ---
 # iPad Pro 12.9 128GB WI-FI
