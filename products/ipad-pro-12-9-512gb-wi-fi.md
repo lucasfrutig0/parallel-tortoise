@@ -7,7 +7,7 @@ colortags:
 id: "51"
 title: iPad Pro 12.9 512GB WI-FI
 description: GARANTIA DIRETO FABRICANTE 12 MESES
-price: '6999,00'
+price: "11500"
 image: "/images/ipadpro256gb-thumb-1.png"
 images:
   default:
@@ -28,7 +28,7 @@ category: ipad
 featured: false
 section: Store
 gallery: []
-price_snipcart: "6999"
+price_snipcart: "11500"
 sub-category: ''
 url-frame: ''
 testando: ''
@@ -51,26 +51,26 @@ Tamanho da Tela 12.9"
 
 ### Memória
 
-Memória Interna 128 GB
+Memória Interna 512 GB
 
 ### Câmera Traseira
 
-Câmera 12 MP Recursos Autofocus;   
- Detecção Facial;   
- Flash;   
- HDR;   
- Panorama;   
- Controle de Exposição
+Câmera 12 MP Recursos Autofocus;  
+Detecção Facial;  
+Flash;  
+HDR;  
+Panorama;  
+Controle de Exposição
 
 ### Câmera Frontal
 
-Câmera Frontal 5 MP Recursos HDR;   
- Detecção Facial
+Câmera Frontal 5 MP Recursos HDR;  
+Detecção Facial
 
 ### Conectividade
 
-Conectividade Bluetooth 4.2;   
- Wi-Fi 802.11 a/b/g/n/ac
+Conectividade Bluetooth 4.2;  
+Wi-Fi 802.11 a/b/g/n/ac
 
 ### Processador
 
