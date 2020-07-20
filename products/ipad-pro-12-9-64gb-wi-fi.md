@@ -4,7 +4,7 @@ colortags: []
 id: "53"
 title: iPad Pro 12.9 64GB WI-FI
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: '5300,00'
+price: "9500"
 image: "/images/ipadpro14g-thumb.png"
 images:
   default:
@@ -25,7 +25,7 @@ category: ipad
 featured: false
 section: ''
 gallery: []
-price_snipcart: "5300"
+price_snipcart: "9500"
 sub-category: ''
 url-frame: ''
 testando: ''
@@ -33,7 +33,7 @@ colors: []
 published: false
 
 ---
-# iPad Pro 12.9 64GB WI-FI
+# iPad Pro 12.9 128GB WI-FI
 
 Disponibilidade: 10 dias úteis
 
@@ -53,22 +53,22 @@ Memória Interna 128 GB
 
 ### Câmera Traseira
 
-Câmera 12 MP Recursos Autofocus;   
- Detecção Facial;   
- Flash;   
- HDR;   
- Panorama;   
- Controle de Exposição
+Câmera 12 MP Recursos Autofocus;  
+Detecção Facial;  
+Flash;  
+HDR;  
+Panorama;  
+Controle de Exposição
 
 ### Câmera Frontal
 
-Câmera Frontal 5 MP Recursos HDR;   
- Detecção Facial
+Câmera Frontal 5 MP Recursos HDR;  
+Detecção Facial
 
 ### Conectividade
 
-Conectividade Bluetooth 4.2;   
- Wi-Fi 802.11 a/b/g/n/ac
+Conectividade Bluetooth 4.2;  
+Wi-Fi 802.11 a/b/g/n/ac
 
 ### Processador
 
@@ -84,6 +84,6 @@ Marca Apple
 
 ## O que vem na caixa?
 
-* 1 Apple iPad Pro 512GB
+* 1 Apple iPad Pro 128GB
 * 1 Cabo de Lightning para USB
 * 1 Carregador USB
