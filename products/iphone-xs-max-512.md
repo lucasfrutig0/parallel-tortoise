@@ -7,7 +7,7 @@ colortags:
 id: "18"
 title: 'compra fernando '
 description: GARANTIA 1 ANO
-price: '4899,00'
+price: "4899"
 image: "/images/iphone-xs-max-original.png"
 images:
   default:
@@ -28,7 +28,7 @@ category: iphone
 featured: false
 section: Store
 gallery: []
-price_snipcart: '4899,00'
+price_snipcart: "4899"
 sub-category: ''
 url-frame: ''
 testando: ''
