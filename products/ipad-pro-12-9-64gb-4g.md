@@ -30,7 +30,6 @@ sub-category: ''
 url-frame: ''
 testando: ''
 colors: []
-published: false
 
 ---
 # iPAD PRO 12.9 128GB 4G
