@@ -5,9 +5,9 @@ colortags:
 - Silver
 - Gold
 id: "18"
-title: iPhone XS MAX 512GB
+title: 'compra fernando '
 description: GARANTIA 1 ANO
-price: '7300,00'
+price: '4899,00'
 image: "/images/iphone-xs-max-original.png"
 images:
   default:
@@ -28,7 +28,7 @@ category: iphone
 featured: false
 section: Store
 gallery: []
-price_snipcart: '7300,00'
+price_snipcart: '4899,00'
 sub-category: ''
 url-frame: ''
 testando: ''
