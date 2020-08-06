@@ -39,6 +39,7 @@ price_snipcart: "4700"
 url-frame: ''
 testando: ''
 colors:
+- white
 - Silver
 - Black
 
