@@ -29,6 +29,7 @@ gallery: []
 price_snipcart: "1699"
 url-frame: ''
 colors: []
+published: false
 
 ---
 # Gopro Hero 5 Session
