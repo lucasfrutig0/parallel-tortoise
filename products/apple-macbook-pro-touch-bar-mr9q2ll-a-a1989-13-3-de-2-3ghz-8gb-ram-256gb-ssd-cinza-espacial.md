@@ -31,6 +31,8 @@ price_snipcart: "10278"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
+published: false
 
 ---
 # Apple MacBook Pro TOUCH BAR MR9Q2LL/A A1989 13.3 de 2.3GHz 8GB RAM/256GB SSD - Cinza Espacial
