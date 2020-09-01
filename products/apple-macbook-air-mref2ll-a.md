@@ -30,6 +30,8 @@ price_snipcart: "7890"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
+published: false
 
 ---
 # A1932 de 13.3 com Intel Core i5 8GB RAM 256GB SSD
