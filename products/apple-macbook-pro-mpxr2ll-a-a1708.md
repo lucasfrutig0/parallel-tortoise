@@ -30,6 +30,8 @@ price_snipcart: "7499"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
+published: false
 
 ---
 # Apple MacBook Pro MPXR2LL/A A1708 Tela 13.3 2.3GHz 8GB de RAM 128GB SSD
