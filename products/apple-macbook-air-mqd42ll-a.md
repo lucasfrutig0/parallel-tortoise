@@ -30,6 +30,8 @@ price_snipcart: "6800"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
+published: false
 
 ---
 # Apple MacBook Air MQD42LL/A A1466 de 13.3 com Intel Core i5 8GB RAM 256GB SSD
