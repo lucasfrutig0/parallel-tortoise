@@ -31,6 +31,8 @@ price_snipcart: "14999"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
+published: false
 
 ---
 # Apple MacBook Pro TOUCH BAR MR942LL/A A1990 15.4 Intel Core i7 16GB RAM/512GB SSD - Cinza Espacial
