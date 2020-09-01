@@ -29,6 +29,8 @@ price_snipcart: "10372"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
+published: false
 
 ---
 # Apple iMac MK482 4Core i5 QC 3.3Ghz
@@ -45,4 +47,4 @@ Quatro portas USB 3 dão mais opções para conectar periféricos, como impresso
 
 O iMac sempre foi o melhor em design e funcionalidade, reunindo tela, processador, chip gráfico, armazenamento, memória e muitas outras inovações em uma estrutura simples e elegante.
 
-O novo iMac traz a tela mais brilhante e avançada criada em um Mac além das novas tecnologias que levam potência e desempenho a outro nível. E, mesmo assim, ele continua com seus 5 milímetros de espessura nas bordas. 
+O novo iMac traz a tela mais brilhante e avançada criada em um Mac além das novas tecnologias que levam potência e desempenho a outro nível. E, mesmo assim, ele continua com seus 5 milímetros de espessura nas bordas.
