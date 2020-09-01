@@ -32,6 +32,7 @@ url-frame: ''
 testando: ''
 colors:
 - White
+published: false
 
 ---
 # Carregador Apple Megasefe 2 85w
