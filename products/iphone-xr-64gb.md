@@ -34,6 +34,7 @@ colors:
 - Silver
 - White
 - Black
+published: false
 
 ---
 # iPhone Xr 64GB
