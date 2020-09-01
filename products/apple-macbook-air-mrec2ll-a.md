@@ -29,6 +29,8 @@ price_snipcart: "7890"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
+published: false
 
 ---
 # Apple Macbook Air MREC2LL/ A Intel Core i5 Memoria 8GB 256GB SSD Tela 13.3
