@@ -1,7 +1,7 @@
 ---
 layout: category
-slug: 'XIAOMI '
-title: 'XIAOMI '
+slug: Xiaomi
+title: Xiaomi
 section: Store
 
 ---
