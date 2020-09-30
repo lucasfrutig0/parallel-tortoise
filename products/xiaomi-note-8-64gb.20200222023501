@@ -23,7 +23,7 @@ images:
       optimized: ''
       fallback: ''
 category: ''
-featured: false
+featured: true
 section: ''
 gallery: []
 url-frame: ''
