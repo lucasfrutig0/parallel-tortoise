@@ -11,6 +11,7 @@ layout: body
       {% include picture.html image=bulletpoint.image alt=bulletpoint.title cssClass='about__section-image' %}
       <div class="about__section-content-container">
         <h2 class="about__section-title">{{ bulletpoint.title }}</h2>
+        
         <div class="about__section-content">
           {{ bulletpoint.description | markdownify }}
         </div>

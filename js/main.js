@@ -20,14 +20,15 @@
  * a global `Modernizr` object, and as classes on the `<html>` element. This
  * information allows you to progressively enhance your pages with a granular level
  * of control over the experience.
-*/
+ */
 
-;(function(window, document, undefined){
+;
+(function (window, document, undefined) {
   var classes = [];
-  
+
 
   var tests = [];
-  
+
 
   /**
    *
@@ -54,7 +55,7 @@
     _q: [],
 
     // Stub these for people who are listening
-    on: function(test, cb) {
+    on: function (test, cb) {
       // I don't really think people should do this, but we can
       // safe guard it a bit.
       // -- NOTE:: this gets WAY overridden in src/addTest for actual async tests.
@@ -62,31 +63,38 @@
       // but the code to *disallow* sync tests in the real version of this
       // function is actually larger than this.
       var self = this;
-      setTimeout(function() {
+      setTimeout(function () {
         cb(self[test]);
       }, 0);
     },
 
-    addTest: function(name, fn, options) {
-      tests.push({name: name, fn: fn, options: options});
+    addTest: function (name, fn, options) {
+      tests.push({
+        name: name,
+        fn: fn,
+        options: options
+      });
     },
 
-    addAsyncTest: function(fn) {
-      tests.push({name: null, fn: fn});
+    addAsyncTest: function (fn) {
+      tests.push({
+        name: null,
+        fn: fn
+      });
     }
   };
 
-  
+
 
   // Fake some of Object.create so we can force non test results to be non "own" properties.
-  var Modernizr = function() {};
+  var Modernizr = function () {};
   Modernizr.prototype = ModernizrProto;
 
   // Leak modernizr globally when you `require` it rather than force it here.
   // Overwrite name so constructor name is nicer :D
   Modernizr = new Modernizr();
 
-  
+
 
   /**
    * is returns a boolean if the typeof an obj is exactly type.
@@ -100,8 +108,7 @@
 
   function is(obj, type) {
     return typeof obj === type;
-  }
-  ;
+  };
 
   /**
    * Run through all tests and detect their support in the current UA.
@@ -170,8 +177,7 @@
         }
       }
     }
-  }
-  ;
+  };
 
   /**
    * docElement is a convenience wrapper to grab the root element of the document
@@ -181,7 +187,7 @@
    */
 
   var docElement = document.documentElement;
-  
+
 
   /**
    * A convenience helper to check if the document we are running in is an SVG document
@@ -191,7 +197,7 @@
    */
 
   var isSVG = docElement.nodeName.toLowerCase() === 'svg';
-  
+
 
   /**
    * setClasses takes an array of class names and adds them to the root element
@@ -246,27 +252,27 @@
   // hasOwnProperty shim by kangax needed for Safari 2.0 support
   var hasOwnProp;
 
-  (function() {
+  (function () {
     var _hasOwnProperty = ({}).hasOwnProperty;
     /* istanbul ignore else */
     /* we have no way of testing IE 5.5 or safari 2,
      * so just assume the else gets hit */
     if (!is(_hasOwnProperty, 'undefined') && !is(_hasOwnProperty.call, 'undefined')) {
-      hasOwnProp = function(object, property) {
+      hasOwnProp = function (object, property) {
         return _hasOwnProperty.call(object, property);
       };
-    }
-    else {
-      hasOwnProp = function(object, property) { /* yes, this can give false positives/negatives, but most of the time we don't care about those */
+    } else {
+      hasOwnProp = function (object, property) {
+        /* yes, this can give false positives/negatives, but most of the time we don't care about those */
         return ((property in object) && is(object.constructor.prototype[property], 'undefined'));
       };
     }
   })();
 
-  
 
 
-   // _l tracks listeners for async tests, as well as tests that execute after the initial run
+
+  // _l tracks listeners for async tests, as well as tests that execute after the initial run
   ModernizrProto._l = {};
 
   /**
@@ -293,7 +299,7 @@
    * ```
    */
 
-  ModernizrProto.on = function(feature, cb) {
+  ModernizrProto.on = function (feature, cb) {
     // Create the list of listeners if it doesn't exist
     if (!this._l[feature]) {
       this._l[feature] = [];
@@ -305,7 +311,7 @@
     // If it's already been resolved, trigger it on next tick
     if (Modernizr.hasOwnProperty(feature)) {
       // Next Tick
-      setTimeout(function() {
+      setTimeout(function () {
         Modernizr._trigger(feature, Modernizr[feature]);
       }, 0);
     }
@@ -324,7 +330,7 @@
    * result of a feature detection function
    */
 
-  ModernizrProto._trigger = function(feature, res) {
+  ModernizrProto._trigger = function (feature, res) {
     if (!this._l[feature]) {
       return;
     }
@@ -332,7 +338,7 @@
     var cbs = this._l[feature];
 
     // Force async
-    setTimeout(function() {
+    setTimeout(function () {
       var i, cb;
       for (i = 0; i < cbs.length; i++) {
         cb = cbs[i];
@@ -418,7 +424,7 @@
     if (typeof feature == 'object') {
       for (var key in feature) {
         if (hasOwnProp(feature, key)) {
-          addTest(key, feature[ key ]);
+          addTest(key, feature[key]);
         }
       }
     } else {
@@ -466,52 +472,52 @@
   }
 
   // After all the tests are run, add self to the Modernizr prototype
-  Modernizr._q.push(function() {
+  Modernizr._q.push(function () {
     ModernizrProto.addTest = addTest;
   });
 
-  
-
-/*!
-{
-  "name": "Webp",
-  "async": true,
-  "property": "webp",
-  "tags": ["image"],
-  "builderAliases": ["img_webp"],
-  "authors": ["Krister Kari", "@amandeep", "Rich Bradshaw", "Ryan Seddon", "Paul Irish"],
-  "notes": [{
-    "name": "Webp Info",
-    "href": "https://developers.google.com/speed/webp/"
-  }, {
-    "name": "Chormium blog - Chrome 32 Beta: Animated WebP images and faster Chrome for Android touch input",
-    "href": "https://blog.chromium.org/2013/11/chrome-32-beta-animated-webp-images-and.html"
-  }, {
-    "name": "Webp Lossless Spec",
-    "href": "https://developers.google.com/speed/webp/docs/webp_lossless_bitstream_specification"
-  }, {
-    "name": "Article about WebP support on Android browsers",
-    "href": "http://www.wope-framework.com/en/2013/06/24/webp-support-on-android-browsers/"
-  }, {
-    "name": "Chormium WebP announcement",
-    "href": "https://blog.chromium.org/2011/11/lossless-and-transparency-encoding-in.html?m=1"
-  }]
-}
-!*/
-/* DOC
-Tests for lossy, non-alpha webp support.
-
-Tests for all forms of webp support (lossless, lossy, alpha, and animated)..
-
-  Modernizr.webp              // Basic support (lossy)
-  Modernizr.webp.lossless     // Lossless
-  Modernizr.webp.alpha        // Alpha (both lossy and lossless)
-  Modernizr.webp.animation    // Animated WebP
-
-*/
 
 
-  Modernizr.addAsyncTest(function() {
+  /*!
+  {
+    "name": "Webp",
+    "async": true,
+    "property": "webp",
+    "tags": ["image"],
+    "builderAliases": ["img_webp"],
+    "authors": ["Krister Kari", "@amandeep", "Rich Bradshaw", "Ryan Seddon", "Paul Irish"],
+    "notes": [{
+      "name": "Webp Info",
+      "href": "https://developers.google.com/speed/webp/"
+    }, {
+      "name": "Chormium blog - Chrome 32 Beta: Animated WebP images and faster Chrome for Android touch input",
+      "href": "https://blog.chromium.org/2013/11/chrome-32-beta-animated-webp-images-and.html"
+    }, {
+      "name": "Webp Lossless Spec",
+      "href": "https://developers.google.com/speed/webp/docs/webp_lossless_bitstream_specification"
+    }, {
+      "name": "Article about WebP support on Android browsers",
+      "href": "http://www.wope-framework.com/en/2013/06/24/webp-support-on-android-browsers/"
+    }, {
+      "name": "Chormium WebP announcement",
+      "href": "https://blog.chromium.org/2011/11/lossless-and-transparency-encoding-in.html?m=1"
+    }]
+  }
+  !*/
+  /* DOC
+  Tests for lossy, non-alpha webp support.
+
+  Tests for all forms of webp support (lossless, lossy, alpha, and animated)..
+
+    Modernizr.webp              // Basic support (lossy)
+    Modernizr.webp.lossless     // Lossless
+    Modernizr.webp.alpha        // Alpha (both lossy and lossless)
+    Modernizr.webp.animation    // Animated WebP
+
+  */
+
+
+  Modernizr.addAsyncTest(function () {
 
     var webpTests = [{
       'uri': 'data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=',
@@ -528,6 +534,7 @@ Tests for all forms of webp support (lossless, lossy, alpha, and animated)..
     }];
 
     var webp = webpTests.shift();
+
     function test(name, uri, cb) {
 
       var image = new Image();
@@ -555,7 +562,7 @@ Tests for all forms of webp support (lossless, lossy, alpha, and animated)..
     }
 
     // test for webp support in general
-    test(webp.name, webp.uri, function(e) {
+    test(webp.name, webp.uri, function (e) {
       // if the webp test loaded, test everything else.
       if (e && e.type === 'load') {
         for (var i = 0; i < webpTests.length; i++) {
@@ -586,7 +593,7 @@ Tests for all forms of webp support (lossless, lossy, alpha, and animated)..
   window.Modernizr = Modernizr;
 
 
-;
+  ;
 
 })(window, document);
 
@@ -618,13 +625,18 @@ hamburgerMenu.addEventListener('click', _ => {
 })
 
 function toggleScroll() {
-  document.body.style.overflow == 'hidden'
-    ? document.body.style.overflow = 'initial'
-    : document.body.style.overflow = 'hidden'
+  document.body.style.overflow == 'hidden' ?
+    document.body.style.overflow = 'initial' :
+    document.body.style.overflow = 'hidden'
 }
 
-function stopScroll() { document.body.style.overflow = 'hidden' }
-function startScroll() { document.body.style.overflow = 'initial' }
+function stopScroll() {
+  document.body.style.overflow = 'hidden'
+}
+
+function startScroll() {
+  document.body.style.overflow = 'initial'
+}
 
 // PRODUCT DRAG ACTION
 let draggableItems = document.querySelectorAll('.product-grid--draggable')
@@ -640,7 +652,7 @@ draggableItems.forEach((element) => {
   element.addEventListener("mousemove", moveHandler, false)
 })
 
-function elementStateHandler(event) { 
+function elementStateHandler(event) {
   let target = event.currentTarget
   if (event.type == "mousedown" || event.type == "touchstart") {
     target.isActive = true
@@ -667,17 +679,17 @@ function moveHandler(event) {
     let xCursorDif = currentXPos - lastCursorX
     if (xCursorDif > 0 || xCursorDif < 0) stopScroll()
     lastCursorX = currentXPos
-    
+
     const translateX = new WebKitCSSMatrix(target.style.transform).e
-    const newValue = translateX + (xCursorDif*2)
+    const newValue = translateX + (xCursorDif * 2)
     if (newValue <= 0 && newValue >= (-1 * target.clientWidth + 300)) target.style.transform = `translateX(${newValue}px)`
     startScroll()
   }
 }
 
 // Reset the positioning when elements go from list (mobile) to desktop
-window.onresize = function() {
-  if (window.innerWidth > 768) 
+window.onresize = function () {
+  if (window.innerWidth > 768)
     draggableItems.forEach(element => element.style.transform = `translateX(0px)`)
 }
 
@@ -709,4 +721,3 @@ Number(inCash)
 descontoElement.innerText = `
   à vista R$${(price - inCash).toLocaleString('pt-BR')}
 `
-
