@@ -5,7 +5,7 @@ colortags:
 id: "28"
 title: Apple AirPods Fone de Ouvido Sem Fio Wireless
 description: Garantia 12 meses direto fabricante
-price: 1.200,00
+price: "1200"
 image: "/images/bhy9p-by57s.webp"
 images:
   default:

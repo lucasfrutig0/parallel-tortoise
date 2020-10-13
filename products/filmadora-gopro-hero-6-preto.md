@@ -30,6 +30,7 @@ price_snipcart: "2099"
 url-frame: ''
 testando: ''
 colors: []
+published: false
 
 ---
 # FILMADORA GOPRO HERO 6 PRETO

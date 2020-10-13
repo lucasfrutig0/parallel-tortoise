@@ -30,6 +30,8 @@ price_snipcart: "8250"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
+published: false
 
 ---
 # Apple MacBook Pro MPXU2LL A1708 Tela 13 2.3GHz 8GB de RAM/256GB SSD

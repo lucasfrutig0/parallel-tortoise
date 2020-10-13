@@ -8,7 +8,7 @@ colortags:
 id: "41"
 title: iPad Apple 7 Geracao  32gb 10.2 WI FI
 description: GARANTIA 12 MESES DIRETO FABRICANTE
-price: '2199,00'
+price: "2699"
 image: "/images/ipad32gb-thumb.png"
 images:
   default:
@@ -31,7 +31,7 @@ section: Store
 gallery:
 - "/images/ipad128gb-thumb-2.png"
 - "/images/ipad128gb-gallery.png"
-price_snipcart: '2199,00'
+price_snipcart: "2699"
 sub-category: ''
 url-frame: ''
 testando: ''

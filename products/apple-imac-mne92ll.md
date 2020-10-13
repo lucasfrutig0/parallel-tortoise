@@ -29,9 +29,10 @@ price_snipcart: "11999"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
+published: false
 
 ---
 # Apple iMac MNE92LL
 
-A Apple combina imagens visuais de 5K de alta resolução em seu elegante iMac de 27 "com uma tela Retina 5K 5mm fina de 5mm, com uma resolução de tela de 5120 x 2880, este iMac fornece um bilhão de cores e 500 nits de brilho, que é 43% mais brilhante do que o modelo anterior. A tela Retina 5K também apresenta uma gama de cores mais ampla. Usando uma gama de cores baseada em P3, a tela Retina 5K oferece um espaço de cor maior Ele também representa vermelho, verde e azul, em comparação com as telas padrão sRGB, e com mais cores disponíveis, as imagens parecerão mais vivas e revelarão mais detalhes, com mais equilíbrio e precisão. 
-
+A Apple combina imagens visuais de 5K de alta resolução em seu elegante iMac de 27 "com uma tela Retina 5K 5mm fina de 5mm, com uma resolução de tela de 5120 x 2880, este iMac fornece um bilhão de cores e 500 nits de brilho, que é 43% mais brilhante do que o modelo anterior. A tela Retina 5K também apresenta uma gama de cores mais ampla. Usando uma gama de cores baseada em P3, a tela Retina 5K oferece um espaço de cor maior Ele também representa vermelho, verde e azul, em comparação com as telas padrão sRGB, e com mais cores disponíveis, as imagens parecerão mais vivas e revelarão mais detalhes, com mais equilíbrio e precisão.

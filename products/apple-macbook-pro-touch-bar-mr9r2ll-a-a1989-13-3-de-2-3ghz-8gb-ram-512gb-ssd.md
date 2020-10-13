@@ -30,6 +30,8 @@ price_snipcart: "11620"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
+published: false
 
 ---
 # Apple MacBook Pro TOUCH BAR MR9R2LL/A A1989 13.3 de 2.3GHz 8GB RAM 512GB SSD

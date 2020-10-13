@@ -5,7 +5,7 @@ colortags:
 - Silver
 - Gold
 id: "32"
-title: Apple Watch Series 4 44 mm A2008 MTVU2BZ/A GPS CELULAR
+title: Apple Watch Series 4 44 mm  GPS CELULAR
 description: Garantia 1 ano do fornecedor
 price: 3.699,00
 image: "/images/bnoo0-599dp-0.webp"

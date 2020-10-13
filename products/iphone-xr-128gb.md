@@ -31,6 +31,7 @@ url-frame: ''
 testando: ''
 colors:
 - Black
+published: false
 
 ---
 # iPhone Xr 128GB

@@ -1,0 +1,32 @@
+---
+sub-category: ''
+layout: product
+id: "78"
+title: 'XIAOMI NOTE 8 64GB '
+description: GARANTIA 6 MESES
+price: "1399"
+price_snipcart: "1399"
+image: "/images/xiaomi-note-8-todos.jpg"
+images:
+  default:
+    thumbnail:
+      optimized: ''
+      fallback: ''
+    original:
+      optimized: "/images/xiaomi-note-8-todos.jpg"
+      fallback: ''
+  featured:
+    thumbnail:
+      optimized: ''
+      fallback: ''
+    original:
+      optimized: ''
+      fallback: ''
+category: ''
+featured: true
+section: ''
+gallery: []
+url-frame: ''
+colors: []
+
+---

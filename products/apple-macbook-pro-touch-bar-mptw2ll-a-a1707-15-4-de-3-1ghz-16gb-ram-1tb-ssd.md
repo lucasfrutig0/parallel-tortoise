@@ -30,6 +30,8 @@ price_snipcart: "15900"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
+published: false
 
 ---
 # Apple MacBook Pro TOUCH BAR MPTW2LL/A A1707 15.4 de 3.1GHz 16GB RAM 1TB SSD

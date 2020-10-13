@@ -30,6 +30,8 @@ price_snipcart: "7499"
 sub-category: ''
 url-frame: ''
 testando: ''
+colors: []
+published: false
 
 ---
 # Apple MacBook Pro MPXQ2LL/A A1708

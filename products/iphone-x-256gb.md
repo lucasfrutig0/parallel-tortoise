@@ -33,6 +33,7 @@ url-frame: ''
 testando: ''
 colors:
 - Silver
+published: false
 
 ---
 # iPhone X 256GB
