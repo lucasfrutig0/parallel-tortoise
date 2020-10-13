@@ -219,11 +219,11 @@ class UI {
         payment_method: "credit",
       },
       card: {
-        cvv: "520",
-        card_number: "5161590002168049",
-        card_holder_name: "LUIS M G P TONELO",
-        card_expiration_year: "25",
-        card_expiration_month: "03",
+        cvv: "",
+        card_number: "",
+        card_holder_name: "",
+        card_expiration_year: "",
+        card_expiration_month: "",
       },
     };
     const response = await fetch("https://api.infinitepay.io/v2/transactions", {
@@ -290,7 +290,7 @@ class UI {
   }
 
   fetchCep(cep) {
-    console.log("aqui", cep);
+    
     let args = {
       nCdServico: "04014",
       sCepOrigem: "14015080",
@@ -310,7 +310,7 @@ class UI {
       })
       .then((response) => response.json())
       .then(function (data) {
-        console.log(data);
+        
         const url2 = `https://frete-correios.herokuapp.com/ship/`;
         return fetch(url2, {
             method: "POST",
@@ -321,7 +321,7 @@ class UI {
           })
           .then((response) => response.json())
           .then((response) => {
-            console.log('CEP', response);
+            
             const clientShip = document.createElement("div");
             loader.style.display = "none";
 
@@ -344,7 +344,7 @@ class UI {
                   cart[0].itemFrete = response[0].Valor.replace(",", ".");
                   freteFormat = parseFloat(cart[0].itemFrete);
                   totalValue = freteFormat + cart[0].itemPrice * cart[0].itemAmount;
-                 console.log(this)
+                
                 } else if (e.target.value === "pac") {
                   cart[0].itemFrete = 0;
                   setCartValues(cart);
